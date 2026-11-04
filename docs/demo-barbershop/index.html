@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demo Barbershop | Barbershop in Milwaukee, WI</title>
+<meta name="description" content="Demo Barbershop - barbershop in Milwaukee, WI. Call (414) 555-0100.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--body-font);font-size:17px;line-height:1.6;color:var(--text);background:var(--bg);padding-bottom:72px}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{width:100%;max-width:880px;margin:0 auto;padding:0 20px}
+h1,h2{font-family:var(--head-font);line-height:1.15;margin:0 0 .5em;color:var(--head)}
+h1{font-size:clamp(2.2rem,9vw,3.8rem)}
+h2{font-size:clamp(1.6rem,6vw,2.1rem)}
+
+.demo-bar{background:#111;color:#fff;font:600 13px/1.4 system-ui,sans-serif;text-align:center;padding:8px 12px}
+.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 20px;background:var(--bar-bg);color:var(--bar-text);box-shadow:0 1px 0 rgba(0,0,0,.08)}
+.brand{font-family:var(--head-font);font-weight:700;font-size:1.1rem;text-decoration:none;color:var(--bar-text)}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:var(--radius);font:700 1rem/1 var(--body-font);text-decoration:none;border:2px solid transparent;text-align:center}
+.btn-small{min-height:38px;padding:0 16px;font-size:.95rem;background:var(--accent);color:var(--accent-text)}
+.btn-primary{background:var(--accent);color:var(--accent-text)}
+.btn-ghost{background:transparent;color:var(--hero-text);border-color:currentColor}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.cta .btn{flex:1 1 220px}
+
+.hero{background:var(--hero-bg);color:var(--hero-text);padding:56px 0 64px}
+.hero h1{color:var(--hero-head)}
+.eyebrow{margin:0 0 10px;text-transform:uppercase;letter-spacing:.12em;font-size:.8rem;font-weight:700;opacity:.8}
+.tagline{font-size:1.2rem;max-width:34ch;margin:0;opacity:.95}
+
+.block{padding:52px 0}
+.block.alt{background:var(--alt-bg)}
+.cards{list-style:none;margin:0;padding:0;display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.cards li{background:var(--card-bg);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
+.cards strong{display:block;font-family:var(--head-font);font-size:1.1rem;color:var(--head)}
+.cards .price{color:var(--accent-strong);font-weight:700}
+.cards span.d{display:block;opacity:.8;font-size:.95rem;margin-top:4px}
+.about{font-size:1.1rem;max-width:60ch;margin:0}
+
+.hours{width:100%;border-collapse:collapse;max-width:460px}
+.hours td{padding:11px 4px;border-bottom:1px solid var(--line)}
+.hours td:last-child{text-align:right;font-weight:600}
+.hours tr.today td{color:var(--accent-strong);font-weight:800}
+
+.gallery{display:grid;gap:10px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:640px){.gallery{grid-template-columns:repeat(3,1fr)}}
+.gallery figure{margin:0;aspect-ratio:1/1;border-radius:var(--radius);overflow:hidden;background:var(--ph1)}
+.gallery img{width:100%;height:100%;object-fit:cover}
+.gallery .ph{display:flex;align-items:center;justify-content:center;width:100%;height:100%;text-align:center;padding:10px;font-size:.85rem;font-weight:600;color:var(--hero-text);background:linear-gradient(135deg,var(--ph1),var(--ph2));opacity:.92}
+
+.contact{background:var(--hero-bg);color:var(--hero-text)}
+.contact h2{color:var(--hero-head)}
+.addr{font-size:1.15rem;margin:0}
+
+.foot{padding:28px 0 40px;font-size:.9rem;opacity:.75;text-align:center}
+.foot p{margin:4px 0}
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:30;display:flex;background:var(--bar-bg);box-shadow:0 -2px 12px rgba(0,0,0,.18);padding-bottom:env(safe-area-inset-bottom)}
+.callbar a{flex:1;text-align:center;padding:16px 4px;font-weight:700;text-decoration:none;color:var(--bar-text);border-right:1px solid rgba(255,255,255,.15)}
+.callbar a:first-child{background:var(--accent);color:var(--accent-text)}
+.callbar a:last-child{border-right:0}
+@media(min-width:760px){.callbar{display:none}body{padding-bottom:0}}
+
+:root{--head-font:'Oswald','Impact',sans-serif;--body-font:'Inter',system-ui,sans-serif;--bg:#0f0f10;--text:#e9e6df;--head:#fff;--bar-bg:#000;--bar-text:#fff;--accent:#d4a03a;--accent-text:#111;--accent-strong:#e5b44f;--hero-bg:linear-gradient(160deg,#1a1a1c 0%,#050505 100%);--hero-text:#f3efe6;--hero-head:#fff;--alt-bg:#171718;--card-bg:#1d1d1f;--line:#2e2e31;--radius:4px;--ph1:#2a2a2d;--ph2:#3d3320}
+h1,h2,.brand{text-transform:uppercase;letter-spacing:.04em}
+.hero{border-bottom:4px solid var(--accent)}
+.hero h1{font-weight:700}
+
+</style>
+
+</head>
+<body class="barber is-demo">
+<div class="demo-bar">Preview made for Demo Barbershop &mdash; not their official website yet</div>
+<header class="top">
+  <a class="brand" href="#top">Demo Barbershop</a>
+  <a class="btn btn-small" href="tel:+14145550100">Call</a>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Barbershop &middot; Milwaukee, WI</p>
+      <h1>Demo Barbershop</h1>
+      <p class="tagline">Sharp cuts and clean shaves in your Milwaukee neighborhood.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="tel:+14145550100">Call (414) 555-0100</a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Demo%20Barbershop%20123%20W%20Example%20Ave%2C%20Milwaukee%2C%20WI%2053218" target="_blank" rel="noopener">Get directions</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="services">
+    <div class="wrap">
+      <h2>Services</h2>
+      <ul class="cards">
+        <li><strong>Haircut <span class="price">$25</span></strong><span class="d">Classic and modern cuts, finished with a hot towel.</span></li>
+        <li><strong>Beard trim <span class="price">$15</span></strong><span class="d">Shaped, lined and cleaned up.</span></li>
+        <li><strong>Cut + beard <span class="price">$35</span></strong><span class="d">The full treatment.</span></li>
+        <li><strong>Kids&#x27; cut <span class="price">$18</span></strong><span class="d">Ages 12 and under.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="block alt" id="about">
+    <div class="wrap">
+      <h2>About us</h2>
+      <p class="about">This is a SAMPLE website used to show business owners what theirs could look like. Name, phone number, prices and hours are made up. Your real details, photos and logo would go here.</p>
+    </div>
+  </section>
+
+  <section class="block" id="hours">
+    <div class="wrap">
+      <h2>Hours</h2>
+      <table class="hours">
+        <tr data-day="1"><td>Monday</td><td>Closed</td></tr>
+        <tr data-day="2"><td>Tuesday</td><td>10am - 7pm</td></tr>
+        <tr data-day="3"><td>Wednesday</td><td>10am - 7pm</td></tr>
+        <tr data-day="4"><td>Thursday</td><td>10am - 8pm</td></tr>
+        <tr data-day="5"><td>Friday</td><td>10am - 8pm</td></tr>
+        <tr data-day="6"><td>Saturday</td><td>9am - 5pm</td></tr>
+        <tr data-day="0"><td>Sunday</td><td>Closed</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section class="block alt" id="photos">
+    <div class="wrap">
+      <h2>Photos</h2>
+      <div class="gallery">
+        <figure><div class="ph">Your photo here</div></figure>
+        <figure><div class="ph">Add a favorite</div></figure>
+        <figure><div class="ph">Show your work</div></figure>
+        <figure><div class="ph">Your space</div></figure>
+        <figure><div class="ph">Happy customers</div></figure>
+        <figure><div class="ph">Your photo here</div></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="block contact" id="contact">
+    <div class="wrap">
+      <h2>Contact us</h2>
+      <p class="addr">123 W Example Ave, Milwaukee, WI 53218</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="tel:+14145550100">Call (414) 555-0100</a>
+        <a class="btn btn-ghost" href="sms:+14145550100">Send a text</a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Demo%20Barbershop%20123%20W%20Example%20Ave%2C%20Milwaukee%2C%20WI%2053218" target="_blank" rel="noopener">Open in Maps</a>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>&copy; 2026 Demo Barbershop</p>
+    
+  </div>
+</footer>
+
+<nav class="callbar" aria-label="Quick contact">
+  <a href="tel:+14145550100">Call</a>
+  <a href="sms:+14145550100">Text</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=Demo%20Barbershop%20123%20W%20Example%20Ave%2C%20Milwaukee%2C%20WI%2053218" target="_blank" rel="noopener">Directions</a>
+</nav>
+
+<script>
+(function () {
+  var rows = document.querySelectorAll('.hours tr[data-day]');
+  var today = new Date().getDay();
+  for (var i = 0; i < rows.length; i++) {
+    if (Number(rows[i].getAttribute('data-day')) === today) rows[i].className = 'today';
+  }
+})();
+</script>
+</body>
+</html>

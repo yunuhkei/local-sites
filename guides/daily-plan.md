@@ -1,0 +1,17 @@
+# Your simple daily plan (about 2 hours)
+
+**Each morning (10 min):** open `data/leads.csv` in the GitHub app, pick the **8-10 nearest "new" leads** with a phone or address. Group them by street so you can walk.
+
+**Prep (20 min, once or twice a week):** for each lead run `make_site.py --lead <id>`, commit, wait ~1 min for Pages, and open the demo link on your phone to check it.
+
+**Visit (60-90 min):**
+- Walk into **8-10 places**. Use `pitch/walk-in-script.md` (60 seconds each). 
+- Immediately after each: set status -> **contacted** (or **not interested**) + a note.
+
+**Follow up (15 min):**
+- Day 3-4: one friendly text/DM to "contacted" leads who said "maybe" (`pitch/message-templates.md`). Only once.
+- Interested -> collect hours/photos, update site, get their OK, send the payment link, mark **paid**.
+
+**Weekly (Monday):** the phone alert tells you how many new leads arrived. Check Stripe for payments and failed charges.
+
+**Goals:** 10 visits/day -> expect ~1 in 10 interested at first. 1-2 sales a week = ~$250-500 up front plus growing monthly income. Be patient; it's a numbers game and being polite matters.

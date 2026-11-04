@@ -1,0 +1,19 @@
+{
+  "slug": "demo-barbershop",
+  "name": "Demo Barbershop",
+  "type": "Barbershop",
+  "phone": "(414) 555-0100",
+  "address": "123 W Example Ave, Milwaukee, WI 53218",
+  "tagline": "Sharp cuts and clean shaves in your Milwaukee neighborhood.",
+  "about": "This is a SAMPLE website used to show business owners what theirs could look like. Name, phone number, prices and hours are made up. Your real details, photos and logo would go here.",
+  "services": [
+    {"name": "Haircut", "price": "$25", "desc": "Classic and modern cuts, finished with a hot towel."},
+    {"name": "Beard trim", "price": "$15", "desc": "Shaped, lined and cleaned up."},
+    {"name": "Cut + beard", "price": "$35", "desc": "The full treatment."},
+    {"name": "Kids' cut", "price": "$18", "desc": "Ages 12 and under."}
+  ],
+  "hours": [
+    ["Monday", "Closed"], ["Tuesday", "10am - 7pm"], ["Wednesday", "10am - 7pm"],
+    ["Thursday", "10am - 8pm"], ["Friday", "10am - 8pm"], ["Saturday", "9am - 5pm"], ["Sunday", "Closed"]
+  ]
+}
