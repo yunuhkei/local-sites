@@ -1,0 +1,26 @@
+{
+  "slug": "60th-street-auto-repair",
+  "sample": true,
+  "name": "60th Street Auto Repair",
+  "type": "Auto repair",
+  "phone": "(414) 555-0167",
+  "address": "456 N Sample Ave, Milwaukee, WI 53218",
+  "headline": "Brakes, oil changes and check-engine lights, fixed on 60th Street.",
+  "hours": null,
+  "services": [{"name": "Oil changes"}, {"name": "Brakes"}, {"name": "Tires"}, {"name": "Check-engine diagnostics"}],
+  "unconfirmed": ["services"],
+  "design": {
+    "layout": "split",
+    "fonts": {"head": "Barlow Condensed", "body": "IBM Plex Sans", "head_weight": 700,
+              "url_params": "family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;600;700",
+              "head_fallback": "'Arial Narrow', sans-serif", "body_fallback": "system-ui, sans-serif"},
+    "palette": {"bg": "#F2F1EC", "ink": "#1C1E21", "muted": "#55585D", "accent": "#F2C200",
+                "on_accent": "#1C1E21", "panel": "#1C1E21", "on_panel": "#F2F1EC"},
+    "accent_is_decorative": true,
+    "palette_reason": "Safety yellow from painted floor lines and shop signs, charcoal from lifts, tools and tires, warm paper grey from the work-order pad.",
+    "hero": "split screen: dark fixed panel + work-order list",
+    "section_order": ["services", "hours", "facts", "photos", "about", "contact"],
+    "signature": "windshield-sticker hours box",
+    "hero_lines": ["60th Street", "Auto Repair"]
+  }
+}

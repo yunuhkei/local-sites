@@ -1,0 +1,52 @@
+{
+  "rule": "A new site may share at most ONE of: layout, fonts, palette, hero, section_order with any earlier site.",
+  "sites": [
+    {
+      "slug": "corner-chair-barbershop",
+      "business": "Corner Chair",
+      "layout": "poster",
+      "fonts": [
+        "Alfa Slab One",
+        "Work Sans"
+      ],
+      "palette": [
+        "#f3ebdd",
+        "#17140f",
+        "#b3122b"
+      ],
+      "hero": "type-only stacked slab poster",
+      "section_order": [
+        "hours",
+        "services",
+        "about",
+        "photos",
+        "contact"
+      ],
+      "signature": "ticket-stub hours box"
+    },
+    {
+      "slug": "60th-street-auto-repair",
+      "business": "60th Street Auto Repair",
+      "layout": "split",
+      "fonts": [
+        "Barlow Condensed",
+        "IBM Plex Sans"
+      ],
+      "palette": [
+        "#f2f1ec",
+        "#1c1e21",
+        "#f2c200"
+      ],
+      "hero": "split screen: dark fixed panel + work-order list",
+      "section_order": [
+        "services",
+        "hours",
+        "facts",
+        "photos",
+        "about",
+        "contact"
+      ],
+      "signature": "windshield-sticker hours box"
+    }
+  ]
+}
