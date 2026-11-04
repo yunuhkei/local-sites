@@ -10,7 +10,9 @@ If the owner isn't there: leave a card + price sheet, ask "When's a good time to
 **2. Hook (owner arrives)**
 > "I noticed [Business] doesn't have a website, and people searching for a [barber/nail salon] nearby can't find your hours or phone number. I made a quick preview of what yours could look like. Can I show you on my phone?"
 
-**3. Show the demo link** (their demo page). Let them scroll. Point out: tap-to-call, directions, hours.
+**3. Show a sample site** (use one of the sample designs on your phone). Let them scroll. Point out: tap-to-call, directions, hours. Say: "Yours would use your sign colors and your photos - it would look like your shop, not a template."
+
+**3b. Quick intake** if they're interested: use `pitch/owner-intake.md` - take the photos and write down their hours.
 
 **4. Price, plainly**
 > "It's $250 to set up and $25 a month, which covers hosting and any changes. If you don't like it, you owe nothing. Nothing goes live until you say so."

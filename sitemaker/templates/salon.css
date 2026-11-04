@@ -1,8 +1,0 @@
-:root{--head-font:'Playfair Display',Georgia,serif;--body-font:'Inter',system-ui,sans-serif;--bg:#fffaf7;--text:#4a3f3f;--head:#3b2a2e;--bar-bg:#fff;--bar-text:#3b2a2e;--accent:#c2587a;--accent-text:#fff;--accent-strong:#b0446a;--hero-bg:linear-gradient(150deg,#f8dfe6 0%,#f3c9d6 55%,#e9b4c6 100%);--hero-text:#3b2a2e;--hero-head:#3b2a2e;--alt-bg:#fbeff2;--card-bg:#fff;--line:#efd9df;--radius:18px;--ph1:#f3c9d6;--ph2:#e3a4bb}
-.top{border-bottom:1px solid var(--line)}
-.btn-ghost{color:#3b2a2e}
-.hero{border-radius:0 0 36px 36px}
-.contact{border-radius:36px 36px 0 0}
-.callbar a{border-right-color:rgba(0,0,0,.08)}
-.callbar{background:#fff}
-.callbar a:not(:first-child){color:#3b2a2e}

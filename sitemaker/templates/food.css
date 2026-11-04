@@ -1,3 +1,0 @@
-:root{--head-font:'Fraunces',Georgia,serif;--body-font:'Inter',system-ui,sans-serif;--bg:#fffdf8;--text:#3d3128;--head:#2b1d14;--bar-bg:#b3361b;--bar-text:#fff;--accent:#e8a21a;--accent-text:#2b1d14;--accent-strong:#b3361b;--hero-bg:linear-gradient(155deg,#b3361b 0%,#8f2410 100%);--hero-text:#fff4e6;--hero-head:#fff;--alt-bg:#fdf1de;--card-bg:#fff;--line:#f0dfc4;--radius:14px;--ph1:#e8a21a;--ph2:#b3361b}
-.hero{padding-bottom:72px}
-.cards li{border-left:6px solid var(--accent)}

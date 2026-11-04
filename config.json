@@ -1,4 +1,5 @@
 {
+  "pages_base": "https://yunuhkei.github.io/local-sites",
   "credit": "",
-  "_help": "Put something like \"Website by Your Name - (414) 555-0000\" in credit to show it in every site footer."
+  "_help": "pages_base is where GitHub Pages publishes. credit shows in site footers, e.g. Website by Your Name."
 }

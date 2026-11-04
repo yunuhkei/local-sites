@@ -1,0 +1,48 @@
+/* POSTER: type-only, stacked slab headline, ticket-stub hours. */
+body{padding-bottom:56px}
+.hero{padding:26px 20px 34px;max-width:980px;margin:0 auto}
+.kicker{margin:0 0 6px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.875rem;color:var(--muted)}
+.poster{font-weight:400;text-transform:uppercase;line-height:.92;font-size:clamp(3rem,16.5vw,8.5rem);letter-spacing:-.01em;margin:0 0 14px}
+.poster .l{display:block}
+.poster .l:nth-child(even){color:var(--accent)}
+.lede{font-size:1.3rem;font-weight:600;line-height:1.35;max-width:26ch;margin:0 0 22px}
+.actions{display:flex;flex-direction:column;gap:12px;margin:0}
+.btn{border-radius:0;border:3px solid var(--ink)}
+.btn-main{background:var(--accent);border-color:var(--accent);color:var(--on_accent)}
+.btn-alt{background:transparent;color:var(--ink)}
+.sections{max-width:980px;margin:0 auto;padding:0 20px;display:grid;gap:44px}
+.sec h2{font-size:clamp(1.8rem,7vw,2.6rem);text-transform:uppercase;margin-bottom:14px;line-height:1}
+
+.sec-hours .hours-box{position:relative;background:var(--panel);color:var(--on_panel);padding:22px 26px;transform:rotate(-1.2deg);
+  background-image:radial-gradient(circle at 0 50%,var(--bg) 15px,transparent 16px),radial-gradient(circle at 100% 50%,var(--bg) 15px,transparent 16px);}
+.sec-hours .hours-box::before{content:"";position:absolute;left:34px;right:34px;top:54px;border-top:2px dashed var(--on_panel);opacity:.45}
+.sec-hours h2{margin-bottom:6px}
+.sec-hours .hours{margin-top:18px}
+.sec-hours .hours tr{border-bottom:1px solid rgba(255,255,255,.18)}
+.sec-hours .todo{outline-color:var(--on_panel);margin-top:18px}
+.sec-hours .hours tr.today{color:var(--accent-on-panel,#fff);background:rgba(255,255,255,.12)}
+.sec-hours .hours tr.today th::after{color:inherit}
+.sec-hours .hours-box h2{color:var(--on_panel);font-size:1.5rem}
+
+.svc{list-style:none;margin:0;padding:0;border-top:3px solid var(--ink)}
+.svc li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:14px 0;border-bottom:3px solid var(--ink)}
+.svc .n{font-family:var(--head-font);font-size:1.55rem;text-transform:uppercase;line-height:1.1}
+.svc .note,.svc .price{font-weight:600;color:var(--muted)}
+.sec p{margin:0 0 12px;max-width:60ch}
+.facts{margin:0}.facts div{display:flex;gap:14px;padding:10px 0;border-bottom:1px solid var(--muted)}
+.facts dt{font-weight:700;min-width:7.5rem}.facts dd{margin:0}
+.photos{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.photos img{width:100%;aspect-ratio:1/1;object-fit:cover;border:3px solid var(--ink)}
+.sec-contact address{font-size:1.4rem;font-weight:700;margin-bottom:16px}
+.sec-contact .links{display:flex;flex-direction:column;gap:12px}
+.sec-contact .btn{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.sec-contact .btn.first{background:var(--accent);border-color:var(--accent);color:var(--on_accent)}
+.foot{margin-top:56px;padding:24px 20px 32px;border-top:3px solid var(--ink);font-size:.9rem;text-align:center}
+.foot p{margin:4px 0}
+
+.callbar{background:var(--accent)}
+.callbar a{flex:1;color:var(--on_accent);font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase}
+.callbar a+a{border-left:2px solid var(--on_accent)}
+
+@media(min-width:640px){.actions{flex-direction:row}.actions .btn{min-width:220px}.sec-contact .links{flex-direction:row;flex-wrap:wrap}.hero{padding-top:56px}}
+@media(min-width:900px){body{padding-bottom:0}.sections{grid-template-columns:1fr 1fr;align-items:start;column-gap:56px}.sec-contact,.sec-about,.sec-photos,.sec-facts{grid-column:1/-1}}

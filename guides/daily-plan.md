@@ -2,7 +2,7 @@
 
 **Each morning (10 min):** open `data/leads.csv` in the GitHub app, pick the **8-10 nearest "new" leads** with a phone or address. Group them by street so you can walk.
 
-**Prep (20 min, once or twice a week):** for each lead run `make_site.py --lead <id>`, commit, wait ~1 min for Pages, and open the demo link on your phone to check it.
+**Prep (once or twice a week):** you do NOT need a custom demo for every cold lead. Show a sample design on your phone at the door. Only after an owner shows interest and you finish the intake (`pitch/owner-intake.md`), send the photos + notes to Claude: it writes the design brief, builds their own one-of-a-kind demo, checks it, and gives you the link and a "still need from the owner" list.
 
 **Visit (60-90 min):**
 - Walk into **8-10 places**. Use `pitch/walk-in-script.md` (60 seconds each). 

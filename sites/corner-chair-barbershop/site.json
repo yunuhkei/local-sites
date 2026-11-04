@@ -1,0 +1,25 @@
+{
+  "slug": "corner-chair-barbershop",
+  "sample": true,
+  "name": "Corner Chair",
+  "type": "Barbershop",
+  "phone": "(414) 555-0142",
+  "address": "123 W Sample St, Milwaukee, WI 53218",
+  "headline": "Fades, cuts and clean shaves on the northwest side.",
+  "hours": null,
+  "services": [{"name": "Haircuts"}, {"name": "Fades"}, {"name": "Beard trims"}, {"name": "Kids' cuts"}],
+  "unconfirmed": ["services"],
+  "design": {
+    "layout": "poster",
+    "fonts": {"head": "Alfa Slab One", "body": "Work Sans", "head_weight": 400,
+              "url_params": "family=Alfa+Slab+One&family=Work+Sans:wght@400;600;700",
+              "head_fallback": "Georgia, serif", "body_fallback": "system-ui, sans-serif"},
+    "palette": {"bg": "#F3EBDD", "ink": "#17140F", "muted": "#5A5046", "accent": "#B3122B",
+                "on_accent": "#F3EBDD", "panel": "#17140F", "on_panel": "#F3EBDD"},
+    "palette_reason": "Cream from the window lettering and ticket paper, near-black from the glass and tile, barber-pole red from the sign outline and the chair.",
+    "hero": "type-only stacked slab poster",
+    "section_order": ["hours", "services", "about", "photos", "contact"],
+    "signature": "ticket-stub hours box",
+    "hero_lines": ["Corner", "Chair"]
+  }
+}
