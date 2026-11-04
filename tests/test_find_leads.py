@@ -53,8 +53,8 @@ class FindLeadsTests(unittest.TestCase):
     def test_cli_end_to_end(self):
         with tempfile.TemporaryDirectory() as d:
             path = os.path.join(d, "leads.csv")
-            self.assertEqual(find_leads.main(["--from-file", FIXTURE, "--csv", path]), 0)
-            self.assertEqual(find_leads.main(["--from-file", FIXTURE, "--csv", path]), 0)  # 2nd run: no dupes
+            self.assertEqual(find_leads.main(["--from-file", FIXTURE, "--csv", path, "--excluded", os.path.join(d, "ex.csv")]), 0)
+            self.assertEqual(find_leads.main(["--from-file", FIXTURE, "--csv", path, "--excluded", os.path.join(d, "ex.csv")]), 0)  # 2nd run: no dupes
             with open(path, newline="", encoding="utf-8") as f:
                 rows = list(csv.DictReader(f))
             self.assertEqual(len(rows), 4)
@@ -64,7 +64,7 @@ class FindLeadsTests(unittest.TestCase):
         q = find_leads.build_query(43.17, -87.99, 5000)
         self.assertIn('[!"website"]', q)
         self.assertIn("around:5000,43.17,-87.99", q)
-        self.assertTrue(q.rstrip().endswith("out center tags;"))
+        self.assertTrue(q.rstrip().endswith("out center tags meta;"))
 
 
 if __name__ == "__main__":
