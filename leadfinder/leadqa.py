@@ -4,10 +4,21 @@ Used by find_leads.py (every weekly run) and rank.py (Top-20 list).
 Nothing here uses the internet.
 """
 import datetime
+import json
 import math
+import os
 import re
 
-CENTER = (43.1700, -87.9900)          # roughly ZIP 53218 (same default as the finder)
+def _home():
+    """Where distances are measured from: config.json "home" (ZIP 53218 center by default)."""
+    try:
+        h = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "config.json")))["home"]
+        return float(h["lat"]), float(h["lon"])
+    except (OSError, KeyError, ValueError, TypeError):
+        return 43.14, -88.00
+
+
+CENTER = _home()
 
 GOVERNMENT = re.compile(r"\b(city of|county|village of|town of|state of|department|dept|police|fire (dept|department|station)|"
                         r"library|post office|courthouse|dmv|public school|school district|elementary|middle school|"
@@ -78,7 +89,8 @@ def clean(rows, blocked_ids=()):
     """Return (kept, removed) where removed is a list of (row, reason)."""
     removed, survivors = [], []
     for r in rows:
-        reason = "previously excluded" if r["id"] in blocked_ids else single_row_reason(r)
+        reason = (blocked_ids.get(r["id"], "previously excluded") if isinstance(blocked_ids, dict) else "previously excluded") \
+            if r["id"] in blocked_ids else single_row_reason(r)
         (removed.append((r, reason)) if reason else survivors.append(r))
     counts = {}
     for r in survivors:

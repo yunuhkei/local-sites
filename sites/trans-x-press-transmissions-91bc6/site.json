@@ -1,0 +1,95 @@
+{
+  "slug": "trans-x-press-transmissions-91bc6",
+  "name": "Trans-X-Press Transmissions",
+  "type": "Auto repair",
+  "phone": "(414) 246-4156",
+  "address": "6826 West Capitol Drive, Milwaukee, WI 53216",
+  "kicker": "Transmissions & clutches · Milwaukee, WI",
+  "headline": "Transmission and clutch repair on West Capitol Drive.",
+  "services": [
+    {
+      "name": "Transmission repair"
+    },
+    {
+      "name": "Clutch repair"
+    }
+  ],
+  "hours": [
+    [
+      "Monday",
+      "08:00-17:00"
+    ],
+    [
+      "Tuesday",
+      "08:00-17:00"
+    ],
+    [
+      "Wednesday",
+      "08:00-17:00"
+    ],
+    [
+      "Thursday",
+      "08:00-17:00"
+    ],
+    [
+      "Friday",
+      "08:00-17:00"
+    ],
+    [
+      "Saturday",
+      "08:00-14:00"
+    ],
+    [
+      "Sunday",
+      "Closed"
+    ]
+  ],
+  "unconfirmed": [
+    "services",
+    "hours",
+    "Facebook link"
+  ],
+  "to_get": [
+    "Which phone number is right: (414) 246-4156 (OpenStreetMap, shown on this preview) or (414) 527-4040 (Yellow Pages)?"
+  ],
+  "social": [
+    "https://www.facebook.com/113135540585168"
+  ],
+  "design": {
+    "layout": "split",
+    "hero_variant": "right",
+    "fonts": {
+      "head": "Anton",
+      "body": "Source Sans 3",
+      "head_weight": 400,
+      "url_params": "family=Anton&family=Source+Sans+3:wght@400;600;700",
+      "head_fallback": "'Arial Narrow', Impact, sans-serif",
+      "body_fallback": "system-ui, sans-serif"
+    },
+    "palette": {
+      "bg": "#EEF1F2",
+      "ink": "#14202A",
+      "muted": "#4D5B66",
+      "accent": "#FF7A2F",
+      "on_accent": "#14202A",
+      "panel": "#1F3A4D",
+      "on_panel": "#EEF1F2"
+    },
+    "accent_is_decorative": true,
+    "palette_reason": "First guess, we have not seen the sign: steel blue from transmission housings and shop tools, with a hot orange for the Call button, like the warning color on a transmission fluid bottle. Confirm against the real sign.",
+    "hero": "split screen: steel-blue panel on the right, work list on the left",
+    "section_order": [
+      "hours",
+      "services",
+      "facts",
+      "about",
+      "photos",
+      "contact"
+    ],
+    "signature": "windshield-sticker hours box",
+    "hero_lines": [
+      "Trans-X-Press",
+      "Transmissions"
+    ]
+  }
+}

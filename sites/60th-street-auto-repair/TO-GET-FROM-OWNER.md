@@ -4,7 +4,7 @@ _This is a SAMPLE (pretend business) - nothing here is a real owner's informatio
 
 ## Needed before going live (blocks `--live`)
 - [ ] Opening hours for every day of the week (and any holiday closures)
-- [ ] Confirm with the owner that the services shown are right
+- [ ] Confirm with the owner: services shown on the preview
 
 ## Needed to make the site better
 - [ ] Photos, taken on a phone in daylight, landscape: Storefront or bay doors with the sign readable; Inside the shop, a car on the lift; The mechanic(s) at work (with their OK); Tools/wall of tires, a close detail; The waiting area

@@ -1,0 +1,51 @@
+/* MENU BOARD: a framed board in the middle of the page. hv-chalk = dark board + neon OPEN sign. hv-paper = paper menu with a three-color stripe. */
+body{padding-bottom:76px}
+.board{max-width:780px;margin:16px auto;padding:12px;background:var(--panel);border:12px solid var(--accent);border-radius:6px}
+.inner{border:3px dashed color-mix(in srgb,var(--on_panel) 50%,transparent);padding:24px 20px 34px;color:var(--on_panel)}
+.kicker{margin:0 0 8px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.875rem;color:var(--accent)}
+.mb-head h1{font-size:clamp(2.3rem,11vw,4.6rem);overflow-wrap:anywhere;line-height:1;text-transform:uppercase;margin-bottom:14px;color:var(--on_panel)}
+.mb-head h1 .l{display:block}
+.lede{font-size:1.2rem;margin:0 0 22px;max-width:32ch}
+.actions{display:flex;flex-direction:column;gap:12px;margin:0}
+.btn{border-radius:8px}
+.btn-main{background:var(--accent);color:var(--on_accent);border:3px solid var(--accent)}
+.btn-alt{background:transparent;color:var(--on_panel);border:3px solid var(--on_panel)}
+.sec{margin-top:34px}
+.sec h2{font-size:1.8rem;text-transform:uppercase;letter-spacing:.06em;margin-bottom:14px;padding-bottom:6px;border-bottom:3px solid var(--accent);line-height:1.1}
+.sec p{margin:0 0 12px;max-width:58ch}
+.svc{list-style:none;margin:0;padding:0}
+.svc li{display:flex;align-items:baseline;gap:10px;padding:8px 0;flex-wrap:wrap}
+.svc .n{font-family:var(--head-font);font-size:1.45rem;line-height:1.2}
+.svc li::after{content:"";order:2;flex:1;min-width:20px;border-bottom:3px dotted currentColor;opacity:.5}
+.svc .price{order:3;font-weight:700}
+.svc .note{order:4;flex-basis:100%;opacity:.85;font-size:.95rem}
+.sec-hours .hours-box{border:3px solid var(--accent);border-radius:16px;padding:16px 20px 12px}
+.sec-hours h2{border:0;margin:0 0 6px;padding:0;color:var(--accent);letter-spacing:.2em;text-shadow:0 0 7px color-mix(in srgb,var(--accent) 55%,transparent)}
+.sec-hours .hours tr{border-bottom:1px dashed color-mix(in srgb,var(--on_panel) 35%,transparent)}
+.sec-hours .hours tr.today{background:color-mix(in srgb,var(--accent) 22%,transparent)}
+.sec-hours .hours th,.sec-hours .hours td{padding:9px 6px}
+.facts{margin:0}.facts div{display:grid;grid-template-columns:7.5rem 1fr;gap:10px;padding:9px 0;border-bottom:1px dashed color-mix(in srgb,var(--on_panel) 35%,transparent)}
+.facts dt{font-weight:700}.facts dd{margin:0}
+.photos{display:grid;grid-template-columns:1fr 1fr;gap:8px}.photos img{width:100%;aspect-ratio:4/3;object-fit:cover;border:3px solid var(--on_panel)}
+.sec-contact address{font-size:1.25rem;font-weight:700;margin-bottom:14px}
+.sec-contact .links{display:grid;gap:10px}
+.sec-contact .btn{background:transparent;color:var(--on_panel);border:3px solid var(--on_panel)}
+.sec-contact .btn.first{background:var(--accent);color:var(--on_accent);border-color:var(--accent)}
+.foot{padding:12px 20px 34px;font-size:.92rem;text-align:center}.foot p{margin:4px 0}
+.callbar{background:var(--panel)}.callbar a{flex:1;color:var(--on_panel);border-right:1px solid color-mix(in srgb,var(--on_panel) 30%,transparent)}
+.callbar a.cb-call{background:var(--accent);color:var(--on_accent)}
+.hv-paper .board{background:var(--bg);border:0;border-top:16px solid;border-image:linear-gradient(90deg,var(--accent) 0 33.3%,var(--accent2,var(--accent)) 33.3% 66.6%,var(--ink) 66.6% 100%) 1;padding:6px 0 0}
+.hv-paper .inner{color:var(--ink);border:3px solid var(--ink)}
+.hv-paper .kicker{color:var(--muted)}
+.hv-paper .mb-head h1{color:var(--ink)}
+.hv-paper .btn-alt{color:var(--ink);border-color:var(--ink)}
+.hv-paper .sec-hours h2{color:var(--ink);text-shadow:none}
+.hv-paper .sec-hours .hours-box{border-color:var(--ink);border-radius:0;border-style:dashed}
+.hv-paper .sec-hours .hours tr{border-bottom-color:color-mix(in srgb,var(--ink) 35%,transparent)}
+.hv-paper .sec h2{border-bottom-color:var(--accent)}
+.hv-paper .photos img,.hv-paper .sec-contact .btn{border-color:var(--ink)}
+.hv-paper .sec-contact .btn{color:var(--ink)}
+.hv-paper .sec-contact .btn.first{color:var(--on_accent);border-color:var(--accent)}
+.hv-paper .callbar{background:var(--ink)}.hv-paper .callbar a{color:var(--bg)}.hv-paper .callbar a.cb-call{color:var(--on_accent)}
+@media(min-width:640px){.actions{flex-direction:row}.actions .btn{min-width:210px}.sec-contact .links{grid-template-columns:repeat(2,1fr)}.inner{padding:34px 36px 40px}}
+@media(min-width:900px){body{padding-bottom:0}.board{margin:34px auto}}

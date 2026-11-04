@@ -1,0 +1,99 @@
+{
+  "slug": "shawn-da-barbershop-beauty-salon-57996",
+  "name": "Shawn Da' Barbershop & Beauty Salon",
+  "type": "Barbershop",
+  "phone": "(414) 499-8039",
+  "address": "7516 West Appleton Avenue, Milwaukee, WI 53216",
+  "kicker": "Barbershop & beauty salon · Milwaukee, WI",
+  "headline": "Haircuts, beard trims and shaves at 7516 West Appleton Avenue.",
+  "services": [
+    {
+      "name": "Men's haircuts"
+    },
+    {
+      "name": "Beard trims"
+    },
+    {
+      "name": "Shaves"
+    },
+    {
+      "name": "Head shaves"
+    }
+  ],
+  "hours": [
+    [
+      "Monday",
+      "11:00-17:00"
+    ],
+    [
+      "Tuesday",
+      "08:00-22:00"
+    ],
+    [
+      "Wednesday",
+      "08:00-22:00"
+    ],
+    [
+      "Thursday",
+      "08:00-22:00"
+    ],
+    [
+      "Friday",
+      "08:00-22:00"
+    ],
+    [
+      "Saturday",
+      "08:00-22:00"
+    ],
+    [
+      "Sunday",
+      "11:00-17:00"
+    ]
+  ],
+  "unconfirmed": [
+    "services",
+    "hours",
+    "Facebook link"
+  ],
+  "to_get": [],
+  "social": [
+    "https://www.facebook.com/DaRealShawnDaBarber/"
+  ],
+  "design": {
+    "layout": "poster",
+    "hero_variant": "band",
+    "fonts": {
+      "head": "Bebas Neue",
+      "body": "Karla",
+      "head_weight": 400,
+      "url_params": "family=Bebas+Neue&family=Karla:wght@400;600;700",
+      "head_fallback": "Impact, 'Arial Narrow', sans-serif",
+      "body_fallback": "system-ui, sans-serif"
+    },
+    "palette": {
+      "bg": "#15130F",
+      "ink": "#F3EDE0",
+      "muted": "#BDB29C",
+      "accent": "#D9A83C",
+      "on_accent": "#15130F",
+      "panel": "#F3EDE0",
+      "on_panel": "#15130F"
+    },
+    "palette_reason": "First guess, we have not seen the sign: black and gold, the classic barbershop pairing, with the gold used as one big band behind the name. Confirm against their real sign.",
+    "hero": "name on a full-width gold band",
+    "section_order": [
+      "services",
+      "hours",
+      "about",
+      "photos",
+      "facts",
+      "contact"
+    ],
+    "signature": "gold double-ruled hours card",
+    "hero_lines": [
+      "Shawn Da'",
+      "Barbershop",
+      "& Beauty Salon"
+    ]
+  }
+}

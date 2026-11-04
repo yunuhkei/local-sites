@@ -1,36 +1,114 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex"><title>Website Pricing</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Website pricing | Cream City Web Co.</title>
+<meta name="description" content="Simple pricing from Cream City Web Co.: $250 setup and $25 a month for a Milwaukee small business website, plus optional add-ons.">
+<meta name="robots" content="noindex,nofollow">
+
+<meta name="theme-color" content="#2B2118">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cream City Web Co.">
+<meta property="og:title" content="Website pricing | Cream City Web Co.">
+<meta property="og:description" content="Simple pricing from Cream City Web Co.: $250 setup and $25 a month for a Milwaukee small business website, plus optional add-ons.">
+<meta property="og:url" content="https://yunuhkei.github.io/local-sites/price-sheet/">
+<meta property="og:image" content="https://yunuhkei.github.io/local-sites/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Public+Sans:wght@400;600;700&display=swap" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Public+Sans:wght@400;600;700&display=swap"></noscript>
 <style>
-body{font-family:system-ui,-apple-system,sans-serif;color:#1f2937;max-width:720px;margin:0 auto;padding:24px 20px;line-height:1.5}
-h1{margin:0 0 4px;font-size:2rem}.sub{margin:0 0 20px;color:#4b5563}
-.main{border:3px solid #1e88e5;border-radius:14px;padding:18px 20px;margin-bottom:20px;background:#f1f8ff}
-.price{font-size:1.6rem;font-weight:800}.price small{font-size:1rem;font-weight:600;color:#4b5563}
-ul{margin:8px 0 0;padding-left:22px}table{width:100%;border-collapse:collapse}td{padding:8px 0;border-bottom:1px solid #e5e7eb}td:last-child{text-align:right;font-weight:700;white-space:nowrap}
-.foot{margin-top:24px;padding-top:14px;border-top:2px solid #1f2937}.small{font-size:.85rem;color:#4b5563}
-@media print{body{padding:0}}
-</style></head><body>
-<h1>Your own website, ready in days</h1>
-<p class="sub">Simple, mobile-friendly websites for Milwaukee small businesses. No tech skills needed.</p>
-
-<div class="main">
-<div class="price">$250 <small>one-time setup</small> &nbsp;+&nbsp; $25 <small>per month</small></div>
-<ul>
-<li>Professional one-page website that looks great on phones</li>
-<li>Tap-to-call, directions, hours, services and photos</li>
-<li>Hosting, security and small updates included (hours, prices, photos)</li>
-<li>See your site first &mdash; you only pay if you love it</li>
-<li>Cancel anytime. The domain name is registered in <b>your</b> name.</li>
-</ul></div>
-
-<h3>Optional add-ons</h3>
-<table>
-<tr><td>Google Business Profile setup &amp; tune-up (get found on Google Maps)</td><td>$75</td></tr>
-<tr><td>Online booking or menu page</td><td>$100</td></tr>
-<tr><td>Simple logo</td><td>$75</td></tr>
-<tr><td>Custom domain connection (domain itself ~$12/year, paid by you)</td><td>$25</td></tr>
-</table>
-
-<div class="foot"><b>[Your name]</b> &middot; [Your phone] &middot; [Your email]<br>
-<span class="small">Prices are suggestions &mdash; edit this file to change them.</span></div>
-</body></html>
+:root{--bg:#EADFC4;--ink:#2B2118;--muted:#5C4C3C;--accent:#1B5560;--on_accent:#F8F1DE;--panel:#2B2118;--on_panel:#EADFC4;--head-font:'Young Serif',Georgia, serif;--body-font:'Public Sans',system-ui, sans-serif}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body-font);font-size:1.0625rem;line-height:1.6;padding-bottom:72px}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:var(--bg);padding:12px 16px;z-index:100}.skip:focus{left:0}
+h1,h2,h3{font-family:var(--head-font);font-weight:400;line-height:1.1;margin:0}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+.banner{background:#000;color:#fff;font:600 .85rem/1.3 system-ui,sans-serif;text-align:center;padding:8px 12px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 20px;max-width:900px;margin:0 auto}
+.brand{font-family:var(--head-font);font-size:1.1rem;white-space:nowrap;text-decoration:none;color:var(--ink)}
+.top-right{display:flex;align-items:center;gap:18px}.top-phone{display:none;font-weight:700;color:var(--ink);text-decoration:none;font-size:1.1rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 26px;border-radius:6px;background:var(--accent);color:var(--on_accent);font-weight:700;font-size:1.1rem;text-decoration:none;border:2px solid var(--accent);text-align:center;font-family:var(--body-font);cursor:pointer}
+.btn.small{min-height:44px;padding:0 14px;font-size:.95rem;white-space:nowrap}
+.btn.line{background:transparent;color:var(--ink);border-color:var(--ink)}
+.todo{outline:2px dashed var(--accent);outline-offset:-2px;padding:10px 12px;font-weight:700}
+/* signature: Cream City brick course */
+.bricks{height:40px;background-color:#E2D5B6;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='40'%3E%3Cpath d='M0 1h80M0 21h80M1 0v20M41 0v20M21 20v20M61 20v20' stroke='%232B2118' stroke-opacity='.38' stroke-width='2' fill='none'/%3E%3C/svg%3E")}
+.hero{padding:30px 0 40px}
+.kicker{margin:0 0 10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.875rem;color:var(--muted)}
+h1{font-size:clamp(2.4rem,10.5vw,4.6rem);margin-bottom:16px}
+.lede{font-size:1.2rem;max-width:34ch;margin:0 0 22px}
+.hero .btn{width:100%}
+.hero .sub{margin:14px 0 0;font-weight:600}a[href^="tel:"]{white-space:nowrap}
+.made-for{margin:30px 0 0;border:2px solid var(--ink);padding:16px 18px;background:rgba(255,255,255,.28)}
+.made-for h2{font-family:var(--body-font);font-size:.875rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;margin-bottom:8px}
+.made-for ul{list-style:none;margin:0;padding:0;columns:2;column-gap:20px}
+.made-for li{padding:5px 0;border-bottom:1px dotted var(--muted);break-inside:avoid}
+.sec{padding:46px 0}
+.sec h2{font-size:clamp(1.9rem,7vw,2.8rem);margin-bottom:18px}
+.sec.dark{background:var(--panel);color:var(--on_panel)}
+.sec.dark a{color:var(--on_panel)}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+.steps li{counter-increment:s;display:grid;grid-template-columns:3.4rem 1fr;gap:0 10px;padding:18px 0;border-top:2px solid var(--ink)}
+.steps li::before{content:counter(s);font-family:var(--head-font);font-size:2.8rem;line-height:1;color:var(--accent);grid-row:span 2}
+.steps h3{font-size:1.5rem}
+.steps p{margin:4px 0 0}
+.steps+.note{font-weight:700;border-top:2px solid var(--ink);padding-top:16px;margin:0}
+.phones{display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap}
+.phones figure{margin:0;flex:1 1 140px;max-width:230px}
+.phones img{border:6px solid var(--ink);border-radius:26px;width:100%}
+.phones figcaption{margin-top:10px;font-size:.95rem}
+.phones a{font-weight:700}
+.board{display:grid;gap:0;border:3px solid var(--ink);background:rgba(255,255,255,.3)}
+.board .row{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;padding:18px 20px;border-bottom:3px solid var(--ink)}
+.board .row:last-child{border-bottom:0}
+.price{font-family:var(--head-font);font-size:clamp(2.6rem,12vw,4rem);line-height:1}
+.board .what{font-weight:700;font-size:1.1rem}
+.incl{margin:16px 0 0;padding-left:1.2rem}.incl li{margin:4px 0}
+.addons{list-style:none;margin:10px 0 0;padding:0}
+.addons li{padding:12px 0;border-bottom:1px dotted var(--muted)}
+.addons b{display:flex;justify-content:space-between;gap:12px}
+.addons span{display:block;color:var(--muted);font-size:.95rem}
+.fineprint{font-size:.95rem;color:var(--muted);margin:12px 0 0}
+.pay{margin-top:22px;padding:18px 20px;border:2px solid var(--ink)}
+.pay p{margin:0 0 12px}
+form{display:grid;gap:14px;max-width:520px}
+label{font-weight:700;display:grid;gap:6px}
+input,select,textarea{font:inherit;color:var(--ink);background:#FBF7EC;border:2px solid var(--ink);border-radius:6px;min-height:52px;padding:10px 12px;width:100%}
+.hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+.msg{font-weight:700;margin:0;min-height:1.4em}
+details{border-top:2px solid var(--ink)}details:last-of-type{border-bottom:2px solid var(--ink)}
+summary{cursor:pointer;padding:16px 0;font-weight:700;font-size:1.1rem;list-style:none;display:flex;justify-content:space-between;gap:12px;min-height:48px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:var(--head-font);font-size:1.6rem;line-height:1}
+details[open] summary::after{content:"\2013"}
+details p{margin:0 0 16px;max-width:60ch}
+.towns{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 18px}
+.towns li{font-weight:600}
+.contact-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+.contact-row .btn{flex:1 1 200px}
+.foot{padding:26px 20px 34px;font-size:.95rem;text-align:center}.foot p{margin:4px 0}
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:flex;background:var(--ink);padding-bottom:env(safe-area-inset-bottom)}
+.callbar a{flex:1;display:flex;align-items:center;justify-content:center;min-height:56px;font-weight:700;color:var(--on_panel);text-decoration:none;border-right:1px solid rgba(255,255,255,.25)}
+.callbar a:last-child{border-right:0;background:var(--accent);color:var(--on_accent)}
+@media(min-width:640px){.top-phone{display:inline-flex;align-items:center;min-height:44px}.hero .btn{width:auto}.made-for ul{columns:3}}
+@media(min-width:900px){body{padding-bottom:0}.callbar{display:none}.hero{padding:40px 0 56px}h1{font-size:3.6rem}.hero .wrap{display:grid;grid-template-columns:1.35fr 1fr;gap:48px;align-items:start}.made-for{margin:8px 0 0}.made-for ul{columns:1}}
+@media print{.callbar,.top .btn,.banner{display:none}body{padding:0;background:#fff}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+<style>.ps{max-width:720px;margin:0 auto;padding:28px 20px}.ps table{width:100%;border-collapse:collapse;margin-top:8px}.ps td{padding:12px 0;border-bottom:1px dotted var(--muted)}.ps td:last-child{text-align:right;font-weight:700;white-space:nowrap;vertical-align:top}.ps td span{display:block;color:var(--muted);font-size:.95rem}.ps .board{margin:20px 0}</style>
+</head>
+<body><a class="skip" href="#main">Skip to content</a>
+<main id="main" class="ps"><p class="kicker">Cream City Web Co. · Milwaukee</p>
+<h1 style="font-size:clamp(2rem,8vw,3rem)">Website pricing</h1>
+<div class="board"><div class="row"><span class="price">$250</span><span class="what">one time, to build your site</span></div>
+<div class="row"><span class="price">$25</span><span class="what">a month, to keep it online and updated</span></div></div>
+<ul class="incl"><li>A website that works great on a phone</li><li>Tap to call, tap for directions, your hours, your services</li><li>Free preview first. You pay nothing until you say yes</li><li>Hosting, security and small updates included</li><li>Cancel any time. Your domain name is registered in your name</li></ul>
+<h2 style="font-size:1.6rem;margin-top:28px">Add-ons</h2><table><tbody><tr><td>Google Business Profile setup<span>so you show up on Google Maps with the right hours and phone</span></td><td>$75</td></tr><tr><td>Online booking or menu page<span>a booking link or a full menu people can read on their phone</span></td><td>$100</td></tr><tr><td>Simple logo<span>if you don&#x27;t have one yet</span></td><td>$75</td></tr><tr><td>Connect your own domain name<span>the domain itself is about $12 a year, paid by you</span></td><td>$25</td></tr></tbody></table>
+<p class="fineprint">A domain name costs about $12 a year, paid by you to the domain company.</p>
+<p style="margin-top:26px;border-top:3px solid var(--ink);padding-top:14px"><b>Joaquin Randall</b>, Cream City Web Co.<br><span class="todo">TO GET FROM OWNER: phone number</span> · <span class="todo">TO GET FROM OWNER: email address</span></p>
+</main></body></html>

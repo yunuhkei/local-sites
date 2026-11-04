@@ -7,4 +7,7 @@
 5. **Done means:** works at 375px (no sideways scroll, 44px+ tap targets); tap-to-call, Maps link, hours with today highlighted, main button visible without scrolling; no `#` links/lorem/placeholders except labeled TO GET items; unique title+description, LocalBusiness JSON-LD, Open Graph image, favicon, 404 page; WCAG AA contrast, alt text, heading order, keyboard focus; no frameworks, compressed images, Lighthouse 90+ everywhere (demos show SEO 60 only because they are deliberately `noindex`); no console errors.
 6. **Check like a designer:** run `python3 sitemaker/qa.py` (static + Playwright at 375/768/1280, screenshots), LOOK at the screenshots, fix generic/cramped/off-brand, compare with other sites in the log (siblings -> redesign one). Send the owner the phone screenshot, the demo link and the TO GET FROM OWNER list.
 
+7. **Footer on every site:** "Website by Cream City Web Co." linking to our own site (set in `config.json`, rendered by `make_site.py`).
+8. **QA also checks** real rendered text contrast (including transparency), footer not hidden by the sticky bar, tap targets, links, console errors. Our own pages are `sitemaker/build_home.py` (config in `config.json`).
+
 Also: never publish a demo as official (`--live` only with the owner's OK and zero blockers); never put secrets in code or chat; one-to-one contact only (see guides/legal-basics.md).

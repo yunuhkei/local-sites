@@ -1,0 +1,72 @@
+{
+  "slug": "epiphany-beauty-collections-cb820",
+  "name": "Epiphany Beauty Collections",
+  "type": "Hair salon",
+  "phone": "(414) 544-4606",
+  "address": "6222 West Capitol Drive, Milwaukee, WI 53216",
+  "kicker": "Wigs & hair · Milwaukee, WI",
+  "headline": "Wig installs, weaves and extensions, Suite 14 on West Capitol Drive.",
+  "services": [
+    {
+      "name": "Wig installs"
+    },
+    {
+      "name": "Keratin treatments"
+    },
+    {
+      "name": "Hair weaves"
+    },
+    {
+      "name": "Hair extensions"
+    }
+  ],
+  "hours": null,
+  "unconfirmed": [
+    "services",
+    "Facebook link"
+  ],
+  "to_get": [
+    "Which phone number is right: (414) 544-4606 (shown on this preview) or (414) 600-1395?",
+    "Hours (none found anywhere)"
+  ],
+  "social": [
+    "https://www.facebook.com/p/Epiphany-Beauty-Collections-100063773130741/"
+  ],
+  "design": {
+    "layout": "editorial",
+    "hero_variant": "cover",
+    "fonts": {
+      "head": "DM Serif Display",
+      "body": "Manrope",
+      "head_weight": 400,
+      "url_params": "family=DM+Serif+Display&family=Manrope:wght@400;600;700",
+      "head_fallback": "Georgia, serif",
+      "body_fallback": "system-ui, sans-serif"
+    },
+    "palette": {
+      "bg": "#161011",
+      "ink": "#F4E8E0",
+      "muted": "#BBA79D",
+      "accent": "#E3A585",
+      "on_accent": "#161011",
+      "panel": "#F4E8E0",
+      "on_panel": "#161011"
+    },
+    "palette_reason": "First guess, we have not seen the sign: near-black and rose gold, the colors of a beauty-supply counter and a satin wig box. Confirm against the real sign.",
+    "hero": "dark magazine cover: roman serif name beside a rose-gold rule, numbered index",
+    "section_order": [
+      "services",
+      "about",
+      "hours",
+      "facts",
+      "photos",
+      "contact"
+    ],
+    "signature": "oversized rose-gold section numerals",
+    "hero_lines": [
+      "Epiphany",
+      "Beauty",
+      "Collections"
+    ]
+  }
+}

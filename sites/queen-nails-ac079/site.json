@@ -1,0 +1,77 @@
+{
+  "slug": "queen-nails-ac079",
+  "name": "Queen Nails",
+  "type": "Nail salon",
+  "phone": "(414) 464-0979",
+  "address": "7600 West Capitol Drive, Milwaukee, WI 53222",
+  "kicker": "Nail salon · Milwaukee, WI",
+  "headline": "Acrylic, gel and dip nails on West Capitol Drive.",
+  "services": [
+    {
+      "name": "Acrylic nails"
+    },
+    {
+      "name": "Gel nails"
+    },
+    {
+      "name": "Dip powder"
+    },
+    {
+      "name": "Manicures"
+    },
+    {
+      "name": "Pedicures"
+    },
+    {
+      "name": "Russian manicure"
+    }
+  ],
+  "hours": null,
+  "unconfirmed": [
+    "services",
+    "Facebook link"
+  ],
+  "to_get": [
+    "Hours: a directory lists Mon-Sat 8:30am-8pm, but confirm with the owner before showing them",
+    "Suite number (a directory lists Suite C)"
+  ],
+  "social": [
+    "https://www.facebook.com/QueenNails76/"
+  ],
+  "design": {
+    "layout": "editorial",
+    "hero_variant": "masthead",
+    "fonts": {
+      "head": "Cormorant Garamond",
+      "body": "Jost",
+      "head_weight": 500,
+      "url_params": "family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Jost:wght@400;500;600",
+      "head_fallback": "Georgia, serif",
+      "body_fallback": "system-ui, sans-serif"
+    },
+    "palette": {
+      "bg": "#FDF3F1",
+      "ink": "#2E1B20",
+      "muted": "#6B4F57",
+      "accent": "#B8325A",
+      "on_accent": "#FFFFFF",
+      "panel": "#2E1B20",
+      "on_panel": "#FDF3F1"
+    },
+    "palette_reason": "First guess, we have not seen the sign: blush paper and raspberry, the colors of nail polish and a salon price card, with deep wine ink for readable text. Confirm against the real sign.",
+    "hero": "magazine masthead: big italic serif name under a double rule",
+    "section_order": [
+      "services",
+      "hours",
+      "about",
+      "facts",
+      "photos",
+      "contact"
+    ],
+    "signature": "double-rule masthead with a folio line",
+    "hero_lines": [
+      "Queen",
+      "Nails"
+    ]
+  }
+}

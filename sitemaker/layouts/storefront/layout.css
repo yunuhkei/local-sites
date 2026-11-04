@@ -1,0 +1,49 @@
+/* STOREFRONT: shop sign + (hv-awning) striped scalloped awning. hv-signboard = painted-window hours pane. */
+body{padding-bottom:76px}
+.awning{display:none}
+.shop,.sections{max-width:900px;margin:0 auto;padding:0 16px}
+.shop{padding-top:22px;padding-bottom:30px}
+.sign{background:var(--panel);color:var(--on_panel);border:4px solid var(--accent);outline:2px solid var(--on_panel);outline-offset:-13px;padding:26px 24px 28px;margin-bottom:22px}
+.kicker{margin:0 0 8px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.875rem;color:var(--on_panel)}
+.sign h1{font-size:clamp(2.4rem,11vw,5rem);line-height:1;text-transform:uppercase;color:var(--on_panel)}
+.sign h1 .l{display:block}
+.lede{font-size:1.25rem;font-weight:600;max-width:30ch;margin:0 0 22px}
+.actions{display:flex;flex-direction:column;gap:12px;margin:0}
+.btn{border-radius:6px}
+.btn-main{background:var(--accent);color:var(--on_accent);border:3px solid var(--accent)}
+.btn-alt{background:transparent;color:var(--ink);border:3px solid var(--ink)}
+.sections{display:grid;gap:32px}
+.sec h2{font-size:1.9rem;margin-bottom:12px;line-height:1.1;text-transform:uppercase}
+.sec p{margin:0 0 12px;max-width:58ch}
+.svc{list-style:none;margin:0;padding:0}
+.svc li{display:flex;flex-wrap:wrap;gap:2px 12px;align-items:baseline;padding:12px 0;border-bottom:2px solid var(--ink)}
+.svc li:first-child{border-top:2px solid var(--ink)}
+.svc .n{font-family:var(--head-font);font-size:1.5rem;text-transform:uppercase}
+.svc .note,.svc .price{font-weight:600;color:var(--muted)}
+.sec-hours .hours-box{border:3px solid var(--ink);border-radius:10px;padding:16px 20px 10px}
+.sec-hours h2{margin-bottom:6px}
+.sec-hours .hours tr{border-bottom:1px solid color-mix(in srgb,var(--ink) 28%,transparent)}
+.sec-hours .hours tr.today{background:color-mix(in srgb,var(--accent) 26%,transparent)}
+.sec-hours .hours th,.sec-hours .hours td{padding:9px 6px}
+.facts{margin:0}.facts div{display:grid;grid-template-columns:8rem 1fr;gap:10px;padding:10px 0;border-bottom:1px solid color-mix(in srgb,var(--ink) 28%,transparent)}
+.facts dt{font-weight:700}.facts dd{margin:0}
+.photos{display:grid;grid-template-columns:1fr 1fr;gap:10px}.photos img{width:100%;aspect-ratio:1/1;object-fit:cover;border:3px solid var(--ink)}
+.sec-contact address{font-size:1.3rem;font-weight:700;margin-bottom:14px}
+.sec-contact .links{display:flex;flex-direction:column;gap:10px}
+.sec-contact .btn{background:var(--ink);color:var(--bg);border:3px solid var(--ink)}
+.sec-contact .btn.first{background:var(--accent);color:var(--on_accent);border-color:var(--accent)}
+.foot{margin-top:40px;padding:22px 20px 34px;border-top:3px solid var(--ink);font-size:.92rem;text-align:center}.foot p{margin:4px 0}
+.callbar{background:var(--panel)}.callbar a{flex:1;color:var(--on_panel);border-right:1px solid color-mix(in srgb,var(--on_panel) 30%,transparent)}
+.callbar a.cb-call{background:var(--accent);color:var(--on_accent)}
+/* awning variant */
+.hv-awning .awning{display:block;height:48px;background:repeating-linear-gradient(90deg,var(--accent) 0 40px,var(--panel) 40px 80px);position:relative;margin-bottom:16px}
+.hv-awning .awning::after{content:"";position:absolute;left:0;right:0;bottom:-14px;height:14px;
+  background:radial-gradient(circle at 20px 0,var(--accent) 20px,transparent 21px) 0 0/80px 14px repeat-x,radial-gradient(circle at 60px 0,var(--panel) 20px,transparent 21px) 0 0/80px 14px repeat-x}
+.hv-awning .sign{border-radius:14px;outline:0;border-color:var(--panel)}
+.hv-awning .sign h1{text-transform:none}
+/* signboard variant: painted window pane for the hours */
+.hv-signboard .sec-hours .hours-box{border:7px solid var(--ink);border-radius:2px;padding:16px 20px 10px;background:var(--bg);box-shadow:inset 0 0 0 3px var(--bg),inset 0 0 0 5px var(--ink)}
+.hv-signboard .sec-hours h2{font-size:2.6rem;letter-spacing:.12em;color:var(--accent);margin-bottom:8px}
+.hv-signboard .sec-hours .hours tr.today{background:var(--accent);color:var(--on_accent)}
+@media(min-width:640px){.actions{flex-direction:row}.actions .btn{min-width:210px}.sec-contact .links{flex-direction:row;flex-wrap:wrap}}
+@media(min-width:900px){body{padding-bottom:0}.sections{grid-template-columns:1fr 1fr;column-gap:48px}.sec-contact,.sec-about,.sec-photos,.sec-facts{grid-column:1/-1}.sign{padding:40px 44px}}

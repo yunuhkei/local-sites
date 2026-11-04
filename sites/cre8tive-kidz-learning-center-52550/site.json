@@ -1,0 +1,95 @@
+{
+  "slug": "cre8tive-kidz-learning-center-52550",
+  "name": "Cre8tive Kidz Learning Center",
+  "type": "Daycare",
+  "phone": "(414) 304-9904",
+  "address": "8028 West Appleton Avenue, Milwaukee, WI 53218",
+  "kicker": "Child care · Milwaukee, WI 53218",
+  "headline": "Child care for ages 6 weeks to 13 years on West Appleton Avenue.",
+  "hours": [
+    [
+      "Monday",
+      "06:30-19:00"
+    ],
+    [
+      "Tuesday",
+      "06:30-19:00"
+    ],
+    [
+      "Wednesday",
+      "06:30-19:00"
+    ],
+    [
+      "Thursday",
+      "06:30-19:00"
+    ],
+    [
+      "Friday",
+      "06:30-19:00"
+    ],
+    [
+      "Saturday",
+      "Closed"
+    ],
+    [
+      "Sunday",
+      "Closed"
+    ]
+  ],
+  "unconfirmed": [
+    "hours",
+    "facts"
+  ],
+  "to_get": [
+    "Hours: OpenStreetMap lists Mon-Fri 6:30am-7pm but a directory lists Mon-Wed 6am-10pm. Which is right?"
+  ],
+  "social": [],
+  "design": {
+    "layout": "storefront",
+    "hero_variant": "awning",
+    "fonts": {
+      "head": "Fredoka",
+      "body": "Mulish",
+      "head_weight": 600,
+      "url_params": "family=Fredoka:wght@500;600;700&family=Mulish:wght@400;600;700",
+      "head_fallback": "'Trebuchet MS', sans-serif",
+      "body_fallback": "system-ui, sans-serif"
+    },
+    "palette": {
+      "bg": "#FFFAF0",
+      "ink": "#1D2B36",
+      "muted": "#4D5C69",
+      "accent": "#C8431B",
+      "on_accent": "#FFFFFF",
+      "panel": "#1A7F6B",
+      "on_panel": "#FFFFFF"
+    },
+    "palette_reason": "First guess, we have not seen the sign: crayon coral and teal-green on warm white, like the stripes of a toy store awning. The name uses a creative 8, so we lean playful. Confirm against the real sign.",
+    "hero": "striped scalloped awning over a rounded shop sign",
+    "section_order": [
+      "facts",
+      "hours",
+      "services",
+      "about",
+      "photos",
+      "contact"
+    ],
+    "signature": "scalloped striped awning",
+    "hero_lines": [
+      "Cre8tive",
+      "Kidz",
+      "Learning",
+      "Center"
+    ]
+  },
+  "facts": [
+    [
+      "Ages",
+      "6 weeks to 13 years"
+    ],
+    [
+      "Type",
+      "Licensed group child care center"
+    ]
+  ]
+}

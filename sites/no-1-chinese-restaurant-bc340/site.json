@@ -1,0 +1,85 @@
+{
+  "slug": "no-1-chinese-restaurant-bc340",
+  "name": "No. 1 Chinese Restaurant",
+  "type": "Fast food / takeout",
+  "phone": "(414) 535-8888",
+  "address": "7512 West Appleton Avenue, Milwaukee, WI 53216",
+  "kicker": "Chinese takeout · Milwaukee, WI",
+  "headline": "Chinese takeout on West Appleton Avenue.",
+  "hours": [
+    [
+      "Monday",
+      "11:00-21:00"
+    ],
+    [
+      "Tuesday",
+      "Closed"
+    ],
+    [
+      "Wednesday",
+      "11:00-21:00"
+    ],
+    [
+      "Thursday",
+      "11:00-21:00"
+    ],
+    [
+      "Friday",
+      "11:00-21:00"
+    ],
+    [
+      "Saturday",
+      "11:00-21:00"
+    ],
+    [
+      "Sunday",
+      "11:30-21:00"
+    ]
+  ],
+  "unconfirmed": [
+    "hours",
+    "take-out only"
+  ],
+  "to_get": [
+    "Hours: OpenStreetMap lists Tuesday as closed. Confirm with the owner."
+  ],
+  "social": [],
+  "design": {
+    "layout": "menu-board",
+    "hero_variant": "chalk",
+    "fonts": {
+      "head": "Teko",
+      "body": "Hind",
+      "head_weight": 600,
+      "url_params": "family=Teko:wght@500;600;700&family=Hind:wght@400;500;600;700",
+      "head_fallback": "Impact, 'Arial Narrow', sans-serif",
+      "body_fallback": "system-ui, sans-serif"
+    },
+    "palette": {
+      "bg": "#1B0D0A",
+      "ink": "#FBEFD5",
+      "muted": "#D3BF9D",
+      "accent": "#F2B705",
+      "on_accent": "#1B0D0A",
+      "panel": "#7A1712",
+      "on_panel": "#FBEFD5"
+    },
+    "palette_reason": "First guess, we have not seen the sign: lacquer red and gold on a dark board, the colors of a takeout menu in a window. Confirm against the real sign.",
+    "hero": "dark red menu board with a gold neon-style OPEN hours sign",
+    "section_order": [
+      "services",
+      "facts",
+      "hours",
+      "about",
+      "photos",
+      "contact"
+    ],
+    "signature": "neon-style OPEN hours sign",
+    "hero_lines": [
+      "No. 1",
+      "Chinese",
+      "Restaurant"
+    ]
+  },
+  "services_todo": "menu (a phone photo of the printed menu works)"
+}

@@ -256,8 +256,13 @@ def merge(existing, found, today):
     return existing + added, added
 
 
-def load_blocked(path):
-    return {r["id"] for r in load_csv(path)}
+def load_blocked(path, review_path="data/review.csv"):
+    """id -> reason for leads we never want back (cleaner exclusions + checked-and-closed/chain)."""
+    blocked = {r["id"]: r.get("reason") or "previously excluded" for r in load_csv(path)}
+    for r in load_csv(review_path):
+        if r.get("verdict") == "exclude":
+            blocked[r["id"]] = "checked: " + r.get("note", "")
+    return blocked
 
 
 def save_excluded(path, removed, today):

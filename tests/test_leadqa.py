@@ -4,7 +4,7 @@ sys.path.insert(0, os.path.join(ROOT, "leadfinder")); sys.path.insert(0, os.path
 import leadqa, osm_hours  # noqa: E402
 
 
-def row(i, name, typ="Barbershop", phone="", lat=43.17, lon=-87.99, **kw):
+def row(i, name, typ="Barbershop", phone="", lat=43.14, lon=-88.0, **kw):
     return dict({"id": i, "name": name, "type": typ, "phone": phone, "lat": lat, "lon": lon, "hours": "", "updated": "", "email": "", "social": ""}, **kw)
 
 
@@ -31,7 +31,7 @@ class Clean(unittest.TestCase):
         near = row("1", "A", "Barbershop", "414-555-0101", hours="Mo-Fr 09:00-17:00", updated="2026-01-01")
         far = row("2", "B", "Car wash", "", lat=43.25, lon=-88.1)
         self.assertGreater(leadqa.score_parts(near)[0], leadqa.score_parts(far)[0])
-        self.assertAlmostEqual(leadqa.miles(43.17, -87.99), 0.0, places=3)
+        self.assertAlmostEqual(leadqa.miles(*leadqa.CENTER), 0.0, places=3)
 
 
 class Hours(unittest.TestCase):

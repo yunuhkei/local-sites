@@ -1,5 +1,86 @@
 {
+  "brand": "Cream City Web Co.",
+  "owner": "Joaquin Randall",
+  "first_name": "Joaquin",
   "pages_base": "https://yunuhkei.github.io/local-sites",
-  "credit": "",
-  "_help": "pages_base is where GitHub Pages publishes. credit shows in site footers, e.g. Website by Your Name."
+  "credit": "Website by Cream City Web Co.",
+  "credit_url": "",
+  "phone": "",
+  "email": "",
+  "formspree_id": "",
+  "stripe_link": "",
+  "pricing": {
+    "setup": 250,
+    "monthly": 25,
+    "addons": [
+      {
+        "name": "Google Business Profile setup",
+        "price": 75,
+        "note": "so you show up on Google Maps with the right hours and phone"
+      },
+      {
+        "name": "Online booking or menu page",
+        "price": 100,
+        "note": "a booking link or a full menu people can read on their phone"
+      },
+      {
+        "name": "Simple logo",
+        "price": 75,
+        "note": "if you don't have one yet"
+      },
+      {
+        "name": "Connect your own domain name",
+        "price": 25,
+        "note": "the domain itself is about $12 a year, paid by you"
+      }
+    ]
+  },
+  "service_area": [
+    "Milwaukee",
+    "Wauwatosa",
+    "West Allis",
+    "Shorewood",
+    "Whitefish Bay",
+    "Glendale",
+    "Brown Deer",
+    "Greenfield",
+    "Franklin",
+    "Oak Creek",
+    "Cudahy",
+    "South Milwaukee",
+    "Mequon"
+  ],
+  "faq": [
+    [
+      "How long does it take?",
+      "The free preview is usually ready within a few days of when we talk. Once you say yes, your site is live within a week."
+    ],
+    [
+      "Do I own it?",
+      "Your business name, words, photos and domain name are yours. If you buy a domain, it is registered in your name. If you ever stop the monthly plan, I'll hand over your site files."
+    ],
+    [
+      "What is the $25 a month for?",
+      "Keeping your site online and secure, plus small updates: new hours, a new price, a new photo. Text me and it's done."
+    ],
+    [
+      "Can I update it myself or ask you to?",
+      "Just ask. Text or call me what to change and I'll do it."
+    ],
+    [
+      "What if I already have a Facebook page?",
+      "Keep it. Your site can link to it. Facebook is good for posts, and a website is what people find on Google with your hours, phone number and map in one tap."
+    ],
+    [
+      "What do I pay, and when?",
+      "Nothing until you've seen your preview and said yes. Then $250 to set it up and $25 a month after that."
+    ]
+  ],
+  "_help": "pages_base is where GitHub Pages publishes today. When you buy creamcitywebco.com, set custom_domain to creamcitywebco.com (see guides/custom-domain.md). phone/email/formspree_id/stripe_link are PUBLIC contact details, never secrets. home is where distances are measured from.",
+  "home": {
+    "lat": 43.14,
+    "lon": -88.0,
+    "label": "approximate center of ZIP 53218 (give Claude your street to make this exact)"
+  },
+  "custom_domain": ""
 }
