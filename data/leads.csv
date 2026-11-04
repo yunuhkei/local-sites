@@ -1,224 +1,214 @@
-id,name,type,address,phone,social,status,found_date,lat,lon,notes
-osm-node-827607791,Latitudes Coffee House,Cafe,,(262) 437-0084,,new,2026-11-04,43.1926022,-88.1025786,
-osm-node-1607154018,Grace & Shelly's,Bakery,310 East Silver Spring Drive,,,new,2026-11-04,43.1186442,-87.9063047,
-osm-node-1905811222,Gyro Palace,Fast food / takeout,5336 North Port Washington Road,,,new,2026-11-04,43.113856,-87.9162421,
-osm-node-1932260731,Fiddleheads Artisan Bakery,Cafe,"120 N. Main Street, 53092",,,new,2026-11-04,43.2312315,-87.9836187,
-osm-node-1932265569,Fiddleheads Coffee Roasters - Thiensville,Cafe,"192 South Main Street, 53092",,,new,2026-11-04,43.2280343,-87.984182,
-osm-node-2595878893,Stone Creek Coffee,Cafe,"527 East Silver Spring Drive, Whitefish Bay, WI 53217",(414) 635-0017,,new,2026-11-04,43.118302,-87.9032517,
-osm-node-3158139978,The Coffeehouse @ Purloin Studio,Cafe,"N88 W16567 Main Street, Menomonee Falls, WI 53051",,,new,2026-11-04,43.1789958,-88.1156108,
-osm-node-3930437457,Elements,Massage,312 East Silver Spring Drive,,,new,2026-11-04,43.1186409,-87.9062121,
-osm-node-4554608715,Highland House,Restaurant,"12741 Port Washington Road, Mequon, 53092",,,new,2026-11-04,43.2500914,-87.9246976,
-osm-node-4554633363,Freistadt Automotive,Auto repair,"10826 Freistadt Rd., Mequon, 53097",,,new,2026-11-04,43.2360959,-88.0457537,
-osm-node-5438941069,Casa Grande Hair And Nail Salon,Nail salon,"N112W16700 Mequon Road, Germantown, WI 53022",(262) 251-7540,,new,2026-11-04,43.2213003,-88.1176558,
-osm-node-6182425232,The Anchorage,Restaurant,"4700 North Port Washington Road, Glendale, WI 53212",(414) 962-4710,,new,2026-11-04,43.1025344,-87.9163983,
-osm-node-6182425243,TJ Aliota's,Restaurant,"261 East Hampton Avenue, Milwaukee, WI 53217",,,new,2026-11-04,43.1037381,-87.9078555,
-osm-node-6191160098,San's Sandbox Child Development Center,Daycare,"7261 West Appleton Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0878719,-88.0028099,
-osm-node-6794468605,Sprecher Outdoor Oasis,Restaurant,"2399 West Bender Road, Glendale, WI 53209",,,new,2026-11-04,43.1303771,-87.9401695,
-osm-node-7266919993,Oscar Motorcars,Auto repair,"310 East Brown Deer Road, Bayside, WI 53217-2338",(414) 352-9958,,new,2026-11-04,43.1769907,-87.9046697,
-osm-node-8522480837,T Nails,Nail salon,"10380 West Silver Spring Drive, Milwaukee, WI",,,new,2026-11-04,43.1199086,-88.0418316,
-osm-node-8522480993,Cosmo Beauty,Beauty salon,"10448 West Silver Spring Drive, Milwaukee, WI",,,new,2026-11-04,43.1206944,-88.0435496,
-osm-node-8618265306,Ly Ly Nail & Spa,Beauty salon,"333 West Brown Deer Road, Bayside, WI 53217",(414) 247-0228,,new,2026-11-04,43.176329,-87.9113994,
-osm-node-9556059329,Riverpoint Salons and Spa,Beauty salon,,(414) 531-3668,https://www.facebook.com/RiverpointSalons/,new,2026-11-04,43.1742337,-87.9132752,
-osm-node-9760378954,Nail & Spa,Nail salon,"6402 North 76th Street, Milwaukee, WI 53223-6102",,,new,2026-11-04,43.1344559,-88.0052853,
-osm-node-10219979297,Express Coin Laundry,Laundry / cleaner,"5617 West Lisbon Avenue, Milwaukee, WI 53210-2262",,,new,2026-11-04,43.0657401,-87.9835258,
-osm-node-10236374599,Tsunami Express Car Wash,Car wash,"5209 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0910079,-87.9783201,
-osm-node-10240496610,Nail Love II,Nail salon,"7926 West Capitol Drive, Milwaukee, WI 53222",,,new,2026-11-04,43.0901351,-88.0118312,
-osm-node-10707532947,Bentleys Petstuff,Pet grooming,"4165 North Oakland Avenue, Shorewood, WI 53211",,,new,2026-11-04,43.0932522,-87.8877173,
-osm-node-10707532949,Buttermint Fine Dining & Cocktails,Restaurant,"4195 North Oakland Avenue, Shorewood, WI 53211",,,new,2026-11-04,43.0933973,-87.8877059,
-osm-node-10894794149,J & J Fish and Chicken,Fast food / takeout,"3213 West Villard Avenue, Milwaukee, WI 53209",,,new,2026-11-04,43.1114051,-87.9535424,
-osm-node-10980991466,Miss Molly's Cafe and Pastry Shop,Cafe,"9201 West Center Street, Milwaukee",,,new,2026-11-04,43.0675889,-88.0278073,
-osm-node-11217077778,Jilly's Car Wash,Car wash,"10829 North Port Washington Road, Mequon, 53092",,,new,2026-11-04,43.2150788,-87.9248685,
-osm-node-11273102351,Cassia Nail Spa,Nail salon,"N89W16853 Appleton Avenue, Menomonee Falls, WI 53051",,,new,2026-11-04,43.1802484,-88.1199094,
-osm-node-11534840817,Plaza Laundry,Laundry / cleaner,"W156N11050 Pilgrim Road, Germantown, WI 53022",,,new,2026-11-04,43.2182977,-88.1019856,
-osm-node-12015667758,Teddy Bear Child Care,Daycare,"5140 West Lisbon Avenue, Milwaukee, WI 53210",,,new,2026-11-04,43.0636511,-87.9785264,
-osm-node-12015820310,Trendsetta Stylez Salon,Hair salon,"5327 West Lisbon Avenue, Milwaukee, WI 53210",,,new,2026-11-04,43.0644715,-87.9807911,
-osm-node-12016495831,Whitelaw Auto Body Repair,Auto repair,"5401 West Lisbon Avenue, Milwaukee, WI 53210",,,new,2026-11-04,43.0645835,-87.9812187,
-osm-node-12018236675,RC's Communications,Auto repair,"5406 West Lisbon Avenue, Milwaukee, WI 53210",,,new,2026-11-04,43.0651696,-87.9814827,
-osm-node-12018445126,A Team Automotive Repair,Auto repair,"5518 West Lisbon Avenue, Milwaukee, WI 53210",(414) 312-7155,,new,2026-11-04,43.0656601,-87.982426,
-osm-node-12018445150,Starr Wheel Aligning,Auto repair,"5729 West Lisbon Avenue, Milwaukee, WI 53210",(414) 442-1350,,new,2026-11-04,43.0666554,-87.9849672,
-osm-node-12020044849,Car Tunes,Auto repair,"5814 West Center Street, Milwaukee, WI 53210",(414) 231-1111,,new,2026-11-04,43.068274,-87.985868,
-osm-node-12020206463,Sphinx,Hair salon,"5828 West Appleton Avenue, Milwaukee, WI 53210",,,new,2026-11-04,43.0688707,-87.9856315,
-osm-node-12020206466,Loyalty Automotive,Auto repair,"5921 West Appleton Avenue, Milwaukee, WI 53210",,,new,2026-11-04,43.0700368,-87.9869819,
-osm-node-12020206468,Harvest Learning center,Daycare,"5936 West Appleton Avenue, Milwaukee, WI 53210",,,new,2026-11-04,43.0705713,-87.9868258,
-osm-node-12020213082,Learn Through Love Child Care,Daycare,"6333 West Burleigh Street, Milwaukee, WI 53210",,,new,2026-11-04,43.0751912,-87.9918202,
-osm-node-12025502030,Options Salon & Spa,Hair salon,"7212 West Appleton Avenue, Milwaukee, WI 53216",(414) 509-8000,https://www.facebook.com/optionssalon1/,new,2026-11-04,43.087269,-88.0015063,
-osm-node-12026963803,Pamper Me Pleaz,Beauty salon,"7484 West Appleton Avenue, Milwaukee, WI 53216-1068",(414) 871-3237,https://www.facebook.com/pampermepleaz/,new,2026-11-04,43.0916158,-88.0050466,
-osm-node-12027960008,No. 1 Chinese Restaurant,Fast food / takeout,"7512 West Appleton Avenue, Milwaukee, WI 53216",(414) 535-8888,,new,2026-11-04,43.0922208,-88.0056062,
-osm-node-12028890788,OSAS African Hair braiding,Hair salon,"7514 West Appleton Avenue, Milwaukee, WI 53216",(414) 439-9805,,new,2026-11-04,43.0922867,-88.0056559,
-osm-node-12028890790,Shawn Da' Barbershop & Beauty Salon,Hair salon,"7516 West Appleton Avenue, Milwaukee, WI 53216",(414) 499-8039,https://www.facebook.com/DaRealShawnDaBarber/,new,2026-11-04,43.0923383,-88.0056957,
-osm-node-12028890791,Ebony Queen III Beauty Salon,Hair salon,"7526 West Appleton Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0924868,-88.005837,
-osm-node-12028890796,Fanciful Braidz,Hair salon,"7526 West Appleton Avenue, Milwaukee, WI 53216",(414) 488-5827,,new,2026-11-04,43.0925376,-88.0057872,
-osm-node-12028890797,Affordable Grooming Services Plus More,Pet grooming,"7532 West Appleton Avenue, Milwaukee, WI 53216",(262) 458-8699,,new,2026-11-04,43.0926243,-88.0059321,
-osm-node-12028890798,Hair of Art Salon,Hair salon,"7532 West Appleton Avenue, Milwaukee, WI 53216",(414) 393-1237,,new,2026-11-04,43.0926571,-88.0058771,
-osm-node-12028890799,Ink Below Zero,Tattoo studio,"7530 West Appleton Avenue, Milwaukee, WI 53216",,https://instagram.com/inkbelowzero,new,2026-11-04,43.0925825,-88.0059121,
-osm-node-12031093217,Brake Shop,Auto repair,"7665 West Appleton Avenue, Milwaukee, WI 53222",,,new,2026-11-04,43.0942681,-88.008164,
-osm-node-12031480689,Lucky Nails Spa,Nail salon,"7848 West Appleton Avenue, Milwaukee, WI 53218",(414) 897-8269,,new,2026-11-04,43.0981794,-88.0103768,
-osm-node-12031480691,Black Essence Braiding Salon,Hair salon,"7846 West Appleton Avenue, Milwaukee, WI 53218",(414) 507-3391,,new,2026-11-04,43.0981363,-88.0103356,
-osm-node-12031764484,Headz Up Barber & Beauty,Hair salon,"7924 West Appleton Avenue, Milwaukee, WI 53218",(414) 502-8111,,new,2026-11-04,43.0992268,-88.0112128,
-osm-node-12031764502,Tina N Tots Children Academy,Daycare,"7968 West Appleton Avenue, Milwaukee, WI 53218",,,new,2026-11-04,43.1000427,-88.0118478,
-osm-node-12031767980,Gerlach Electric,Electrician,"8224 West Appleton Avenue, Milwaukee, WI 53218",(414) 462-2525,,new,2026-11-04,43.1032368,-88.0143726,
-osm-node-12031788503,Safety Autos,Auto repair,"9130 West Appleton Avenue, Milwaukee, WI 53225",,,new,2026-11-04,43.1133436,-88.0263327,
-osm-node-12035883995,Future Rising Stars Child Care,Daycare,"8006 West Appleton Avenue, Milwaukee, WI 53218",(414) 988-4135,,new,2026-11-04,43.1006861,-88.012381,
-osm-node-12035883996,Cre8tive Kidz Learning Center,Daycare,"8028 West Appleton Avenue, Milwaukee, WI 53218",(414) 304-9904,,new,2026-11-04,43.1010892,-88.0126356,
-osm-node-12036095382,BK Landscape Contracting & Supplies,Landscaping,"9150 West Appleton Avenue, Milwaukee, WI 53225-3409",,,new,2026-11-04,43.1137371,-88.026637,
-osm-node-12036095393,Nelson’s Tire And Auto Repair Shop,Tire shop,"9746 West Appleton Avenue, Milwaukee, WI 53225",(414) 640-6200,,new,2026-11-04,43.1192366,-88.0336372,
-osm-node-12036095402,Amazing Grace Child Care,Daycare,"10050 West Appleton Avenue, Milwaukee, WI 53225",(414) 393-1997,,new,2026-11-04,43.121856,-88.0374835,
-osm-node-12244428060,Hoby's on the Ave,Hair salon,"3418 West Fond du Lac Avenue, Milwaukee, WI 53210-1935",,,new,2026-11-04,43.0747749,-87.9565944,
-osm-node-12254795618,T&T Cafe,Cafe,"3528 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 763-7778,,new,2026-11-04,43.0758594,-87.9579539,
-osm-node-12254884851,Crystal's Creative Minds Learning Center,Daycare,"3601 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.075858,-87.9587229,
-osm-node-12261016756,J Star Car Wash & Detailing,Car wash,,(414) 444-4622,,new,2026-11-04,43.0790072,-87.9628633,
-osm-node-12261016758,JD Auto & Cycles,Auto repair,"3823 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.078022,-87.9616221,
-osm-node-12268351930,Caring Angels Child Care Center,Daycare,"3717 West Fond du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0772804,-87.9604464,
-osm-node-12268351931,Treat Um Like They're Mine,Daycare,"3156 North 38th Street, Milwaukee, WI 53216-3604",(414) 336-8784,,new,2026-11-04,43.0764964,-87.960562,
-osm-node-12269034278,Geno's Bar & Grill,Restaurant,"3908 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 447-7114,,new,2026-11-04,43.0795649,-87.9626661,
-osm-node-12269034284,Brainiac's Child Development Center,Daycare,"3924 West Fond du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0796578,-87.9628027,
-osm-node-12269034299,Haven of Hope Development Center,Daycare,,(414) 875-6805,,new,2026-11-04,43.0805359,-87.9638154,
-osm-node-12269131353,All Walks of Life II Childcare Center,Daycare,,(414) 444-2784,,new,2026-11-04,43.0813384,-87.9649095,
-osm-node-12269131355,Hair ByKizzy,Hair salon,"4250 West Fond du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0826375,-87.966669,
-osm-node-12269131357,Eternal Kutz & Designs,Hair salon,,(414) 800-5005,,new,2026-11-04,43.0826976,-87.9667506,
-osm-node-12271107326,Clean Laundry,Laundry / cleaner,"4330 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 635-6947,,new,2026-11-04,43.0836555,-87.9679107,
-osm-node-12271119628,Paradise African Hair Braiding,Hair salon,"4427 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0840384,-87.9691887,
-osm-node-12279132956,Gifted Hands Car Center,Car wash,"4401 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0834463,-87.9687648,
-osm-node-12279148787,Rubys Precious Little Angels Learning Academy,Daycare,"4335 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 445-6370,,new,2026-11-04,43.0832577,-87.9682127,
-osm-node-12281531178,A Taste of Soul MKE,Restaurant,"4706 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 810-1101,https://www.facebook.com/ChefTrentin/,new,2026-11-04,43.0870162,-87.9722568,
-osm-node-12281531179,Dakar Hair Braiding,Hair salon,"4710 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 444-8325,,new,2026-11-04,43.0870793,-87.9723491,
-osm-node-12281531180,My Little Munchkins Childcare Center,Daycare,"4714 West Fond du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0871243,-87.9723989,
-osm-node-12281531183,Nappy Roots Hair Salon,Hair salon,"4730 West Fond Du Lac Avenue, Milwaukee, WI 53216",(414) 447-6687,,new,2026-11-04,43.0873486,-87.9726975,
-osm-node-12281531184,Esquire Hair Salon,Hair salon,"4736 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0874283,-87.9728097,
-osm-node-12281531185,Nail City,Nail salon,"4834, West Fond Du Lac Avenue, Milwaukee, WI 53216",(414) 871-8213,,new,2026-11-04,43.0880983,-87.9736585,
-osm-node-12281531186,Royal Palace Child Development Center,Daycare,"4840 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0882197,-87.9737872,
-osm-node-12281531187,Amazing Mays Childcare,Daycare,"4850 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0883422,-87.9739348,
-osm-node-12281531190,Ernie's Super Service,Auto repair,"4870 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 445-8695,,new,2026-11-04,43.0887176,-87.9742459,
-osm-node-12281531193,Zaza Steak & Lemonade,Fast food / takeout,"4919 West Capitol Drive, Milwaukee, WI 53216",,,new,2026-11-04,43.0896099,-87.9754077,
-osm-node-12282246220,Crave BBQ,Restaurant,"4923 West Fond Du Lac Avenue, Milwaukee, WI 53216",(414) 509-6278,https://www.facebook.com/people/Crave-BBQ/61556063229745/,new,2026-11-04,43.0888905,-87.9754324,
-osm-node-12282246221,Zoe's Barber Elite & Beauty Salon,Hair salon,"4919 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.088837,-87.975347,
-osm-node-12284972896,Mister Stereo,Auto repair,"5040 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 466-0300,,new,2026-11-04,43.0905212,-87.9767138,
-osm-node-12287753948,Freeze-N-Beauty Spa,Nail salon,"5444 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 614-7767,,new,2026-11-04,43.0944487,-87.9816327,
-osm-node-12287753952,Members Only Cuts & Styles,Hair salon,"5638 West Fond du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0959241,-87.9835912,
-osm-node-12287753954,National Muffler & Brake,Auto repair,"5740 West Fond du Lac Avenue, Milwaukee, WI 53218",,,new,2026-11-04,43.0967365,-87.9844029,
-osm-node-12288754689,Seafood Junction,Restaurant,"6542 West Fond Du Lac Avenue, Milwaukee, WI 53218",,,new,2026-11-04,43.1041308,-87.9935222,
-osm-node-12289845060,Kidville Learning Center,Daycare,"6523 West Fond Du Lac Avenue, Milwaukee, WI 53218",,,new,2026-11-04,43.1033509,-87.9936916,
-osm-node-12289937616,League of Extraordinary Barbers,Barbershop,"6203 West Fond du Lac Avenue, Milwaukee, WI 53218",,,new,2026-11-04,43.0999785,-87.9898512,
-osm-node-12293541200,Precious Blessings Learning Center,Daycare,"6915 West Fond du Lac Avenue, Milwaukee, WI 53218-3919",(414) 239-8796,,new,2026-11-04,43.1065305,-87.9978417,
-osm-node-12384492961,Four Hearts Child Care Center,Daycare,"7110 West Fond du Lac Avenue, Milwaukee, WI 53218",,,new,2026-11-04,43.1089757,-87.9997902,
-osm-node-12384492963,D&D Auto Services,Auto repair,"7124 West Fond du Lac Avenue, Milwaukee, WI 53218",,,new,2026-11-04,43.109136,-88.0001317,
-osm-node-12570979168,A Passion for Kids II,Daycare,"7526 West Fond du Lac Avenue, Milwaukee, WI 53218",,,new,2026-11-04,43.1129234,-88.0048269,
-osm-node-12573810152,Marshall's Family Childcare,Daycare,"8717 West Fond Du Lac Avenue, Milwaukee, WI 53225-2014",,,new,2026-11-04,43.1240855,-88.0214933,
-osm-node-12573810153,Suds Your Duds Coin Laundry,Laundry / cleaner,"6050 North 91st Street, Milwaukee, WI 53225",,,new,2026-11-04,43.1277577,-88.0252043,
-osm-node-12573927470,Mussomelli's Auto Care,Auto repair,"9105 West Fond du Lac Avenue, Milwaukee, WI 53225",(414) 353-3293,,new,2026-11-04,43.1284042,-88.0262335,
-osm-node-12573927471,Nuno's Auto Body,Auto repair,"9209 West Fond du Lac Avenue, Milwaukee, WI 53225-1712",(414) 353-1333,,new,2026-11-04,43.1295341,-88.027429,
-osm-node-12573951798,Zaza's Steak & Lemonade,Fast food / takeout,"9618 West Fond du Lac Avenue, Milwaukee, WI 53225",(414) 358-1999,,new,2026-11-04,43.1336297,-88.0314286,
-osm-node-12634219363,King Gyros,Fast food / takeout,"10000 West Capitol Drive, Milwaukee, WI 53222",(414) 800-4625,,new,2026-11-04,43.0900921,-88.0381765,
-osm-node-12636164512,Jamaican Season Island,Restaurant,"9207 West Capitol Drive, Milwaukee, WI 53222",,,new,2026-11-04,43.0892405,-88.0279998,
-osm-node-12640706010,Divine Hair & Extensions,Hair salon,"7833 West Capitol Drive, Milwaukee, WI 53222",(414) 210-3700,,new,2026-11-04,43.0896929,-88.0100795,
-osm-node-12640706011,Happy Nails,Nail salon,"7833 West Capitol Drive, Milwaukee, WI 53222",(414) 462-8470,,new,2026-11-04,43.0896929,-88.0099516,
-osm-node-12642736242,Queen Nails,Nail salon,"7600 West Capitol Drive, Milwaukee, WI 53222",(414) 464-0979,https://www.facebook.com/QueenNails76/,new,2026-11-04,43.0905078,-88.0093684,
-osm-node-12642868861,Kids Land Learning Center,Daycare,"7918 West Capitol Drive, Milwaukee, WI 53222",(414) 763-3194,https://www.facebook.com/kidsland01/,new,2026-11-04,43.0901761,-88.01136,
-osm-node-12642916052,The Lunchroom,Restaurant,"8000 West Capitol Drive, Milwaukee, WI 53222",(414) 231-3037,https://www.facebook.com/thelunchroommke,new,2026-11-04,43.0900722,-88.0126279,
-osm-node-12642916065,Fundamentals Of Learning Daycare,Daycare,"8028 West Capitol Drive, Milwaukee, WI 53222",(414) 935-2995,,new,2026-11-04,43.0900905,-88.013128,
-osm-node-12643455363,Bizzy Bugz,Daycare,"8500 West Capitol Drive, Milwaukee, WI 53222",(414) 249-5133,,new,2026-11-04,43.0900119,-88.0191111,
-osm-node-12643455364,Kays Klubhouse Early Childhood Learning,Daycare,"4027 North 85th Street, Milwaukee, WI 53222",(414) 690-3977,,new,2026-11-04,43.0904947,-88.0191554,
-osm-node-12644247286,The Subject: Hair,Hair salon,"7109 West Capitol Drive, Milwaukee, WI 53216-2051",(414) 462-2420,,new,2026-11-04,43.0897377,-88.0009987,
-osm-node-12644247287,K.F.L.C Childcare Center,Daycare,"7101 West Capitol Drive, Milwaukee, WI 53216",(414) 739-3637,,new,2026-11-04,43.0897401,-88.0008168,
-osm-node-12644247288,Multicultural Learning Academy,Daycare,"7027 West Capitol Drive, Milwaukee, WI 53216",(414) 553-7481,,new,2026-11-04,43.0895707,-88.0003693,
-osm-node-12644247290,Speedy Brake,Auto repair,"6927 West Capitol Drive, Milwaukee, WI 53216",(414) 536-9600,,new,2026-11-04,43.0895575,-87.9990354,
-osm-node-12644247300,Rokyas African Hair Braiding,Hair salon,"6915 West Capitol Drive, Milwaukee, WI 53216",(414) 355-3911,,new,2026-11-04,43.0897275,-87.9987744,
-osm-node-12645202068,DJ Spa & Nails,Beauty salon,"6733 West Capitol Drive, Milwaukee, WI 53216",,,new,2026-11-04,43.0897234,-87.99687,
-osm-node-12645202072,Hilltop Christian Academy Childcare,Daycare,"6627 West Capitol Drive, Milwaukee, WI 53216",(414) 934-8885,,new,2026-11-04,43.0897296,-87.9954715,
-osm-node-12645202074,Caritas Felices Childcare,Daycare,"4023 North 63rd Street, Milwaukee, WI 53216",(414) 324-2763,,new,2026-11-04,43.0905885,-87.9910889,
-osm-node-12645202075,Open Doors Learning Center,Daycare,"4068 North 68th Street, Milwaukee, WI 53216",(414) 249-3167,,new,2026-11-04,43.0915548,-87.9966881,
-osm-node-12645202091,L's Hair Elegance,Hair salon,"3968 North 68th Street, Milwaukee, WI 53216",(414) 333-4164,,new,2026-11-04,43.0896221,-87.9968768,
-osm-node-12645224703,Spark's Auto Services,Auto repair,"6303 West Capitol Drive, Milwaukee, WI 53216",(414) 462-8944,,new,2026-11-04,43.0895874,-87.9910874,
-osm-node-12645224705,Much Better Studios,Hair salon,"6119 West Capitol Drive, Milwaukee, WI 53216",(414) 397-1594,,new,2026-11-04,43.0897721,-87.9889062,
-osm-node-12645449273,Nail City II,Nail salon,"5823 West Capitol Drive, Milwaukee, WI 53216",(414) 449-9927,,new,2026-11-04,43.0896861,-87.9863328,
-osm-node-12645449274,Auto Sound & Security,Auto repair,"5823 West Capitol Drive, Milwaukee, WI 53216",,,new,2026-11-04,43.0895228,-87.9865096,
-osm-node-12645449275,Velasquez Complete Auto Care,Auto repair,"5811 West Capitol Drive, Milwaukee, WI 53216",,https://www.instagram.com/velasquezcompleteautocare/,new,2026-11-04,43.089678,-87.9859844,
-osm-node-12648362379,Fireside BBQ & Grill,Restaurant,"7706 West Burleigh Street, Milwaukee, WI 53222",(414) 635-7400,,new,2026-11-04,43.0755231,-88.0090254,
-osm-node-12649367094,Airbrush and Tattoo Specialists,Tattoo studio,"5033 West Capitol Drive, Milwaukee, WI 53216-2346",(414) 871-4278,,new,2026-11-04,43.0896988,-87.9766516,
-osm-node-12649743813,Le Nail & Spa,Nail salon,"7450 West Capitol Drive, Milwaukee, WI 53216",(414) 616-1433,,new,2026-11-04,43.0902082,-88.0058234,
-osm-node-12649743815,Fiyahside Jamaican Cuisine,Restaurant,"7434 West Capitol Drive, Milwaukee, WI 53216",(414) 204-8740,,new,2026-11-04,43.0902075,-88.0054102,
-osm-node-12649897433,JJ Fish & Chicken,Fast food / takeout,"6212 West Capitol Drive, Milwaukee, WI 53216-2122",(414) 461-4740,,new,2026-11-04,43.0902056,-87.9899987,
-osm-node-12650302966,Epiphany Beauty Collections,Hair salon,"6222 West Capitol Drive, Milwaukee, WI 53216",(414) 544-4606,https://www.facebook.com/p/Epiphany-Beauty-Collections-100063773130741/,new,2026-11-04,43.0902499,-87.9902964,
-osm-node-12655893929,NuNu Fresh Kut'z,Barbershop,"6520 West Capitol Drive, Milwaukee, WI 53216",(414) 253-5067,,new,2026-11-04,43.0903239,-87.9942692,
-osm-node-12655893930,Safee Professional African Hair Braiding Salon II,Hair salon,"6516 West Capitol Drive, Milwaukee, WI 53216",(414) 462-1900,,new,2026-11-04,43.0903215,-87.9941428,
-osm-node-12655893933,Fever Nail Spa,Nail salon,"6508 West Capitol Drive, Milwaukee, WI 53216",(414) 462-1188,,new,2026-11-04,43.0903254,-87.9939083,
-osm-node-12655893934,Dry Clean Discounters,Dry cleaner,"6506 West Capitol Drive, Milwaukee, WI 53216",(414) 585-9303,https://www.facebook.com/155316027841863,new,2026-11-04,43.0903223,-87.9938302,
-osm-node-12655893937,Class Act Hair & Nail,Nail salon,"6500 West Capitol Drive, Milwaukee, WI 53216",(414) 466-5659,,new,2026-11-04,43.0903181,-87.9936153,
-osm-node-12656257866,Trans-X-Press Transmissions,Auto repair,"6826 West Capitol Drive, Milwaukee, WI 53216",(414) 246-4156,https://www.facebook.com/113135540585168,new,2026-11-04,43.0902437,-87.9978503,
-osm-node-12658327755,One Stop Tire & Battery,Tire shop,"4344 West Capitol Drive, Milwaukee, WI 53216",,,new,2026-11-04,43.0900444,-87.968168,
-osm-node-12658327758,Fabulous Adventures Childcare Center LLC,Daycare,"4434 West Capitol Drive, Milwaukee, WI 53216",(414) 461-0566,,new,2026-11-04,43.0900652,-87.9695769,
-osm-node-12659400446,Chicago Sub,Fast food / takeout,"4231 West Capitol Drive, Milwaukee, WI 53216",(414) 447-9100,https://www.facebook.com/119932264690764,new,2026-11-04,43.0896214,-87.9664224,
-osm-node-12659926843,Goodlife Auto Repair,Auto repair,"3901 West Capitol Drive, Milwaukee, WI 53216-2528",,,new,2026-11-04,43.0895195,-87.9624172,
-osm-node-12659926847,JM Laundry Services,Laundry / cleaner,"4200 West Capitol Drive, Milwaukee, WI 53216",,https://www.facebook.com/1602320533379833,new,2026-11-04,43.0900449,-87.9655098,
-osm-node-12771770290,Faith Development Learning Center,Daycare,"3526 West Capitol Drive, Milwaukee, WI 53216",,,new,2026-11-04,43.0901031,-87.9580096,
-osm-node-12771770297,De Ja Vu,Barbershop,"4124 West Capitol Drive, Milwaukee, WI 53216",(414) 875-2627,,new,2026-11-04,43.0900555,-87.964984,
-osm-node-12875176924,Toya's Homestyle Restaurant,Fast food / takeout,"3326 West Capitol Drive, Milwaukee, WI 53216",,,new,2026-11-04,43.0900823,-87.9549818,
-osm-node-12875176955,Maytag Laundry,Laundry / cleaner,"2728 West Capitol Drive, Milwaukee, WI 53216",,,new,2026-11-04,43.0901835,-87.9481247,
-osm-node-12903470526,VIP Child Care Services,Daycare,"2301,2307 West Capitol Drive, Milwaukee, WI 53206",(414) 871-6704,,new,2026-11-04,43.0894725,-87.9411125,
-osm-node-12903470532,Sun Nails & Spa,Nail salon,,(414) 265-2827,,new,2026-11-04,43.0894215,-87.9392619,
-osm-node-12912386629,Nail Expo,Nail salon,"2234 West Capitol Drive, Milwaukee, WI 53206",,https://www.instagram.com/nailexpomke/,new,2026-11-04,43.0898995,-87.9407545,
-osm-node-12912386672,Quiet Zone,Auto repair,"2422 West Capitol Drive, Milwaukee, WI 53209",,,new,2026-11-04,43.0901034,-87.9428933,
-osm-node-12912386680,Peco African Hair Braiding,Hair salon,"2458 West Capitol Drive, Milwaukee, WI 53206",(414) 875-9341,,new,2026-11-04,43.089945,-87.9438556,
-osm-node-12912386681,Elite Hand Car Wash,Car wash,"2458 West Capitol Drive, Milwaukee, WI 53206",,,new,2026-11-04,43.0899864,-87.9438994,
-osm-node-12912488773,Tran's Auto Service,Auto repair,"3919 North Doctor Martin Luther King Junior Drive, Milwaukee, WI 53206",,,new,2026-11-04,43.0887516,-87.9229045,
-osm-node-12912716432,TT Nails,Nail salon,"134 East Capitol Drive, Milwaukee, WI 53212",(414) 906-0485,,new,2026-11-04,43.0897551,-87.9096304,
-osm-node-12914328222,Trilogy Hair Salon,Hair salon,"1425 East Capitol Drive, Shorewood, WI 53211",(414) 550-2335,,new,2026-11-04,43.0889314,-87.8927578,
-osm-node-12921693479,Rachel V. Cosmetics,Beauty salon,"1518 East Capitol Drive, Shorewood, WI 53211",(414) 510-3055,https://www.facebook.com/vasquezcollection2017,new,2026-11-04,43.0893352,-87.8916912,
-osm-node-13310069565,Smokin Jack BBQ Bastile Day,Restaurant,"6807 West Brown Deer Road, Milwaukee, WI 53223-2101",,,new,2026-11-04,43.1770344,-87.9963113,
-osm-node-13334166019,Just Eyebrows,Beauty salon,8671 North Port Washington Road,,,new,2026-11-04,43.1744851,-87.9137949,
-osm-way-225874403,Hong Kong Express,Restaurant,"7420 West Good Hope Road, Milwaukee, WI 53223",,,new,2026-11-04,43.1491548,-88.0033573,
-osm-way-229236600,Schneiders Food & Drinks,Restaurant,"3717 North 76th Street, Milwaukee, WI 53222",(414) 466-6590,,new,2026-11-04,43.0847761,-88.0077863,
-osm-way-450173827,Mae Velma's Corned Beef,Restaurant,"4101 North 76th Street, Milwaukee, WI",,,new,2026-11-04,43.0921197,-88.0075711,
-osm-way-509096962,Valentine’s Salon,Hair salon,"8795 North Port Washington Road, Fox Point, 53217",,,new,2026-11-04,43.176128,-87.9148017,
-osm-way-509096978,The Nail Bar,Nail salon,"8667A North Port Washington Road, Fox Point, 53217",(414) 540-1003,,new,2026-11-04,43.1744949,-87.9136819,
-osm-way-509096983,Rice Bowl,Restaurant,"8673 North Port Washington Road, Fox Point, 53217",,,new,2026-11-04,43.1744951,-87.9138825,
-osm-way-592432035,Park Place KinderCare,Daycare,"10715 West Park Place, Milwaukee, WI 53224",,,new,2026-11-04,43.1506678,-88.0456803,
-osm-way-592432056,Park Place Cafe,Restaurant,"10843 West Park Place, Milwaukee, WI 53224",,,new,2026-11-04,43.1489699,-88.0459432,
-osm-way-658849196,Prime Time Sports Bar & Eatery,Restaurant,"8777,8777A North Deerwood Drive, Brown Deer, WI 53209",(414) 354-1919,,new,2026-11-04,43.1774386,-87.9642702,
-osm-way-659363523,Point Burger Bar Milwaukee,Restaurant,"10950 West Good Hope Road, Milwaukee, WI 53224",,,new,2026-11-04,43.1490578,-88.0488593,
-osm-way-659726095,Lit'l Scholars Day Care II,Daycare,"3320 West Wren Avenue, Milwaukee, WI 53209-4146",,,new,2026-11-04,43.1257286,-87.9543608,
-osm-way-659751373,Value Beauty,Beauty salon,"10500,10520 West Silver Spring Drive, Milwaukee, WI 53225",,,new,2026-11-04,43.120097,-88.0438757,
-osm-way-659751799,Suburban Car Wash,Car wash,"10030 West Appleton Avenue, Milwaukee, WI 53225",,,new,2026-11-04,43.1217446,-88.037363,
-osm-way-659752358,Lynn's Precious Moments,Daycare,"5629 North 91st Street, Milwaukee, WI 53225",,,new,2026-11-04,43.1201293,-88.0263272,
-osm-way-660023841,Fast Track,Auto repair,"5450 North Port Washington Road, Glendale, WI 53217",,,new,2026-11-04,43.1160172,-87.9161979,
-osm-way-660184516,Bavarian Inn,Restaurant,"700 West Lexington Boulevard, Glendale, WI 53217",,,new,2026-11-04,43.1158432,-87.9202711,
-osm-way-660264875,El Greco,Restaurant,"9143 West Appleton Avenue, Milwaukee, WI 53225",,,new,2026-11-04,43.1128952,-88.0271097,
-osm-way-660270718,JJ Fish and Chicken,Restaurant,"11231 West Silver Spring Drive, Milwaukee, WI 53225",,,new,2026-11-04,43.1169899,-88.0526757,
-osm-way-660281801,Rick Inn,Restaurant,"9308 West Capitol Drive, Milwaukee, WI 53222",,,new,2026-11-04,43.089941,-88.029284,
-osm-way-660304862,Mad Chicken,Fast food / takeout,"7424 West Appleton Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0906086,-88.0041684,
-osm-way-660325025,Scrub a Dub Car Wash,Car wash,"2930 West Capitol Drive, Milwaukee, WI 53216",,,new,2026-11-04,43.0903151,-87.9505159,
-osm-way-660326790,Octopus Car Wash,Car wash,"4519 North Green Bay Avenue, Milwaukee, WI 53209",,,new,2026-11-04,43.0991782,-87.9291635,
-osm-way-660333819,Wong's Wok,Restaurant,"242 East Capitol Drive, Milwaukee, WI 53212",,,new,2026-11-04,43.0896192,-87.9081843,
-osm-way-660333835,Martinizing,Dry cleaner,"285 East Hampton Avenue, Milwaukee, WI 53217",,,new,2026-11-04,43.1037187,-87.9075038,
-osm-way-660493009,Casa de Corazón,Daycare,"4114 North Oakland Avenue, Shorewood, WI 53211",,,new,2026-11-04,43.0923532,-87.8871622,
-osm-way-661240430,Gyros Corner,Fast food / takeout,"5914 West Appleton Avenue, Milwaukee, WI 53210",(414) 873-5937,,new,2026-11-04,43.070217,-87.9865808,
-osm-way-661263989,JJ Fish & Chicken,Fast food / takeout,"6005 West Appleton Avenue, Milwaukee, WI 53210",(414) 585-0045,,new,2026-11-04,43.0711568,-87.9881211,
-osm-way-661306891,Children's Palace Learning Center,Daycare,"7365 West Appleton Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0896203,-88.0043658,
-osm-way-661306923,Scrub-A-Dub Car Wash,Car wash,"7315 West Appleton Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0886644,-88.0037852,
-osm-way-661478187,Quick Wash Laundromat,Laundry / cleaner,"7903 West Capitol Drive, Milwaukee, WI 53222",,,new,2026-11-04,43.0896154,-88.0112358,
-osm-way-661502298,Mykonos Family Restaurant,Restaurant,"8401 West Capitol Drive, Milwaukee, WI 53222-1824",,,new,2026-11-04,43.0894935,-88.0190594,
-osm-way-661530071,Bunzel's Meat Market,Butcher / meat market,"9015 West Burleigh Street, Milwaukee, WI 53222",,,new,2026-11-04,43.0747812,-88.0253925,
-osm-way-661546529,Alioto's,Restaurant,"3041 North Mayfair Road, Wauwatosa, WI 53226",,,new,2026-11-04,43.0736804,-88.0485091,
-osm-way-661565873,Big Daddy's BBQ and Soul Food,Restaurant,"9201 West Capitol Drive, Milwaukee, WI 53222-1532",(414) 236-2406,,new,2026-11-04,43.0894643,-88.0279942,
-osm-way-820298147,Cafe Zupas,Restaurant,"N91W15909 Falls Parkway, Menomonee Falls, WI 53051",,,new,2026-11-04,43.1843741,-88.1080731,
-osm-way-881123988,Crave Mequon,Restaurant,10401 North Port Washington Road,,,new,2026-11-04,43.2081855,-87.9247411,
-osm-way-915272382,"Cradles, Cribs & Crayons",Daycare,"5457 North 91st Street, Milwaukee, WI",,,new,2026-11-04,43.1171418,-88.0263063,
-osm-way-1039306537,Don's Tire and Auto,Auto repair,"13180 West Hampton Avenue, Butler, WI 53007",,,new,2026-11-04,43.1051525,-88.0761775,
-osm-way-1039312456,Trysting Place Pub,Restaurant,"N71W12980 Appleton Avenue, Menomonee Falls, 53051",,,new,2026-11-04,43.1475035,-88.071842,
-osm-way-1040086394,Mill Pond Park Concession Stand,Fast food / takeout,"W165N8950 Grand Avenue, Menomonee Falls, WI 53051",,,new,2026-11-04,43.18037,-88.114922,
-osm-way-1040087042,Pepino's,Restaurant,"N84W15841 Appleton Avenue, Menomonee Falls, WI 53051",,,new,2026-11-04,43.170775,-88.1070515,
-osm-way-1040087085,Su Casa Grande,Restaurant,"N84W15842 Appleton Avenue, Menomonee Falls, WI 53051",,,new,2026-11-04,43.1717055,-88.106753,
-osm-way-1040087796,Harvey Moy's,Restaurant,"N89 W16754 Appleton Avenue, Menomonee Falls, WI 53051",,,new,2026-11-04,43.1797191,-88.1177832,
-osm-way-1040092218,Odyssey Family Restaurant,Restaurant,"N82W15380 Appleton Avenue, Menomonee Falls, WI 53051",,,new,2026-11-04,43.1679545,-88.1007895,
-osm-way-1147406773,Jilly's Car Wash,Car wash,"5100 North Port Washington Road, Glendale, WI",,,new,2026-11-04,43.1091644,-87.9162545,
-osm-way-1152756681,Ly Ly Nails & Spa,Nail salon,"480 West Silver Spring Drive, Glendale, WI",,,new,2026-11-04,43.1189264,-87.9151301,
-osm-way-1152756682,Tiffany's Dessert Bar,Bakery,"460 West Silver Spring Drive, Glendale, WI",,,new,2026-11-04,43.1189205,-87.9150161,
-osm-way-1152756727,FreshFin Poke,Restaurant,"5734 North Bayshore Drive, Glendale, WI 53217",,,new,2026-11-04,43.1216228,-87.9138743,
-osm-way-1152756792,Eyebrow Envy,Beauty salon,"5676 North Centerpark Way, Glendale, WI 53217",,,new,2026-11-04,43.1204623,-87.914945,
-osm-way-1152756795,Cinnabar Nutrition,Restaurant,"5694 North Centerpark Way, Glendale, WI 53217",,,new,2026-11-04,43.1207759,-87.9148079,
-osm-way-1152756797,SereniTea Gourmet Bubble Tea,Cafe,"5675 North Bayshore Drive, Glendale, WI 53217",,,new,2026-11-04,43.120301,-87.9144902,
-osm-way-1165157185,B52 Bombers,Restaurant,"N79W14701 Appleton Avenue, Menomonee Falls, WI 53051",,,new,2026-11-04,43.1611191,-88.0932422,
-osm-way-1181835021,Hinnawi Meat & Deli,Butcher / meat market,"4731,4737 West Center Street, Milwaukee, WI 53210",,,new,2026-11-04,43.067795,-87.9734706,
-osm-way-1321881273,Frank's Hand Car Wash,Car wash,"3121 North 36th Street, Milwaukee, WI 53216",,,new,2026-11-04,43.0757269,-87.9588365,
-osm-way-1326264986,Prestige,Dry cleaner,"4425 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0838892,-87.9692034,
-osm-way-1429826089,Wagen Washen,Car wash,"W164N11380 Squire Drive, Germantown, WI 53022",,,new,2026-11-04,43.2242835,-88.112514,
+id,name,type,address,phone,social,status,found_date,lat,lon,notes,email,cuisine,hours,updated,miles,score
+osm-node-827607791,Latitudes Coffee House,Cafe,,(262) 437-0084,,new,2026-11-04,43.1926022,-88.1025786,,,,,2025-11-09,5.9,20.9
+osm-node-1607154018,Grace & Shelly's,Bakery,310 East Silver Spring Drive,,,new,2026-11-04,43.1186442,-87.9063047,,,,,2016-01-06,5.5,9.4
+osm-node-1905811222,Gyro Palace,Fast food / takeout,5336 North Port Washington Road,,,new,2026-11-04,43.113856,-87.9162421,,,,,2025-11-28,5.4,13.6
+osm-node-1932260731,Fiddleheads Artisan Bakery,Cafe,"120 N. Main Street, 53092",,,new,2026-11-04,43.2312315,-87.9836187,,,coffee shop,,2023-07-24,4.2,12.9
+osm-node-1932265569,Fiddleheads Coffee Roasters - Thiensville,Cafe,"192 South Main Street, 53092",,,new,2026-11-04,43.2280343,-87.984182,,,coffee shop,,2024-04-27,4.0,15.2
+osm-node-2595878893,Stone Creek Coffee,Cafe,"527 East Silver Spring Drive, Whitefish Bay, WI 53217",(414) 635-0017,,new,2026-11-04,43.118302,-87.9032517,,,coffee shop,Mo-Su 06:00-21:00,2025-06-12,5.6,24.2
+osm-node-3158139978,The Coffeehouse @ Purloin Studio,Cafe,"N88 W16567 Main Street, Menomonee Falls, WI 53051",,,new,2026-11-04,43.1789958,-88.1156108,,,coffee shop,Tu-Fr 07:00-15:00; Sa 09:00-15:00,2019-05-02,6.4,11.4
+osm-node-3930437457,Elements,Massage,312 East Silver Spring Drive,,,new,2026-11-04,43.1186409,-87.9062121,,,,,2016-01-06,5.5,9.4
+osm-node-4554608715,Highland House,Restaurant,"12741 Port Washington Road, Mequon, 53092",,,new,2026-11-04,43.2500914,-87.9246976,,,,,2026-03-23,6.4,14.3
+osm-node-4554633363,Freistadt Automotive,Auto repair,"10826 Freistadt Rd., Mequon, 53097",,,new,2026-11-04,43.2360959,-88.0457537,,,,,2016-12-14,5.4,11.6
+osm-node-5438941069,Casa Grande Hair And Nail Salon,Nail salon,"N112W16700 Mequon Road, Germantown, WI 53022",(262) 251-7540,,new,2026-11-04,43.2213003,-88.1176558,,,,Mo 09:00-20:00; Tu-Th 09:00-21:00; Fr 09:00-17:00; Sa 08:00-15:00,2018-02-27,7.3,21.2
+osm-node-6182425232,The Anchorage,Restaurant,"4700 North Port Washington Road, Glendale, WI 53212",(414) 962-4710,,new,2026-11-04,43.1025344,-87.9163983,,,seafood,Mo-Su 06:30-22:00,2019-01-03,6.0,21.9
+osm-node-6182425243,TJ Aliota's,Restaurant,"261 East Hampton Avenue, Milwaukee, WI 53217",,,new,2026-11-04,43.1037381,-87.9078555,,,italian,,2019-01-03,6.2,10.6
+osm-node-6191160098,San's Sandbox Child Development Center,Daycare,"7261 West Appleton Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0878719,-88.0028099,,,,,2024-07-01,5.7,13.1
+osm-node-6794468605,Sprecher Outdoor Oasis,Restaurant,"2399 West Bender Road, Glendale, WI 53209",,,new,2026-11-04,43.1303771,-87.9401695,,,,,2019-09-14,3.7,13.5
+osm-node-7266919993,Oscar Motorcars,Auto repair,"310 East Brown Deer Road, Bayside, WI 53217-2338",(414) 352-9958,,new,2026-11-04,43.1769907,-87.9046697,,,,,2026-03-23,4.3,24.8
+osm-node-8522480837,T Nails,Nail salon,"10380 West Silver Spring Drive, Milwaukee, WI",,,new,2026-11-04,43.1199086,-88.0418316,,,,,2021-03-15,4.3,15.8
+osm-node-8522480993,Cosmo Beauty,Beauty salon,"10448 West Silver Spring Drive, Milwaukee, WI",,,new,2026-11-04,43.1206944,-88.0435496,,,,,2021-03-15,4.3,14.8
+osm-node-8618265306,Ly Ly Nail & Spa,Beauty salon,"333 West Brown Deer Road, Bayside, WI 53217",(414) 247-0228,,new,2026-11-04,43.176329,-87.9113994,,,,,2026-03-23,4.0,25.2
+osm-node-9556059329,Riverpoint Salons and Spa,Beauty salon,,(414) 531-3668,https://www.facebook.com/RiverpointSalons/,new,2026-11-04,43.1742337,-87.9132752,,,,,2022-03-05,3.9,24.3
+osm-node-9760378954,Nail & Spa,Nail salon,"6402 North 76th Street, Milwaukee, WI 53223-6102",,,new,2026-11-04,43.1344559,-88.0052853,,,,,2024-10-20,2.6,19.9
+osm-node-10219979297,Express Coin Laundry,Laundry / cleaner,"5617 West Lisbon Avenue, Milwaukee, WI 53210-2262",,,new,2026-11-04,43.0657401,-87.9835258,,,,,2024-06-28,7.2,12.3
+osm-node-10236374599,Tsunami Express Car Wash,Car wash,"5209 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0910079,-87.9783201,,,,Mo-Su 07:00-20:00,2024-10-24,5.5,14.4
+osm-node-10240496610,Nail Love II,Nail salon,"7926 West Capitol Drive, Milwaukee, WI 53222",,,new,2026-11-04,43.0901351,-88.0118312,,,,,2025-03-07,5.6,16.2
+osm-node-10707532947,Bentleys Petstuff,Pet grooming,"4165 North Oakland Avenue, Shorewood, WI 53211",,,new,2026-11-04,43.0932522,-87.8877173,,,,,2023-03-03,7.4,8.1
+osm-node-10707532949,Buttermint Fine Dining & Cocktails,Restaurant,"4195 North Oakland Avenue, Shorewood, WI 53211",,,new,2026-11-04,43.0933973,-87.8877059,,,,,2023-03-03,7.4,11.1
+osm-node-10980991466,Miss Molly's Cafe and Pastry Shop,Cafe,"9201 West Center Street, Milwaukee",,,new,2026-11-04,43.0675889,-88.0278073,,,"sandwich, coffee shop, dessert",,2023-06-16,7.3,9.2
+osm-node-11217077778,Jilly's Car Wash,Car wash,"10829 North Port Washington Road, Mequon, 53092",,,new,2026-11-04,43.2150788,-87.9248685,,,,,2023-11-15,4.5,12.6
+osm-node-11273102351,Cassia Nail Spa,Nail salon,"N89W16853 Appleton Avenue, Menomonee Falls, WI 53051",,,new,2026-11-04,43.1802484,-88.1199094,,,,,2023-10-18,6.6,13.1
+osm-node-11534840817,Plaza Laundry,Laundry / cleaner,"W156N11050 Pilgrim Road, Germantown, WI 53022",,,new,2026-11-04,43.2182977,-88.1019856,,,,Mo-Su 06:00-22:00,2024-02-14,6.6,16.1
+osm-node-12015667758,Teddy Bear Child Care,Daycare,"5140 West Lisbon Avenue, Milwaukee, WI 53210",,,new,2026-11-04,43.0636511,-87.9785264,,,,,2024-06-27,7.4,11.2
+osm-node-12015820310,Trendsetta Stylez Salon,Hair salon,"5327 West Lisbon Avenue, Milwaukee, WI 53210",,,new,2026-11-04,43.0644715,-87.9807911,,,,,2024-06-27,7.3,14.2
+osm-node-12016495831,Whitelaw Auto Body Repair,Auto repair,"5401 West Lisbon Avenue, Milwaukee, WI 53210",,,new,2026-11-04,43.0645835,-87.9812187,,,,,2024-06-28,7.3,13.2
+osm-node-12018236675,RC's Communications,Auto repair,"5406 West Lisbon Avenue, Milwaukee, WI 53210",,,new,2026-11-04,43.0651696,-87.9814827,,,,,2024-06-28,7.3,13.3
+osm-node-12018445126,A Team Automotive Repair,Auto repair,"5518 West Lisbon Avenue, Milwaukee, WI 53210",(414) 312-7155,,new,2026-11-04,43.0656601,-87.982426,,,,"""By appointment""",2024-06-28,7.2,24.3
+osm-node-12018445150,Starr Wheel Aligning,Auto repair,"5729 West Lisbon Avenue, Milwaukee, WI 53210",(414) 442-1350,,new,2026-11-04,43.0666554,-87.9849672,,,,,2024-06-28,7.1,21.4
+osm-node-12020044849,Car Tunes,Auto repair,"5814 West Center Street, Milwaukee, WI 53210",(414) 231-1111,,new,2026-11-04,43.068274,-87.985868,,,,"Mo-Fr 09:00-18:00; Sa,Su 09:00-17:00",2024-06-29,7.0,24.6
+osm-node-12020206463,Sphinx,Hair salon,"5828 West Appleton Avenue, Milwaukee, WI 53210",,,new,2026-11-04,43.0688707,-87.9856315,,,,,2024-06-29,7.0,14.6
+osm-node-12020206466,Loyalty Automotive,Auto repair,"5921 West Appleton Avenue, Milwaukee, WI 53210",,,new,2026-11-04,43.0700368,-87.9869819,,,,,2024-06-29,6.9,13.7
+osm-node-12020206468,Harvest Learning center,Daycare,"5936 West Appleton Avenue, Milwaukee, WI 53210",,,new,2026-11-04,43.0705713,-87.9868258,,,,,2024-06-29,6.9,11.8
+osm-node-12020213082,Learn Through Love Child Care,Daycare,"6333 West Burleigh Street, Milwaukee, WI 53210",,,new,2026-11-04,43.0751912,-87.9918202,,,,,2024-06-29,6.6,12.1
+osm-node-12025502030,Options Salon & Spa,Hair salon,"7212 West Appleton Avenue, Milwaukee, WI 53216",(414) 509-8000,https://www.facebook.com/optionssalon1/,new,2026-11-04,43.087269,-88.0015063,,optionsspa2@gmail.com,,,2024-07-01,5.7,25.1
+osm-node-12026963803,Pamper Me Pleaz,Beauty salon,"7484 West Appleton Avenue, Milwaukee, WI 53216-1068",(414) 871-3237,https://www.facebook.com/pampermepleaz/,new,2026-11-04,43.0916158,-88.0050466,,,,,2024-07-01,5.5,24.4
+osm-node-12027960008,No. 1 Chinese Restaurant,Fast food / takeout,"7512 West Appleton Avenue, Milwaukee, WI 53216",(414) 535-8888,,new,2026-11-04,43.0922208,-88.0056062,,,chinese,"Mo,We-Sa 11:00-21:00; Su 11:30-21:00; Tu off",2024-07-02,5.4,24.5
+osm-node-12028890788,OSAS African Hair braiding,Hair salon,"7514 West Appleton Avenue, Milwaukee, WI 53216",(414) 439-9805,,new,2026-11-04,43.0922867,-88.0056559,,,,,2026-07-22,5.4,24.5
+osm-node-12028890790,Shawn Da' Barbershop & Beauty Salon,Hair salon,"7516 West Appleton Avenue, Milwaukee, WI 53216",(414) 499-8039,https://www.facebook.com/DaRealShawnDaBarber/,new,2026-11-04,43.0923383,-88.0056957,,,,"Mo,Su 11:00-17:00; Tu-Sa 08:00-22:00",2024-07-02,5.4,28.5
+osm-node-12028890791,Ebony Queen III Beauty Salon,Hair salon,"7526 West Appleton Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0924868,-88.005837,,,,,2024-07-02,5.4,16.5
+osm-node-12028890796,Fanciful Braidz,Hair salon,"7526 West Appleton Avenue, Milwaukee, WI 53216",(414) 488-5827,,new,2026-11-04,43.0925376,-88.0057872,,fancifulbraidz@gmail.com,,,2024-07-02,5.4,25.5
+osm-node-12028890797,Affordable Grooming Services Plus More,Pet grooming,"7532 West Appleton Avenue, Milwaukee, WI 53216",(262) 458-8699,,new,2026-11-04,43.0926243,-88.0059321,,,,,2024-07-02,5.4,20.5
+osm-node-12028890798,Hair of Art Salon,Hair salon,"7532 West Appleton Avenue, Milwaukee, WI 53216",(414) 393-1237,,new,2026-11-04,43.0926571,-88.0058771,,,,,2024-07-02,5.4,24.5
+osm-node-12028890799,Ink Below Zero,Tattoo studio,"7530 West Appleton Avenue, Milwaukee, WI 53216",,https://instagram.com/inkbelowzero,new,2026-11-04,43.0925825,-88.0059121,,,,,2024-07-02,5.4,13.5
+osm-node-12031093217,Brake Shop,Auto repair,"7665 West Appleton Avenue, Milwaukee, WI 53222",,,new,2026-11-04,43.0942681,-88.008164,,,,,2024-07-03,5.3,15.6
+osm-node-12031480689,Lucky Nails Spa,Nail salon,"7848 West Appleton Avenue, Milwaukee, WI 53218",(414) 897-8269,,new,2026-11-04,43.0981794,-88.0103768,,,,,2024-07-03,5.1,24.9
+osm-node-12031480691,Black Essence Braiding Salon,Hair salon,"7846 West Appleton Avenue, Milwaukee, WI 53218",(414) 507-3391,,new,2026-11-04,43.0981363,-88.0103356,,,,,2024-07-03,5.1,24.9
+osm-node-12031764484,Headz Up Barber & Beauty,Hair salon,"7924 West Appleton Avenue, Milwaukee, WI 53218",(414) 502-8111,,new,2026-11-04,43.0992268,-88.0112128,,,,,2024-07-03,5.0,25.0
+osm-node-12031764502,Tina N Tots Children Academy,Daycare,"7968 West Appleton Avenue, Milwaukee, WI 53218",,,new,2026-11-04,43.1000427,-88.0118478,,,,,2024-07-03,5.0,14.1
+osm-node-12031767980,Gerlach Electric,Electrician,"8224 West Appleton Avenue, Milwaukee, WI 53218",(414) 462-2525,,new,2026-11-04,43.1032368,-88.0143726,,,,,2024-07-03,4.8,21.3
+osm-node-12031788503,Safety Autos,Auto repair,"9130 West Appleton Avenue, Milwaukee, WI 53225",,,new,2026-11-04,43.1133436,-88.0263327,,,,,2024-07-05,4.3,16.8
+osm-node-12035883995,Future Rising Stars Child Care,Daycare,"8006 West Appleton Avenue, Milwaukee, WI 53218",(414) 988-4135,,new,2026-11-04,43.1006861,-88.012381,,,,,2024-07-05,4.9,22.1
+osm-node-12035883996,Cre8tive Kidz Learning Center,Daycare,"8028 West Appleton Avenue, Milwaukee, WI 53218",(414) 304-9904,,new,2026-11-04,43.1010892,-88.0126356,,,,Mo-Fr 06:30-19:00,2024-07-05,4.9,25.1
+osm-node-12036095382,BK Landscape Contracting & Supplies,Landscaping,"9150 West Appleton Avenue, Milwaukee, WI 53225-3409",,,new,2026-11-04,43.1137371,-88.026637,,,,,2024-07-05,4.3,13.8
+osm-node-12036095393,Nelson’s Tire And Auto Repair Shop,Tire shop,"9746 West Appleton Avenue, Milwaukee, WI 53225",(414) 640-6200,,new,2026-11-04,43.1192366,-88.0336372,,,,Mo-Sa 08:00-18:00; Su 09:00-17:00,2024-07-05,4.1,25.0
+osm-node-12036095402,Amazing Grace Child Care,Daycare,"10050 West Appleton Avenue, Milwaukee, WI 53225",(414) 393-1997,,new,2026-11-04,43.121856,-88.0374835,,,,,2024-07-05,4.1,23.1
+osm-node-12244428060,Hoby's on the Ave,Hair salon,"3418 West Fond du Lac Avenue, Milwaukee, WI 53210-1935",,,new,2026-11-04,43.0747749,-87.9565944,,,,,2024-10-11,6.8,14.8
+osm-node-12254795618,T&T Cafe,Cafe,"3528 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 763-7778,,new,2026-11-04,43.0758594,-87.9579539,,,soul food,,2024-10-16,6.7,20.0
+osm-node-12254884851,Crystal's Creative Minds Learning Center,Daycare,"3601 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.075858,-87.9587229,,,,Mo-Fr 06:00-19:00,2024-10-16,6.7,15.0
+osm-node-12261016756,J Star Car Wash & Detailing,Car wash,,(414) 444-4622,,new,2026-11-04,43.0790072,-87.9628633,,,,,2024-10-18,6.4,18.3
+osm-node-12261016758,JD Auto & Cycles,Auto repair,"3823 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.078022,-87.9616221,,,,,2024-10-18,6.5,14.2
+osm-node-12268351930,Caring Angels Child Care Center,Daycare,"3717 West Fond du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0772804,-87.9604464,,,,,2024-10-19,6.6,12.1
+osm-node-12268351931,Treat Um Like They're Mine,Daycare,"3156 North 38th Street, Milwaukee, WI 53216-3604",(414) 336-8784,,new,2026-11-04,43.0764964,-87.960562,,,,,2024-10-19,6.6,20.0
+osm-node-12269034278,Geno's Bar & Grill,Restaurant,"3908 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 447-7114,,new,2026-11-04,43.0795649,-87.9626661,,,,,2024-10-19,6.4,22.3
+osm-node-12269034284,Brainiac's Child Development Center,Daycare,"3924 West Fond du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0796578,-87.9628027,,,,,2024-10-19,6.4,12.3
+osm-node-12269034299,Haven of Hope Development Center,Daycare,,(414) 875-6805,,new,2026-11-04,43.0805359,-87.9638154,,,,Mo-Fr 06:00-18:00,2024-10-19,6.3,23.4
+osm-node-12269131353,All Walks of Life II Childcare Center,Daycare,,(414) 444-2784,,new,2026-11-04,43.0813384,-87.9649095,,,,,2026-07-22,6.3,20.5
+osm-node-12269131355,Hair ByKizzy,Hair salon,"4250 West Fond du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0826375,-87.966669,,,,,2024-10-19,6.1,15.6
+osm-node-12269131357,Eternal Kutz & Designs,Hair salon,,(414) 800-5005,,new,2026-11-04,43.0826976,-87.9667506,,,,,2024-10-19,6.1,23.6
+osm-node-12271107326,Clean Laundry,Laundry / cleaner,"4330 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 635-6947,,new,2026-11-04,43.0836555,-87.9679107,,store0037@cleanlaundry.com,,Mo-Su 08:00-20:00,2024-10-20,6.1,25.7
+osm-node-12271119628,Paradise African Hair Braiding,Hair salon,"4427 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0840384,-87.9691887,,,,,2024-10-20,6.0,15.8
+osm-node-12279132956,Gifted Hands Car Center,Car wash,"4401 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0834463,-87.9687648,,,,,2024-10-22,6.1,10.7
+osm-node-12279148787,Rubys Precious Little Angels Learning Academy,Daycare,"4335 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 445-6370,,new,2026-11-04,43.0832577,-87.9682127,,,,,2024-10-22,6.1,20.7
+osm-node-12281531178,A Taste of Soul MKE,Restaurant,"4706 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 810-1101,https://www.facebook.com/ChefTrentin/,new,2026-11-04,43.0870162,-87.9722568,,,,,2024-10-23,5.8,24.0
+osm-node-12281531179,Dakar Hair Braiding,Hair salon,"4710 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 444-8325,,new,2026-11-04,43.0870793,-87.9723491,,,,,2024-10-23,5.8,24.0
+osm-node-12281531180,My Little Munchkins Childcare Center,Daycare,"4714 West Fond du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0871243,-87.9723989,,,,,2024-10-23,5.8,13.0
+osm-node-12281531183,Nappy Roots Hair Salon,Hair salon,"4730 West Fond Du Lac Avenue, Milwaukee, WI 53216",(414) 447-6687,,new,2026-11-04,43.0873486,-87.9726975,,,,,2024-10-23,5.8,24.1
+osm-node-12281531184,Esquire Hair Salon,Hair salon,"4736 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0874283,-87.9728097,,,,,2024-10-23,5.8,16.1
+osm-node-12281531185,Nail City,Nail salon,"4834, West Fond Du Lac Avenue, Milwaukee, WI 53216",(414) 871-8213,,new,2026-11-04,43.0880983,-87.9736585,,,,,2024-10-23,5.7,24.1
+osm-node-12281531186,Royal Palace Child Development Center,Daycare,"4840 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0882197,-87.9737872,,,,,2024-10-23,5.7,13.1
+osm-node-12281531187,Amazing Mays Childcare,Daycare,"4850 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0883422,-87.9739348,,,,,2024-10-23,5.7,13.2
+osm-node-12281531190,Ernie's Super Service,Auto repair,"4870 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 445-8695,,new,2026-11-04,43.0887176,-87.9742459,,,,,2024-10-23,5.7,23.2
+osm-node-12281531193,Zaza Steak & Lemonade,Fast food / takeout,"4919 West Capitol Drive, Milwaukee, WI 53216",,,new,2026-11-04,43.0896099,-87.9754077,,,sandwich,,2024-10-23,5.6,13.3
+osm-node-12282246220,Crave BBQ,Restaurant,"4923 West Fond Du Lac Avenue, Milwaukee, WI 53216",(414) 509-6278,https://www.facebook.com/people/Crave-BBQ/61556063229745/,new,2026-11-04,43.0888905,-87.9754324,,cravebbqmke@gmail.com,barbecue,,2024-10-23,5.7,24.2
+osm-node-12282246221,Zoe's Barber Elite & Beauty Salon,Hair salon,"4919 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.088837,-87.975347,,,,,2024-10-23,5.7,16.2
+osm-node-12284972896,Mister Stereo,Auto repair,"5040 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 466-0300,,new,2026-11-04,43.0905212,-87.9767138,,,,,2024-10-24,5.5,23.4
+osm-node-12287753948,Freeze-N-Beauty Spa,Nail salon,"5444 West Fond du Lac Avenue, Milwaukee, WI 53216",(414) 614-7767,,new,2026-11-04,43.0944487,-87.9816327,,,,,2024-10-25,5.2,24.7
+osm-node-12287753952,Members Only Cuts & Styles,Hair salon,"5638 West Fond du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0959241,-87.9835912,,,,,2024-10-25,5.1,16.8
+osm-node-12288754689,Seafood Junction,Restaurant,"6542 West Fond Du Lac Avenue, Milwaukee, WI 53218",,,new,2026-11-04,43.1041308,-87.9935222,,,seafood,,2024-10-25,4.6,16.5
+osm-node-12289845060,Kidville Learning Center,Daycare,"6523 West Fond Du Lac Avenue, Milwaukee, WI 53218",,,new,2026-11-04,43.1033509,-87.9936916,,,,,2024-10-26,4.6,14.5
+osm-node-12289937616,League of Extraordinary Barbers,Barbershop,"6203 West Fond du Lac Avenue, Milwaukee, WI 53218",,,new,2026-11-04,43.0999785,-87.9898512,,,,,2024-10-26,4.8,18.2
+osm-node-12293541200,Precious Blessings Learning Center,Daycare,"6915 West Fond du Lac Avenue, Milwaukee, WI 53218-3919",(414) 239-8796,,new,2026-11-04,43.1065305,-87.9978417,,,,,2024-10-28,4.4,22.7
+osm-node-12384492961,Four Hearts Child Care Center,Daycare,"7110 West Fond du Lac Avenue, Milwaukee, WI 53218",,,new,2026-11-04,43.1089757,-87.9997902,,,,,2024-11-29,4.2,14.9
+osm-node-12384492963,D&D Auto Services,Auto repair,"7124 West Fond du Lac Avenue, Milwaukee, WI 53218",,,new,2026-11-04,43.109136,-88.0001317,,,,,2024-11-29,4.2,16.9
+osm-node-12570979168,A Passion for Kids II,Daycare,"7526 West Fond du Lac Avenue, Milwaukee, WI 53218",,,new,2026-11-04,43.1129234,-88.0048269,,,,,2025-02-09,4.0,15.2
+osm-node-12573810152,Marshall's Family Childcare,Daycare,"8717 West Fond Du Lac Avenue, Milwaukee, WI 53225-2014",,,new,2026-11-04,43.1240855,-88.0214933,,,,,2025-02-10,3.5,15.7
+osm-node-12573810153,Suds Your Duds Coin Laundry,Laundry / cleaner,"6050 North 91st Street, Milwaukee, WI 53225",,,new,2026-11-04,43.1277577,-88.0252043,,,,,2025-02-10,3.4,16.9
+osm-node-12573927470,Mussomelli's Auto Care,Auto repair,"9105 West Fond du Lac Avenue, Milwaukee, WI 53225",(414) 353-3293,,new,2026-11-04,43.1284042,-88.0262335,,,,,2025-02-10,3.4,25.9
+osm-node-12573927471,Nuno's Auto Body,Auto repair,"9209 West Fond du Lac Avenue, Milwaukee, WI 53225-1712",(414) 353-1333,,new,2026-11-04,43.1295341,-88.027429,,,,,2025-02-10,3.4,26.0
+osm-node-12573951798,Zaza's Steak & Lemonade,Fast food / takeout,"9618 West Fond du Lac Avenue, Milwaukee, WI 53225",(414) 358-1999,,new,2026-11-04,43.1336297,-88.0314286,,,sandwich,Mo-We 10:00-22:30; Th-Sa 10:00-23:30; Su 13:00-21:30,2025-02-10,3.3,27.1
+osm-node-12634219363,King Gyros,Fast food / takeout,"10000 West Capitol Drive, Milwaukee, WI 53222",(414) 800-4625,,new,2026-11-04,43.0900921,-88.0381765,,,gyros,08:00-19:00,2025-03-03,6.0,23.8
+osm-node-12636164512,Jamaican Season Island,Restaurant,"9207 West Capitol Drive, Milwaukee, WI 53222",,,new,2026-11-04,43.0892405,-88.0279998,,,jamaican,,2025-03-04,5.9,14.9
+osm-node-12640706010,Divine Hair & Extensions,Hair salon,"7833 West Capitol Drive, Milwaukee, WI 53222",(414) 210-3700,,new,2026-11-04,43.0896929,-88.0100795,,,,,2025-03-06,5.6,24.2
+osm-node-12640706011,Happy Nails,Nail salon,"7833 West Capitol Drive, Milwaukee, WI 53222",(414) 462-8470,,new,2026-11-04,43.0896929,-88.0099516,,,,,2025-03-06,5.6,24.2
+osm-node-12642736242,Queen Nails,Nail salon,"7600 West Capitol Drive, Milwaukee, WI 53222",(414) 464-0979,https://www.facebook.com/QueenNails76/,new,2026-11-04,43.0905078,-88.0093684,,,,,2025-03-07,5.6,25.3
+osm-node-12642868861,Kids Land Learning Center,Daycare,"7918 West Capitol Drive, Milwaukee, WI 53222",(414) 763-3194,https://www.facebook.com/kidsland01/,new,2026-11-04,43.0901761,-88.01136,,,,Mo-Fr 06:00-21:00,2025-03-07,5.6,25.3
+osm-node-12642916052,The Lunchroom,Restaurant,"8000 West Capitol Drive, Milwaukee, WI 53222",(414) 231-3037,https://www.facebook.com/thelunchroommke,new,2026-11-04,43.0900722,-88.0126279,,thelunchroom@att.net,,Mo-Sa 17:00-01:00,2025-03-07,5.6,27.2
+osm-node-12642916065,Fundamentals Of Learning Daycare,Daycare,"8028 West Capitol Drive, Milwaukee, WI 53222",(414) 935-2995,,new,2026-11-04,43.0900905,-88.013128,,,,,2025-03-07,5.6,21.2
+osm-node-12643455363,Bizzy Bugz,Daycare,"8500 West Capitol Drive, Milwaukee, WI 53222",(414) 249-5133,,new,2026-11-04,43.0900119,-88.0191111,,,,,2025-03-07,5.7,21.1
+osm-node-12643455364,Kays Klubhouse Early Childhood Learning,Daycare,"4027 North 85th Street, Milwaukee, WI 53222",(414) 690-3977,,new,2026-11-04,43.0904947,-88.0191554,,,,,2025-03-07,5.7,21.2
+osm-node-12644247286,The Subject: Hair,Hair salon,"7109 West Capitol Drive, Milwaukee, WI 53216-2051",(414) 462-2420,,new,2026-11-04,43.0897377,-88.0009987,,,,,2025-03-07,5.6,24.3
+osm-node-12644247287,K.F.L.C Childcare Center,Daycare,"7101 West Capitol Drive, Milwaukee, WI 53216",(414) 739-3637,,new,2026-11-04,43.0897401,-88.0008168,,,,,2025-03-07,5.6,21.3
+osm-node-12644247288,Multicultural Learning Academy,Daycare,"7027 West Capitol Drive, Milwaukee, WI 53216",(414) 553-7481,,new,2026-11-04,43.0895707,-88.0003693,,,,,2025-03-07,5.6,21.3
+osm-node-12644247290,Speedy Brake,Auto repair,"6927 West Capitol Drive, Milwaukee, WI 53216",(414) 536-9600,,new,2026-11-04,43.0895575,-87.9990354,,,,,2025-03-07,5.6,23.3
+osm-node-12644247300,Rokyas African Hair Braiding,Hair salon,"6915 West Capitol Drive, Milwaukee, WI 53216",(414) 355-3911,,new,2026-11-04,43.0897275,-87.9987744,,,,,2025-03-07,5.6,24.3
+osm-node-12645202068,DJ Spa & Nails,Beauty salon,"6733 West Capitol Drive, Milwaukee, WI 53216",,,new,2026-11-04,43.0897234,-87.99687,,,,,2025-03-08,5.6,15.3
+osm-node-12645202072,Hilltop Christian Academy Childcare,Daycare,"6627 West Capitol Drive, Milwaukee, WI 53216",(414) 934-8885,,new,2026-11-04,43.0897296,-87.9954715,,,,,2025-03-08,5.6,21.3
+osm-node-12645202074,Caritas Felices Childcare,Daycare,"4023 North 63rd Street, Milwaukee, WI 53216",(414) 324-2763,,new,2026-11-04,43.0905885,-87.9910889,,,,Mo-Fr 06:00-22:00,2025-03-08,5.5,24.4
+osm-node-12645202075,Open Doors Learning Center,Daycare,"4068 North 68th Street, Milwaukee, WI 53216",(414) 249-3167,,new,2026-11-04,43.0915548,-87.9966881,,,,06:00-24:00,2025-03-08,5.4,24.5
+osm-node-12645202091,L's Hair Elegance,Hair salon,"3968 North 68th Street, Milwaukee, WI 53216",(414) 333-4164,,new,2026-11-04,43.0896221,-87.9968768,,,,,2025-03-08,5.6,24.3
+osm-node-12645224703,Spark's Auto Services,Auto repair,"6303 West Capitol Drive, Milwaukee, WI 53216",(414) 462-8944,,new,2026-11-04,43.0895874,-87.9910874,,,,,2025-03-08,5.6,23.3
+osm-node-12645224705,Much Better Studios,Hair salon,"6119 West Capitol Drive, Milwaukee, WI 53216",(414) 397-1594,,new,2026-11-04,43.0897721,-87.9889062,,,,,2025-03-08,5.5,24.3
+osm-node-12645449273,Nail City II,Nail salon,"5823 West Capitol Drive, Milwaukee, WI 53216",(414) 449-9927,,new,2026-11-04,43.0896861,-87.9863328,,,,,2025-03-08,5.6,24.3
+osm-node-12645449274,Auto Sound & Security,Auto repair,"5823 West Capitol Drive, Milwaukee, WI 53216",,,new,2026-11-04,43.0895228,-87.9865096,,,,,2025-03-08,5.6,15.3
+osm-node-12645449275,Velasquez Complete Auto Care,Auto repair,"5811 West Capitol Drive, Milwaukee, WI 53216",,https://www.instagram.com/velasquezcompleteautocare/,new,2026-11-04,43.089678,-87.9859844,,,,,2025-03-08,5.6,16.3
+osm-node-12648362379,Fireside BBQ & Grill,Restaurant,"7706 West Burleigh Street, Milwaukee, WI 53222",(414) 635-7400,,new,2026-11-04,43.0755231,-88.0090254,,,barbecue,,2025-03-09,6.6,22.1
+osm-node-12649367094,Airbrush and Tattoo Specialists,Tattoo studio,"5033 West Capitol Drive, Milwaukee, WI 53216-2346",(414) 871-4278,,new,2026-11-04,43.0896988,-87.9766516,,,,,2025-03-10,5.6,20.3
+osm-node-12649743813,Le Nail & Spa,Nail salon,"7450 West Capitol Drive, Milwaukee, WI 53216",(414) 616-1433,,new,2026-11-04,43.0902082,-88.0058234,,,,,2025-03-10,5.6,24.3
+osm-node-12649743815,Fiyahside Jamaican Cuisine,Restaurant,"7434 West Capitol Drive, Milwaukee, WI 53216",(414) 204-8740,,new,2026-11-04,43.0902075,-88.0054102,,,jamaican,,2025-03-10,5.6,23.3
+osm-node-12650302966,Epiphany Beauty Collections,Hair salon,"6222 West Capitol Drive, Milwaukee, WI 53216",(414) 544-4606,https://www.facebook.com/p/Epiphany-Beauty-Collections-100063773130741/,new,2026-11-04,43.0902499,-87.9902964,,angel_stylist1@yahoo.com,,,2025-03-10,5.5,25.4
+osm-node-12655893929,NuNu Fresh Kut'z,Barbershop,"6520 West Capitol Drive, Milwaukee, WI 53216",(414) 253-5067,,new,2026-11-04,43.0903239,-87.9942692,,,,,2025-03-12,5.5,25.4
+osm-node-12655893930,Safee Professional African Hair Braiding Salon II,Hair salon,"6516 West Capitol Drive, Milwaukee, WI 53216",(414) 462-1900,,new,2026-11-04,43.0903215,-87.9941428,,,,,2025-03-12,5.5,24.4
+osm-node-12655893933,Fever Nail Spa,Nail salon,"6508 West Capitol Drive, Milwaukee, WI 53216",(414) 462-1188,,new,2026-11-04,43.0903254,-87.9939083,,,,,2025-03-12,5.5,24.4
+osm-node-12655893934,Dry Clean Discounters,Dry cleaner,"6506 West Capitol Drive, Milwaukee, WI 53216",(414) 585-9303,https://www.facebook.com/155316027841863,new,2026-11-04,43.0903223,-87.9938302,,,,,2025-03-12,5.5,23.4
+osm-node-12655893937,Class Act Hair & Nail,Nail salon,"6500 West Capitol Drive, Milwaukee, WI 53216",(414) 466-5659,,new,2026-11-04,43.0903181,-87.9936153,,,,,2025-03-12,5.5,24.4
+osm-node-12656257866,Trans-X-Press Transmissions,Auto repair,"6826 West Capitol Drive, Milwaukee, WI 53216",(414) 246-4156,https://www.facebook.com/113135540585168,new,2026-11-04,43.0902437,-87.9978503,,,,Mo-Fr 08:00-17:00; Sa 08:00-14:00,2025-03-12,5.5,27.4
+osm-node-12658327755,One Stop Tire & Battery,Tire shop,"4344 West Capitol Drive, Milwaukee, WI 53216",,,new,2026-11-04,43.0900444,-87.968168,,,,,2025-03-13,5.6,12.2
+osm-node-12658327758,Fabulous Adventures Childcare Center LLC,Daycare,"4434 West Capitol Drive, Milwaukee, WI 53216",(414) 461-0566,,new,2026-11-04,43.0900652,-87.9695769,,,,,2025-03-13,5.6,21.3
+osm-node-12659400446,Chicago Sub,Fast food / takeout,"4231 West Capitol Drive, Milwaukee, WI 53216",(414) 447-9100,https://www.facebook.com/119932264690764,new,2026-11-04,43.0896214,-87.9664224,,,sandwich,,2025-03-13,5.7,22.2
+osm-node-12659926843,Goodlife Auto Repair,Auto repair,"3901 West Capitol Drive, Milwaukee, WI 53216-2528",,,new,2026-11-04,43.0895195,-87.9624172,,,,,2025-03-13,5.7,15.1
+osm-node-12659926847,JM Laundry Services,Laundry / cleaner,"4200 West Capitol Drive, Milwaukee, WI 53216",,https://www.facebook.com/1602320533379833,new,2026-11-04,43.0900449,-87.9655098,,,,,2025-03-13,5.7,15.2
+osm-node-12771770290,Faith Development Learning Center,Daycare,"3526 West Capitol Drive, Milwaukee, WI 53216",,,new,2026-11-04,43.0901031,-87.9580096,,,,,2025-04-21,5.8,13.1
+osm-node-12771770297,De Ja Vu,Barbershop,"4124 West Capitol Drive, Milwaukee, WI 53216",(414) 875-2627,,new,2026-11-04,43.0900555,-87.964984,,,,,2025-04-21,5.7,25.2
+osm-node-12875176924,Toya's Homestyle Restaurant,Fast food / takeout,"3326 West Capitol Drive, Milwaukee, WI 53216",,,new,2026-11-04,43.0900823,-87.9549818,,,,,2025-05-30,5.8,13.0
+osm-node-12903470526,VIP Child Care Services,Daycare,"2301,2307 West Capitol Drive, Milwaukee, WI 53206",(414) 871-6704,,new,2026-11-04,43.0894725,-87.9411125,,,,,2025-06-10,6.1,20.7
+osm-node-12903470532,Sun Nails & Spa,Nail salon,,(414) 265-2827,,new,2026-11-04,43.0894215,-87.9392619,,,,,2025-06-10,6.1,23.6
+osm-node-12912386629,Nail Expo,Nail salon,"2234 West Capitol Drive, Milwaukee, WI 53206",,https://www.instagram.com/nailexpomke/,new,2026-11-04,43.0898995,-87.9407545,,,,Mo-Sa 09:00-19:00; Su 10:00-16:00,2025-06-13,6.1,19.7
+osm-node-12912386672,Quiet Zone,Auto repair,"2422 West Capitol Drive, Milwaukee, WI 53209",,,new,2026-11-04,43.0901034,-87.9428933,,,,,2025-06-13,6.0,14.8
+osm-node-12912386680,Peco African Hair Braiding,Hair salon,"2458 West Capitol Drive, Milwaukee, WI 53206",(414) 875-9341,,new,2026-11-04,43.089945,-87.9438556,,,,,2025-06-13,6.0,23.8
+osm-node-12912386681,Elite Hand Car Wash,Car wash,"2458 West Capitol Drive, Milwaukee, WI 53206",,,new,2026-11-04,43.0899864,-87.9438994,,,,,2025-06-13,6.0,10.8
+osm-node-12912488773,Tran's Auto Service,Auto repair,"3919 North Doctor Martin Luther King Junior Drive, Milwaukee, WI 53206",,,new,2026-11-04,43.0887516,-87.9229045,,,,,2025-06-13,6.6,14.1
+osm-node-12912716432,TT Nails,Nail salon,"134 East Capitol Drive, Milwaukee, WI 53212",(414) 906-0485,,new,2026-11-04,43.0897551,-87.9096304,,ttnailsmke@gmail.com,,,2025-06-13,6.9,23.8
+osm-node-12914328222,Trilogy Hair Salon,Hair salon,"1425 East Capitol Drive, Shorewood, WI 53211",(414) 550-2335,,new,2026-11-04,43.0889314,-87.8927578,,,,,2025-06-14,7.4,22.1
+osm-node-12921693479,Rachel V. Cosmetics,Beauty salon,"1518 East Capitol Drive, Shorewood, WI 53211",(414) 510-3055,https://www.facebook.com/vasquezcollection2017,new,2026-11-04,43.0893352,-87.8916912,,,,,2025-06-17,7.5,22.0
+osm-node-13310069565,Smokin Jack BBQ Bastile Day,Restaurant,"6807 West Brown Deer Road, Milwaukee, WI 53223-2101",,,new,2026-11-04,43.1770344,-87.9963113,,,barbecue,Th 11:00-23:30,2025-11-17,0.6,24.3
+osm-node-13334166019,Just Eyebrows,Beauty salon,8671 North Port Washington Road,,,new,2026-11-04,43.1744851,-87.9137949,,,,,2025-11-26,3.9,17.4
+osm-way-225874403,Hong Kong Express,Restaurant,"7420 West Good Hope Road, Milwaukee, WI 53223",,,new,2026-11-04,43.1491548,-88.0033573,,,chinese,,2022-12-06,1.6,18.1
+osm-way-229236600,Schneiders Food & Drinks,Restaurant,"3717 North 76th Street, Milwaukee, WI 53222",(414) 466-6590,,new,2026-11-04,43.0847761,-88.0077863,,,pizza,,2025-11-09,6.0,22.9
+osm-way-450173827,Mae Velma's Corned Beef,Restaurant,"4101 North 76th Street, Milwaukee, WI",,,new,2026-11-04,43.0921197,-88.0075711,,,,,2020-10-14,5.5,13.5
+osm-way-509096962,Valentine’s Salon,Hair salon,"8795 North Port Washington Road, Fox Point, 53217",,,new,2026-11-04,43.176128,-87.9148017,,,,,2017-07-20,3.8,14.4
+osm-way-509096978,The Nail Bar,Nail salon,"8667A North Port Washington Road, Fox Point, 53217",(414) 540-1003,,new,2026-11-04,43.1744949,-87.9136819,,,,,2025-11-26,3.9,26.4
+osm-way-509096983,Rice Bowl,Restaurant,"8673 North Port Washington Road, Fox Point, 53217",,,new,2026-11-04,43.1744951,-87.9138825,,,"indonesian, chinese, thai",,2025-11-26,3.8,17.4
+osm-way-592432056,Park Place Cafe,Restaurant,"10843 West Park Place, Milwaukee, WI 53224",,,new,2026-11-04,43.1489699,-88.0459432,,,,,2021-03-28,3.2,16.2
+osm-way-658849196,Prime Time Sports Bar & Eatery,Restaurant,"8777,8777A North Deerwood Drive, Brown Deer, WI 53209",(414) 354-1919,,new,2026-11-04,43.1774386,-87.9642702,,,,,2025-11-09,1.4,28.3
+osm-way-659363523,Point Burger Bar Milwaukee,Restaurant,"10950 West Good Hope Road, Milwaukee, WI 53224",,,new,2026-11-04,43.1490578,-88.0488593,,,,,2021-03-28,3.3,16.0
+osm-way-659726095,Lit'l Scholars Day Care II,Daycare,"3320 West Wren Avenue, Milwaukee, WI 53209-4146",,,new,2026-11-04,43.1257286,-87.9543608,,,,,2022-12-04,3.5,13.7
+osm-way-659751373,Value Beauty,Beauty salon,"10500,10520 West Silver Spring Drive, Milwaukee, WI 53225",,,new,2026-11-04,43.120097,-88.0438757,,,,,2022-12-05,4.4,14.7
+osm-way-659751799,Suburban Car Wash,Car wash,"10030 West Appleton Avenue, Milwaukee, WI 53225",,,new,2026-11-04,43.1217446,-88.037363,,,,,2024-07-05,4.1,13.1
+osm-way-659752358,Lynn's Precious Moments,Daycare,"5629 North 91st Street, Milwaukee, WI 53225",,,new,2026-11-04,43.1201293,-88.0263272,,,,,2022-12-05,3.9,13.3
+osm-way-660023841,Fast Track,Auto repair,"5450 North Port Washington Road, Glendale, WI 53217",,,new,2026-11-04,43.1160172,-87.9161979,,,,,2022-12-04,5.3,13.7
+osm-way-660184516,Bavarian Inn,Restaurant,"700 West Lexington Boulevard, Glendale, WI 53217",,,new,2026-11-04,43.1158432,-87.9202711,,,,,2022-12-04,5.1,13.8
+osm-way-660264875,El Greco,Restaurant,"9143 West Appleton Avenue, Milwaukee, WI 53225",,,new,2026-11-04,43.1128952,-88.0271097,,,,,2022-12-03,4.4,14.8
+osm-way-660281801,Rick Inn,Restaurant,"9308 West Capitol Drive, Milwaukee, WI 53222",,,new,2026-11-04,43.089941,-88.029284,,,regional,,2022-12-03,5.9,12.9
+osm-way-660304862,Mad Chicken,Fast food / takeout,"7424 West Appleton Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0906086,-88.0041684,,,chicken,,2024-07-01,5.5,13.4
+osm-way-660325025,Scrub a Dub Car Wash,Car wash,"2930 West Capitol Drive, Milwaukee, WI 53216",,,new,2026-11-04,43.0903151,-87.9505159,,,,Mo-Sa 07:00-20:00; Su 07:00-19:00,2025-05-30,5.9,14.0
+osm-way-660326790,Octopus Car Wash,Car wash,"4519 North Green Bay Avenue, Milwaukee, WI 53209",,,new,2026-11-04,43.0991782,-87.9291635,,,,,2023-02-03,5.8,9.1
+osm-way-660333819,Wong's Wok,Restaurant,"242 East Capitol Drive, Milwaukee, WI 53212",,,new,2026-11-04,43.0896192,-87.9081843,,,chinese,,2024-06-17,6.9,13.7
+osm-way-660493009,Casa de Corazón,Daycare,"4114 North Oakland Avenue, Shorewood, WI 53211",,,new,2026-11-04,43.0923532,-87.8871622,,,,,2023-03-05,7.5,9.0
+osm-way-661240430,Gyros Corner,Fast food / takeout,"5914 West Appleton Avenue, Milwaukee, WI 53210",(414) 873-5937,,new,2026-11-04,43.070217,-87.9865808,,,greek,"Su-Th 10:00-22:00; Fr,Sa 10:00-23:00",2024-06-29,6.9,22.7
+osm-way-661306891,Children's Palace Learning Center,Daycare,"7365 West Appleton Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0896203,-88.0043658,,,,,2024-07-01,5.6,13.3
+osm-way-661306923,Scrub-A-Dub Car Wash,Car wash,"7315 West Appleton Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0886644,-88.0037852,,,,Mo-Sa 07:00-20:00; Su 07:00-19:00,2024-07-01,5.7,14.2
+osm-way-661478187,Quick Wash Laundromat,Laundry / cleaner,"7903 West Capitol Drive, Milwaukee, WI 53222",,,new,2026-11-04,43.0896154,-88.0112358,,,,,2022-11-27,5.7,12.2
+osm-way-661502298,Mykonos Family Restaurant,Restaurant,"8401 West Capitol Drive, Milwaukee, WI 53222-1824",,,new,2026-11-04,43.0894935,-88.0190594,,,greek,,2025-03-05,5.8,15.1
+osm-way-661530071,Bunzel's Meat Market,Butcher / meat market,"9015 West Burleigh Street, Milwaukee, WI 53222",,,new,2026-11-04,43.0747812,-88.0253925,,,,,2022-11-28,6.8,8.8
+osm-way-661546529,Alioto's,Restaurant,"3041 North Mayfair Road, Wauwatosa, WI 53226",,,new,2026-11-04,43.0736804,-88.0485091,,,italian,,2022-11-28,7.3,11.3
+osm-way-661565873,Big Daddy's BBQ and Soul Food,Restaurant,"9201 West Capitol Drive, Milwaukee, WI 53222-1532",(414) 236-2406,,new,2026-11-04,43.0894643,-88.0279942,,,barbecue,,2025-03-04,5.9,22.9
+osm-way-881123988,Crave Mequon,Restaurant,10401 North Port Washington Road,,,new,2026-11-04,43.2081855,-87.9247411,,,,,2023-09-24,4.2,14.9
+osm-way-915272382,"Cradles, Cribs & Crayons",Daycare,"5457 North 91st Street, Milwaukee, WI",,,new,2026-11-04,43.1171418,-88.0263063,,,,,2021-03-09,4.1,13.1
+osm-way-1039306537,Don's Tire and Auto,Auto repair,"13180 West Hampton Avenue, Butler, WI 53007",,,new,2026-11-04,43.1051525,-88.0761775,,,,,2024-01-29,6.2,14.5
+osm-way-1039312456,Trysting Place Pub,Restaurant,"N71W12980 Appleton Avenue, Menomonee Falls, 53051",,,new,2026-11-04,43.1475035,-88.071842,,,american,,2024-11-18,4.4,16.7
+osm-way-1040087042,Pepino's,Restaurant,"N84W15841 Appleton Avenue, Menomonee Falls, WI 53051",,,new,2026-11-04,43.170775,-88.1070515,,,italian,,2022-03-14,5.9,12.9
+osm-way-1040087085,Su Casa Grande,Restaurant,"N84W15842 Appleton Avenue, Menomonee Falls, WI 53051",,,new,2026-11-04,43.1717055,-88.106753,,,mexican,,2022-03-14,5.9,12.9
+osm-way-1040087796,Harvey Moy's,Restaurant,"N89 W16754 Appleton Avenue, Menomonee Falls, WI 53051",,,new,2026-11-04,43.1797191,-88.1177832,,,chinese,,2022-03-14,6.5,12.2
+osm-way-1040092218,Odyssey Family Restaurant,Restaurant,"N82W15380 Appleton Avenue, Menomonee Falls, WI 53051",,,new,2026-11-04,43.1679545,-88.1007895,,,greek,,2024-05-21,5.6,15.3
+osm-way-1147406773,Jilly's Car Wash,Car wash,"5100 North Port Washington Road, Glendale, WI",,,new,2026-11-04,43.1091644,-87.9162545,,,,,2023-02-18,5.6,9.3
+osm-way-1152756681,Ly Ly Nails & Spa,Nail salon,"480 West Silver Spring Drive, Glendale, WI",,,new,2026-11-04,43.1189264,-87.9151301,,,,,2023-03-08,5.2,14.8
+osm-way-1152756682,Tiffany's Dessert Bar,Bakery,"460 West Silver Spring Drive, Glendale, WI",,,new,2026-11-04,43.1189205,-87.9150161,,,,,2023-03-08,5.2,11.8
+osm-way-1152756727,FreshFin Poke,Restaurant,"5734 North Bayshore Drive, Glendale, WI 53217",,,new,2026-11-04,43.1216228,-87.9138743,,,seafood,,2023-03-08,5.1,13.9
+osm-way-1152756792,Eyebrow Envy,Beauty salon,"5676 North Centerpark Way, Glendale, WI 53217",,,new,2026-11-04,43.1204623,-87.914945,,,,,2023-03-08,5.1,13.9
+osm-way-1152756795,Cinnabar Nutrition,Restaurant,"5694 North Centerpark Way, Glendale, WI 53217",,,new,2026-11-04,43.1207759,-87.9148079,,,,,2023-03-08,5.1,13.9
+osm-way-1152756797,SereniTea Gourmet Bubble Tea,Cafe,"5675 North Bayshore Drive, Glendale, WI 53217",,,new,2026-11-04,43.120301,-87.9144902,,,bubble tea,,2023-03-08,5.1,11.8
+osm-way-1165157185,B52 Bombers,Restaurant,"N79W14701 Appleton Avenue, Menomonee Falls, WI 53051",,,new,2026-11-04,43.1611191,-88.0932422,,,american,Mo-Sa 09:00-22:00; Su 08:00-22:00,2026-07-14,5.2,18.7
+osm-way-1181835021,Hinnawi Meat & Deli,Butcher / meat market,"4731,4737 West Center Street, Milwaukee, WI 53210",,,new,2026-11-04,43.067795,-87.9734706,,,,Mo-Su 09:00-21:00,2023-06-13,7.1,11.5
+osm-way-1321881273,Frank's Hand Car Wash,Car wash,"3121 North 36th Street, Milwaukee, WI 53216",,,new,2026-11-04,43.0757269,-87.9588365,,,,,2025-05-15,6.7,10.0
+osm-way-1326264986,Prestige,Dry cleaner,"4425 West Fond Du Lac Avenue, Milwaukee, WI 53216",,,new,2026-11-04,43.0838892,-87.9692034,,,,,2024-10-22,6.0,13.8
+osm-way-1429826089,Wagen Washen,Car wash,"W164N11380 Squire Drive, Germantown, WI 53022",,,new,2026-11-04,43.2242835,-88.112514,,,,24/7,2025-09-23,7.2,12.3
