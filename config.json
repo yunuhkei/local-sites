@@ -1,7 +1,5 @@
 {
   "brand": "Cream City Web Co.",
-  "owner": "Joaquin Randall",
-  "first_name": "Joaquin",
   "pages_base": "https://yunuhkei.github.io/local-sites",
   "credit": "Website by Cream City Web Co.",
   "credit_url": "",
@@ -76,11 +74,12 @@
       "Nothing until you've seen your preview and said yes. Then $250 to set it up and $25 a month after that."
     ]
   ],
-  "_help": "pages_base is where GitHub Pages publishes today. When you buy creamcitywebco.com, set custom_domain to creamcitywebco.com (see guides/custom-domain.md). phone/email/formspree_id/stripe_link are PUBLIC contact details, never secrets. home is where distances are measured from.",
+  "_help": "pages_base is where GitHub Pages publishes today. When you buy creamcitywebco.com, set custom_domain (see guides/custom-domain.md). phone/email/formspree_id/stripe_link are PUBLIC business contact details, never secrets. contact_name is blank on purpose: the site speaks as the company. home is where distances are measured from.",
   "home": {
     "lat": 43.14,
     "lon": -88.0,
     "label": "approximate center of ZIP 53218 (give Claude your street to make this exact)"
   },
-  "custom_domain": ""
+  "custom_domain": "",
+  "contact_name": ""
 }

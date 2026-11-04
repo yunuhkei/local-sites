@@ -11,7 +11,7 @@ Your home page lives at the main page of this repo's GitHub Pages site. When you
 4. In GitHub: repo **Settings > Pages > Custom domain**, type `creamcitywebco.com`, **Save**. Wait for the green check (minutes to a few hours).
 5. Tick **Enforce HTTPS** when it appears.
 6. Old `yunuhkei.github.io/local-sites/...` links redirect automatically.
-7. Optional: free email like `joaquin@creamcitywebco.com` forwarding to your inbox (Cloudflare Email Routing or your registrar), then put it in `config.json` as `email`.
+7. Optional: free email like `hello@creamcitywebco.com` forwarding to your inbox (Cloudflare Email Routing or your registrar), then put it in `config.json` as `email`.
 
 ## B. A client's own domain (after they pay)
 GitHub Pages allows **one custom domain per repository**, and yours is taken by Cream City Web Co. So each client who wants their own domain gets a tiny repo of their own:

@@ -9,5 +9,6 @@
 
 7. **Footer on every site:** "Website by Cream City Web Co." linking to our own site (set in `config.json`, rendered by `make_site.py`).
 8. **QA also checks** real rendered text contrast (including transparency), footer not hidden by the sticky bar, tap targets, links, console errors. Our own pages are `sitemaker/build_home.py` (config in `config.json`).
+9. **No personal name anywhere.** Never put the owner's name (or a made-up person) on any page, script, doc or commit. Speak as "we" / Cream City Web Co. `config.json` `contact_name` is blank on purpose; use it only if the owner asks for a name.
 
 Also: never publish a demo as official (`--live` only with the owner's OK and zero blockers); never put secrets in code or chat; one-to-one contact only (see guides/legal-basics.md).

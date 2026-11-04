@@ -1,10 +1,10 @@
 # Design brief - Cream City Web Co. (our own site)
 
 ## Customers
-Owners of small Milwaukee shops: barbers, salon and nail owners, restaurant and food-truck owners, auto shops, cleaners, daycares. They are working, not browsing. Most will open this page on a phone because Joaquin texted them a link after talking in person, or because they typed "website for my business Milwaukee" while standing behind the counter. They have been pitched by web companies before and don't trust fancy promises. They want three things answered in the first screen: what is this, what does it cost, what do I do next.
+Owners of small Milwaukee shops: barbers, salon and nail owners, restaurant and food-truck owners, auto shops, cleaners, daycares. They are working, not browsing. Most will open this page on a phone because someone from the company texted them a link after talking in person, or because they typed "website for my business Milwaukee" while standing behind the counter. They have been pitched by web companies before and don't trust fancy promises. They want three things answered in the first screen: what is this, what does it cost, what do I do next.
 
 ## Neighborhood
-All of Milwaukee and the nearby suburbs, with Joaquin based on the northwest side near 53218. The site should feel like it came from the same city as the shops it serves, not from a software company in another state.
+All of Milwaukee and the nearby suburbs, with the business based on the northwest side near 53218. The site should feel like it came from the same city as the shops it serves, not from a software company in another state.
 
 ## Vibe
 Local, plain-spoken, honest and a little proud of Milwaukee. A neighbor who builds websites, not an agency. Warm paper and brick, not glass and gradients.
@@ -27,11 +27,11 @@ Young Serif for headings: a warm, sturdy serif with a hand-cut feel, like letter
 A running-bond brick course: a thin band of Cream City brick laid in a staggered pattern, used as the divider under the hero and between big sections. It is the only decoration on the page.
 
 ## Voice
-Joaquin talking across the counter. Short sentences, concrete numbers, no promises we can't keep. We never claim reviews, client counts, awards or experience we don't have. Sample work is only ever for pretend businesses.
+A neighbor talking across the counter, in the company's voice ("we"), with no personal name on the page. Short sentences, concrete numbers, no promises we can't keep. We never claim reviews, client counts, awards or experience we don't have. Sample work is only ever for pretend businesses.
 
 ## TO GET FROM OWNER
-- Joaquin's business phone number and business email address (shown publicly).
-- The Formspree form link (free account, emails the sign-ups to Joaquin).
+- The business phone number and business email address (shown publicly).
+- The Formspree form link (free account, emails the sign-ups to the company inbox).
 - The Stripe Payment Link for "Pay to get started".
-- A photo of Joaquin (optional; until then the About section is type-only).
+- (Optional) a team photo; until then the About section is type-only and speaks as the company.
 - Approval of the FAQ answers and the add-on prices, which were drafted as suggestions.

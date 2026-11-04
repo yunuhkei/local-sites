@@ -14,6 +14,6 @@
 
 **Weekly (Monday):** the phone alert tells you how many new leads arrived. Check Stripe for payments and failed charges.
 
-**Goal for each route (5 stops, 1.5-2 hours):** introduce yourself as Joaquin from Cream City Web Co., show their preview, collect the intake (sign photo, hours). 
+**Goal for each route (5 stops, 1.5-2 hours):** introduce yourself as being with Cream City Web Co., show their preview, collect the intake (sign photo, hours). 
 
 **Goals:** 10 visits/day -> expect ~1 in 10 interested at first. 1-2 sales a week = ~$250-500 up front plus growing monthly income. Be patient; it's a numbers game and being polite matters.

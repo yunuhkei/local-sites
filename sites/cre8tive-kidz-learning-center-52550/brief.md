@@ -3,7 +3,7 @@
 > Built from public information only (name, address, phone, and a few public directory listings). We have not met the owner or seen the shop yet, so anything marked as a first guess must be confirmed at the visit.
 
 ## Customers
-Parents who need care for children from babies to school-age kids, early mornings to the evening. The ZIP 53218 neighborhood is Joaquin's own, so this is a place he can walk to. They look up the hours and ages first and expect a phone number they can tap.
+Parents who need care for children from babies to school-age kids, early mornings to the evening. This is in ZIP 53218, the home neighborhood of the business, so it is close to base. They look up the hours and ages first and expect a phone number they can tap.
 
 ## Neighborhood
 West Appleton Avenue near N 80th Street, in ZIP 53218, on the same strip as a barbershop, several salons and an auto electrician.

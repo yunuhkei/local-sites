@@ -78,11 +78,11 @@ def home(c, live):
     ph, em = c.get("phone", ""), c.get("email", "")
     d = digits(ph)
     tel, sms = ("tel:+" + d, "sms:+" + d) if d else (None, None)
-    first = c["first_name"]
+    who = (c.get("contact_name") or "").strip()      # optional first name; blank = company voice
     title = "Websites for Milwaukee small businesses | %s" % c["brand"]
     desc = "%s builds simple, mobile-friendly websites for Milwaukee small businesses. Free preview first, then $%d setup and $%d a month." % (c["brand"], c["pricing"]["setup"], c["pricing"]["monthly"])
     ld = {"@context": "https://schema.org", "@type": "ProfessionalService", "name": c["brand"], "url": c["base"] + "/",
-          "image": c["base"] + "/og.png", "description": desc, "founder": {"@type": "Person", "name": c["owner"]},
+          "image": c["base"] + "/og.png", "description": desc,
           "areaServed": [{"@type": "City", "name": t} for t in c["service_area"]],
           "address": {"@type": "PostalAddress", "addressLocality": "Milwaukee", "addressRegion": "WI", "addressCountry": "US"},
           "priceRange": "$%d setup + $%d per month" % (c["pricing"]["setup"], c["pricing"]["monthly"])}
@@ -93,7 +93,9 @@ def home(c, live):
     extra = '<script type="application/ld+json">%s</script>\n' % json.dumps(ld).replace("</", "<\\/")
     pr = c["pricing"]
 
-    phone_line = ('Prefer to talk? Call or text %s: <a href="%s">%s</a>' % (esc(first), tel, esc(ph))) if tel else todo("phone number")
+    about_text = ("I'm %s. I live in Milwaukee and I build websites for the shops and services around here. When you call or text, you get me, not a call center." % esc(who)) if who else \
+        "%s is a local Milwaukee business. We build websites for the shops and services around here. When you call or text, you reach a real person here, not a call center." % esc(c["brand"])
+    phone_line = ('Prefer to talk? Call or text %s: <a href="%s">%s</a>' % (esc(who or "us"), tel, esc(ph))) if tel else todo("phone number")
     top_phone = ('<a class="top-phone" href="%s">%s</a>' % (tel, esc(ph))) if tel else ""
     banner = "" if live else '<div class="banner">DRAFT · not public yet, still missing contact details</div>'
 
@@ -105,7 +107,7 @@ def home(c, live):
     fid = c.get("formspree_id")
     action = "https://formspree.io/f/%s" % esc(fid) if fid else ""
     form_note = "" if fid else '<p>%s</p>' % todo("Formspree form link (the form can't send until it's added)")
-    email_line = ('<a class="btn line" href="mailto:%s">Email %s</a>' % (esc(em), esc(first))) if em else todo("email address")
+    email_line = ('<a class="btn line" href="mailto:%s">Email %s</a>' % (esc(em), esc(who or "us"))) if em else todo("email address")
     contact_btns = ('<a class="btn" href="%s">Call %s</a><a class="btn line" href="%s">Send a text</a>' % (tel, esc(ph), sms)) if tel else todo("phone number")
     callbar = ('<a href="%s">Call</a><a href="%s">Text</a><a href="#preview">Free preview</a>' % (tel, sms)) if tel else '<a href="#preview">Get your free preview</a>'
 
@@ -161,7 +163,7 @@ def home(c, live):
 </div></section>
 
 <section class="sec dark" id="preview"><div class="wrap"><h2>Get your free preview</h2>
-<p>Fill this in and {esc(first)} will contact you. It's free, and there's nothing to pay unless you say yes.</p>
+<p>Fill this in and {esc(who) + ' will' if who else 'we will'} contact you. It's free, and there's nothing to pay unless you say yes.</p>
 {form_note}
 <form id="signup" action="{action}" method="POST">
 <label>Business name<input name="business_name" required autocomplete="organization"></label>
@@ -178,20 +180,20 @@ def home(c, live):
 <section class="sec" id="faq"><div class="wrap"><h2>Questions</h2>{faq}</div></section>
 
 <section class="sec alt" id="about"><div class="wrap"><h2>About</h2>
-<p style="max-width:56ch">I'm {esc(first)}. I live in Milwaukee and I build websites for the shops and services around here. When you call or text, you get me, not a call center.</p>
+<p style="max-width:56ch">{about_text}</p>
 <p>{phone_line}</p><div class="contact-row">{contact_btns}{email_line}</div></div></section>
 
 <section class="sec" id="area"><div class="wrap"><h2>Where we work</h2>
 <p style="max-width:56ch">Milwaukee and the suburbs around it, including:</p><ul class="towns">{towns}</ul></div></section>
 </main>
 <div class="bricks" aria-hidden="true"></div>
-<footer class="foot"><p>&copy; 2026 {esc(c["brand"])} · {esc(c["owner"])} · Milwaukee, WI</p><p><a href="price-sheet/">Printable price sheet</a></p></footer>
+<footer class="foot"><p>&copy; 2026 {esc(c["brand"])} · Milwaukee, WI</p><p><a href="price-sheet/">Printable price sheet</a></p></footer>
 <nav class="callbar" aria-label="Quick contact">{callbar}</nav>
 <script>
 (function(){{var f=document.getElementById('signup');if(!f||!f.action||f.action===location.href)return;
 f.addEventListener('submit',function(e){{e.preventDefault();var m=document.getElementById('msg');m.textContent='Sending...';
 fetch(f.action,{{method:'POST',body:new FormData(f),headers:{{'Accept':'application/json'}}}}).then(function(r){{
-if(r.ok){{f.reset();m.textContent='Thanks! {esc(first)} will contact you soon.';}}else{{m.textContent='Something went wrong. Please call or text instead.';}}
+if(r.ok){{f.reset();m.textContent='Thanks! {esc(who) + ' will' if who else 'We will'} contact you soon.';}}else{{m.textContent='Something went wrong. Please call or text instead.';}}
 }}).catch(function(){{m.textContent='Something went wrong. Please call or text instead.';}});}});}})();
 </script>
 </body></html>'''
@@ -199,7 +201,7 @@ if(r.ok){{f.reset();m.textContent='Thanks! {esc(first)} will contact you soon.';
 
 
 def price_sheet(c):
-    pr, first = c["pricing"], c["first_name"]
+    pr = c["pricing"]
     ph, em = c.get("phone", ""), c.get("email", "")
     d = digits(ph)
     contact = " · ".join([('<a href="tel:+%s">%s</a>' % (d, esc(ph))) if d else todo("phone number"),
@@ -216,7 +218,7 @@ def price_sheet(c):
 <ul class="incl"><li>A website that works great on a phone</li><li>Tap to call, tap for directions, your hours, your services</li><li>Free preview first. You pay nothing until you say yes</li><li>Hosting, security and small updates included</li><li>Cancel any time. Your domain name is registered in your name</li></ul>
 <h2 style="font-size:1.6rem;margin-top:28px">Add-ons</h2><table><tbody>{addons}</tbody></table>
 <p class="fineprint">A domain name costs about $12 a year, paid by you to the domain company.</p>
-<p style="margin-top:26px;border-top:3px solid var(--ink);padding-top:14px"><b>{esc(c["owner"])}</b>, {esc(c["brand"])}<br>{contact}</p>
+<p style="margin-top:26px;border-top:3px solid var(--ink);padding-top:14px"><b>{esc(c["brand"])}</b>, Milwaukee<br>{contact}</p>
 </main></body></html>'''
 
 

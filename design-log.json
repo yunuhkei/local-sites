@@ -2,32 +2,6 @@
   "rule": "A new site may share at most ONE of: layout, fonts, palette, hero, section_order with any earlier site.",
   "sites": [
     {
-      "slug": "cream-city-web-co",
-      "business": "Cream City Web Co.",
-      "layout": "studio-onepager",
-      "fonts": [
-        "Young Serif",
-        "Public Sans"
-      ],
-      "palette": [
-        "#eadfc4",
-        "#2b2118",
-        "#1b5560"
-      ],
-      "hero": "left-aligned headline over a Cream City brick course",
-      "section_order": [
-        "hero",
-        "how",
-        "samples",
-        "pricing",
-        "preview",
-        "faq",
-        "about",
-        "area"
-      ],
-      "signature": "running-bond Cream City brick course"
-    },
-    {
       "slug": "60th-street-auto-repair",
       "business": "60th Street Auto Repair",
       "layout": "split",
@@ -313,6 +287,32 @@
         "contact"
       ],
       "signature": "windshield-sticker hours box"
+    },
+    {
+      "slug": "cream-city-web-co",
+      "business": "Cream City Web Co.",
+      "layout": "studio-onepager",
+      "fonts": [
+        "Young Serif",
+        "Public Sans"
+      ],
+      "palette": [
+        "#eadfc4",
+        "#2b2118",
+        "#1b5560"
+      ],
+      "hero": "left-aligned headline over a Cream City brick course",
+      "section_order": [
+        "hero",
+        "how",
+        "samples",
+        "pricing",
+        "preview",
+        "faq",
+        "about",
+        "area"
+      ],
+      "signature": "running-bond Cream City brick course"
     }
   ]
 }
