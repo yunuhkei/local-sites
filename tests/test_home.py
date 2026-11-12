@@ -36,7 +36,7 @@ class Home(unittest.TestCase):
 
     def test_prices_come_from_config(self):
         page = build_home.price_sheet(self.cfg())
-        self.assertIn("$250", page); self.assertIn("$25", page)
+        self.assertIn("$500", page); self.assertIn("$250", page); self.assertIn("$25", page)
 
 
 if __name__ == "__main__":

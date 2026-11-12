@@ -8,7 +8,7 @@
   "formspree_id": "",
   "stripe_link": "",
   "pricing": {
-    "setup": 250,
+    "setup": 500,
     "monthly": 25,
     "addons": [
       {
@@ -31,7 +31,9 @@
         "price": 25,
         "note": "the domain itself is about $12 a year, paid by you"
       }
-    ]
+    ],
+    "deposit": 250,
+    "balance": 250
   },
   "service_area": [
     "Milwaukee",
@@ -71,7 +73,7 @@
     ],
     [
       "What do I pay, and when?",
-      "Nothing until you've seen your preview and said yes. Then $250 to set it up and $25 a month after that."
+      "Nothing until you've seen your preview and said yes. Then the site is $500, paid in two parts: $250 to get started, and the other $250 when your site goes live. The $25 a month starts when it goes live."
     ]
   ],
   "_help": "pages_base is where GitHub Pages publishes today. When you buy creamcitywebco.com, set custom_domain (see guides/custom-domain.md). phone/email/formspree_id/stripe_link are PUBLIC business contact details, never secrets. contact_name is blank on purpose: the site speaks as the company. home is where distances are measured from.",

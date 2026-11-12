@@ -19,15 +19,15 @@ If the owner isn't there: leave a card and a price sheet, ask "When's a good tim
 **3b. Quick intake if they're interested:** use `pitch/owner-intake.md`. Take a photo of the sign (for their colors), the shop, and write down their hours exactly as they say them.
 
 **4. Price, plainly**
-> "It's $250 to set up and $25 a month for hosting and any small changes. You pay nothing until you've seen it and said yes, and nothing goes live until you say OK."
+> "It's $500 for the site, split in two: $250 to get started once you've said yes, and the other $250 when it goes live. Then it's $25 a month for hosting and any small changes. You pay nothing until you've seen your preview and said yes, and nothing goes live until you say OK."
 
 **5. Ask**
 > "Want us to fix up the details and send you the final version this week?"
 
 **If they say:**
 - *"I have Facebook."* "Totally, keep it. A website is what shows up on Google with your hours, phone and map in one tap. We'll link your Facebook from it."
-- *"Too expensive."* "I get it. It's under a dollar a day, and one new customer a month pays for it."
+- *"Too expensive."* "I get it. It's split into two payments, and the monthly part is under a dollar a day."
 - *"Not interested."* "No problem, thanks for your time!" Mark **not interested** and don't come back to pitch again.
 - *"Let me think."* "Of course. Can I text you the link so you can look later?" (Get their OK to text first. See message templates.)
 
-**Rules:** be honest, never pressure, never say the site is live or official, never take payment before they've approved the site. Leave a card: "Cream City Web Co."
+**Rules:** be honest, never pressure, never say the site is live or official, never take the $250 deposit before they've seen their preview and said yes, and send the other $250 link only when the site goes live. Leave a card: "Cream City Web Co."

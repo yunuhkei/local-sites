@@ -80,12 +80,12 @@ def home(c, live):
     tel, sms = ("tel:+" + d, "sms:+" + d) if d else (None, None)
     who = (c.get("contact_name") or "").strip()      # optional first name; blank = company voice
     title = "Websites for Milwaukee small businesses | %s" % c["brand"]
-    desc = "%s builds simple, mobile-friendly websites for Milwaukee small businesses. Free preview first, then $%d setup and $%d a month." % (c["brand"], c["pricing"]["setup"], c["pricing"]["monthly"])
+    desc = "%s builds simple, mobile-friendly websites for Milwaukee small businesses. Free preview first, then $%d to build and $%d a month." % (c["brand"], c["pricing"]["setup"], c["pricing"]["monthly"])
     ld = {"@context": "https://schema.org", "@type": "ProfessionalService", "name": c["brand"], "url": c["base"] + "/",
           "image": c["base"] + "/og.png", "description": desc,
           "areaServed": [{"@type": "City", "name": t} for t in c["service_area"]],
           "address": {"@type": "PostalAddress", "addressLocality": "Milwaukee", "addressRegion": "WI", "addressCountry": "US"},
-          "priceRange": "$%d setup + $%d per month" % (c["pricing"]["setup"], c["pricing"]["monthly"])}
+          "priceRange": "$%d to build + $%d per month" % (c["pricing"]["setup"], c["pricing"]["monthly"])}
     if d:
         ld["telephone"] = "+" + d
     if em:
@@ -152,14 +152,14 @@ def home(c, live):
 
 <section class="sec" id="pricing"><div class="wrap"><h2>Pricing, plain</h2>
 <div class="board">
-<div class="row"><span class="price">${pr["setup"]}</span><span class="what">one time, to build your site</span></div>
-<div class="row"><span class="price">${pr["monthly"]}</span><span class="what">a month, to keep it online and updated</span></div>
+<div class="row"><span class="price">${pr["setup"]}</span><span class="what">to build your site, paid in two parts: ${pr["deposit"]} to get started and ${pr["balance"]} when it goes live</span></div>
+<div class="row"><span class="price">${pr["monthly"]}</span><span class="what">a month, to keep it online and updated (starts when it goes live)</span></div>
 </div>
 <ul class="incl"><li>A website that works great on a phone</li><li>Tap to call, tap for directions, your hours, your services</li><li>Hosting and security included</li><li>Small updates included: new hours, prices and photos</li><li>Cancel any time</li></ul>
 <h3 style="margin-top:28px;font-size:1.5rem">Add-ons, if you want them</h3>
 <ul class="addons">{addons}</ul>
 <p class="fineprint">A domain name (like yourshop.com) costs about $12 a year, paid by you to the domain company. It's registered in your name.</p>
-<div class="pay"><p><b>Already said yes?</b> Pay your ${pr["setup"]} setup to get started. Please wait until you've seen your preview.</p>{pay}</div>
+<div class="pay"><p><b>Already said yes?</b> Pay your ${pr["deposit"]} deposit to get started. Please wait until you've seen your preview. The other ${pr["balance"]} is due when your site goes live.</p>{pay}</div>
 </div></section>
 
 <section class="sec dark" id="preview"><div class="wrap"><h2>Get your free preview</h2>
@@ -207,15 +207,15 @@ def price_sheet(c):
     contact = " · ".join([('<a href="tel:+%s">%s</a>' % (d, esc(ph))) if d else todo("phone number"),
                               ('<a href="mailto:%s">%s</a>' % (esc(em), esc(em))) if em else todo("email address")])
     addons = "".join("<tr><td>%s<span>%s</span></td><td>$%d</td></tr>" % (esc(a["name"]), esc(a["note"]), a["price"]) for a in pr["addons"])
-    title, desc = "Website pricing | %s" % c["brand"], "Simple pricing from %s: $%d setup and $%d a month for a Milwaukee small business website, plus optional add-ons." % (c["brand"], pr["setup"], pr["monthly"])
+    title, desc = "Website pricing | %s" % c["brand"], "Simple pricing from %s: $%d to build and $%d a month for a Milwaukee small business website, plus optional add-ons." % (c["brand"], pr["setup"], pr["monthly"])
     extra = "<style>.ps{max-width:720px;margin:0 auto;padding:28px 20px}.ps table{width:100%;border-collapse:collapse;margin-top:8px}.ps td{padding:12px 0;border-bottom:1px dotted var(--muted)}.ps td:last-child{text-align:right;font-weight:700;white-space:nowrap;vertical-align:top}.ps td span{display:block;color:var(--muted);font-size:.95rem}.ps .board{margin:20px 0}</style>\n"
     return head(c, title, desc, extra, live=False, path="price-sheet/") + f'''
 <body><a class="skip" href="#main">Skip to content</a>
 <main id="main" class="ps"><p class="kicker">{esc(c["brand"])} · Milwaukee</p>
 <h1 style="font-size:clamp(2rem,8vw,3rem)">Website pricing</h1>
-<div class="board"><div class="row"><span class="price">${pr["setup"]}</span><span class="what">one time, to build your site</span></div>
-<div class="row"><span class="price">${pr["monthly"]}</span><span class="what">a month, to keep it online and updated</span></div></div>
-<ul class="incl"><li>A website that works great on a phone</li><li>Tap to call, tap for directions, your hours, your services</li><li>Free preview first. You pay nothing until you say yes</li><li>Hosting, security and small updates included</li><li>Cancel any time. Your domain name is registered in your name</li></ul>
+<div class="board"><div class="row"><span class="price">${pr["setup"]}</span><span class="what">to build your site, paid in two parts: ${pr["deposit"]} to get started and ${pr["balance"]} when it goes live</span></div>
+<div class="row"><span class="price">${pr["monthly"]}</span><span class="what">a month, to keep it online and updated (starts when it goes live)</span></div></div>
+<ul class="incl"><li>A website that works great on a phone</li><li>Tap to call, tap for directions, your hours, your services</li><li>Free preview first. You pay nothing until you say yes</li><li>Pay in two parts: ${pr["deposit"]} to start, ${pr["balance"]} when it goes live</li><li>Hosting, security and small updates included</li><li>Cancel any time. Your domain name is registered in your name</li></ul>
 <h2 style="font-size:1.6rem;margin-top:28px">Add-ons</h2><table><tbody>{addons}</tbody></table>
 <p class="fineprint">A domain name costs about $12 a year, paid by you to the domain company.</p>
 <p style="margin-top:26px;border-top:3px solid var(--ink);padding-top:14px"><b>{esc(c["brand"])}</b>, Milwaukee<br>{contact}</p>

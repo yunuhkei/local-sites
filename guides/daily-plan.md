@@ -16,4 +16,4 @@
 
 **Goal for each route (5 stops, 1.5-2 hours):** introduce yourself as being with Cream City Web Co., show their preview, collect the intake (sign photo, hours). 
 
-**Goals:** 10 visits/day -> expect ~1 in 10 interested at first. 1-2 sales a week = ~$250-500 up front plus growing monthly income. Be patient; it's a numbers game and being polite matters.
+**Goals:** 10 visits/day -> expect ~1 in 10 interested at first. Each sale is $500 per site ($250 at the start, $250 when it goes live) plus $25 a month, so 1-2 sales a week adds up quickly. Be patient; it's a numbers game and being polite matters.
