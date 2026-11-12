@@ -26,7 +26,7 @@ Because the second $250 comes after the site is live, get a text or email from t
 The full one-page agreement is in **`guides/client-agreement.md`**: fill in the brackets, send it before you build anything, get an "I agree" reply, then send the deposit link.
 
 ## Add-ons
-Make extra Payment Links for add-ons (Google Business Profile $75, booking or menu page $100, logo $75, domain connection $25) and text them when a client says yes. Prices come from `config.json`.
+Make extra Payment Links for add-ons (extra page $100 each, Google Business Profile $75, logo $75, domain connection $25) and text them when a client says yes. Prices come from `config.json`.
 
 ## Track who paid
 - Stripe's **Payments** and **Subscriptions** pages are the source of truth (failed monthly payments show up there).

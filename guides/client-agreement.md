@@ -34,7 +34,7 @@ You pay using the secure payment links we send you.
 We show you a free preview first. You tell us what to change, and we change it. **Nothing goes live until you say OK in writing (a text is fine).** Before it goes live, you confirm that the details on it are correct: hours, phone, address, services and prices.
 
 ## 4. What the $25 a month covers
-Hosting, keeping your site online and secure, and small updates: changing hours, prices, phone, address or wording, and swapping photos. We aim to make requested updates within **[3] business days**. Bigger changes (new pages, a redesign, an online store) are priced separately, and we tell you the price before we start.
+Hosting, keeping your site online and secure, and small updates: changing hours, prices, phone, address or wording, and swapping photos. We aim to make requested updates within **[3] business days**. Extra pages are **$100 each**. Bigger changes (a redesign or an online store) are priced separately, and we tell you the price before we start.
 
 ## 5. Who owns what
 - Your business name, logo, words and photos are yours.

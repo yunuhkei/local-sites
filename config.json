@@ -12,14 +12,14 @@
     "monthly": 25,
     "addons": [
       {
+        "name": "Extra page",
+        "price": 100,
+        "note": "each page beyond the first, like a menu, booking, gallery or services page"
+      },
+      {
         "name": "Google Business Profile setup",
         "price": 75,
         "note": "so you show up on Google Maps with the right hours and phone"
-      },
-      {
-        "name": "Online booking or menu page",
-        "price": 100,
-        "note": "a booking link or a full menu people can read on their phone"
       },
       {
         "name": "Simple logo",
@@ -33,7 +33,8 @@
       }
     ],
     "deposit": 250,
-    "balance": 250
+    "balance": 250,
+    "extra_page": 100
   },
   "service_area": [
     "Milwaukee",
@@ -70,6 +71,10 @@
     [
       "What if I already have a Facebook page?",
       "Keep it. Your site can link to it. Facebook is good for posts, and a website is what people find on Google with your hours, phone number and map in one tap."
+    ],
+    [
+      "Can I add more pages?",
+      "Yes. Your $500 site is one page. Each extra page, like a menu, gallery or booking page, is $100."
     ],
     [
       "What do I pay, and when?",

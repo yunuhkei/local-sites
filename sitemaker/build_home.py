@@ -155,7 +155,7 @@ def home(c, live):
 <div class="row"><span class="price">${pr["setup"]}</span><span class="what">to build your site, paid in two parts: ${pr["deposit"]} to get started and ${pr["balance"]} when it goes live</span></div>
 <div class="row"><span class="price">${pr["monthly"]}</span><span class="what">a month, to keep it online and updated (starts when it goes live)</span></div>
 </div>
-<ul class="incl"><li>A website that works great on a phone</li><li>Tap to call, tap for directions, your hours, your services</li><li>Hosting and security included</li><li>Small updates included: new hours, prices and photos</li><li>Cancel any time</li></ul>
+<ul class="incl"><li>A website that works great on a phone</li><li>One page is included. Extra pages are ${pr["extra_page"]} each</li><li>Tap to call, tap for directions, your hours, your services</li><li>Hosting and security included</li><li>Small updates included: new hours, prices and photos</li><li>Cancel any time</li></ul>
 <h3 style="margin-top:28px;font-size:1.5rem">Add-ons, if you want them</h3>
 <ul class="addons">{addons}</ul>
 <p class="fineprint">A domain name (like yourshop.com) costs about $12 a year, paid by you to the domain company. It's registered in your name.</p>
@@ -215,7 +215,7 @@ def price_sheet(c):
 <h1 style="font-size:clamp(2rem,8vw,3rem)">Website pricing</h1>
 <div class="board"><div class="row"><span class="price">${pr["setup"]}</span><span class="what">to build your site, paid in two parts: ${pr["deposit"]} to get started and ${pr["balance"]} when it goes live</span></div>
 <div class="row"><span class="price">${pr["monthly"]}</span><span class="what">a month, to keep it online and updated (starts when it goes live)</span></div></div>
-<ul class="incl"><li>A website that works great on a phone</li><li>Tap to call, tap for directions, your hours, your services</li><li>Free preview first. You pay nothing until you say yes</li><li>Pay in two parts: ${pr["deposit"]} to start, ${pr["balance"]} when it goes live</li><li>Hosting, security and small updates included</li><li>Cancel any time. Your domain name is registered in your name</li></ul>
+<ul class="incl"><li>A website that works great on a phone</li><li>One page is included. Extra pages are ${pr["extra_page"]} each</li><li>Tap to call, tap for directions, your hours, your services</li><li>Free preview first. You pay nothing until you say yes</li><li>Pay in two parts: ${pr["deposit"]} to start, ${pr["balance"]} when it goes live</li><li>Hosting, security and small updates included</li><li>Cancel any time. Your domain name is registered in your name</li></ul>
 <h2 style="font-size:1.6rem;margin-top:28px">Add-ons</h2><table><tbody>{addons}</tbody></table>
 <p class="fineprint">A domain name costs about $12 a year, paid by you to the domain company.</p>
 <p style="margin-top:26px;border-top:3px solid var(--ink);padding-top:14px"><b>{esc(c["brand"])}</b>, Milwaukee<br>{contact}</p>
@@ -256,7 +256,7 @@ def agreement_page(c):
 <p>We show you a free preview first. You tell us what to change, and we change it. <b>Nothing goes live until you say OK in writing (a text is fine).</b> Before it goes live, you confirm that the details on it are correct: hours, phone, address, services and prices.</p>
 
 <h2>4. What the ${pr["monthly"]} a month covers</h2>
-<p>Hosting, keeping your site online and secure, and small updates: changing hours, prices, phone, address or wording, and swapping photos. We aim to make requested updates within {esc(t["turnaround"])}. Bigger changes (new pages, a redesign, an online store) are priced separately, and we tell you the price before we start.</p>
+<p>Hosting, keeping your site online and secure, and small updates: changing hours, prices, phone, address or wording, and swapping photos. We aim to make requested updates within {esc(t["turnaround"])}. Extra pages are ${pr["extra_page"]} each. Bigger changes (a redesign or an online store) are priced separately, and we tell you the price before we start.</p>
 
 <h2>5. Who owns what</h2>
 <ul>
