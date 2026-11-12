@@ -222,6 +222,81 @@ def price_sheet(c):
 </main></body></html>'''
 
 
+def agreement_page(c):
+    """Client-facing terms page. Not linked from the home page and hidden from Google; text the link to a client."""
+    pr, t = c["pricing"], c["terms"]
+    ph, em = c.get("phone", ""), c.get("email", "")
+    d = digits(ph)
+    addons = "".join("<li>%s: $%d</li>" % (esc(a["name"]), a["price"]) for a in pr["addons"])
+    contact = " · ".join([("<a href=\"tel:+%s\">%s</a>" % (d, esc(ph))) if d else todo("phone number"),
+                              ("<a href=\"mailto:%s\">%s</a>" % (esc(em), esc(em))) if em else todo("email address")])
+    title = "Website agreement | %s" % c["brand"]
+    desc = "The terms for a website built by %s: price, payments, what is included, ownership and cancelling." % c["brand"]
+    extra = "<style>.agr{max-width:720px;margin:0 auto;padding:28px 20px 60px}.agr h2{font-size:1.5rem;margin:30px 0 8px}.agr p,.agr li{max-width:62ch}.agr ul{padding-left:1.2rem}.agr .ver{color:var(--muted);font-size:.95rem}.agr .agree{border:3px solid var(--ink);padding:16px 20px;margin-top:30px}</style>\n"
+    body = f"""<body><a class="skip" href="#main">Skip to content</a>
+<main id="main" class="agr"><p class="kicker">{esc(c["brand"])} · Milwaukee</p>
+<h1 style="font-size:clamp(2rem,8vw,3rem)">Website agreement</h1>
+<p class="ver">Version: {esc(t["version"])}</p>
+<p>This agreement is between <b>{esc(c["brand"])}</b> ("we") and the business that agrees to it below ("you"). It is short and in plain words.</p>
+
+<h2>1. What we will build</h2>
+<p>A one-page website for your business, with your business name, services, hours, phone and map links, and the photos and words you give us. Any add-ons you want are listed in the message we send you with this page.</p>
+
+<h2>2. Price and payments</h2>
+<ul>
+<li><b>Total price for the website: ${pr["setup"]}.</b></li>
+<li><b>${pr["deposit"]} deposit</b>, due when you agree to this, before we build your final site.</li>
+<li><b>${pr["balance"]} balance</b>, due within <b>{t["balance_days"]} days after your site goes live</b>.</li>
+<li><b>Hosting and small updates: ${pr["monthly"]} a month</b>, starting the day your site goes live.</li>
+<li>Add-ons, only if you ask for them:<ul>{addons}</ul></li>
+</ul>
+<p>You pay using the secure payment links we send you.</p>
+
+<h2>3. How it works</h2>
+<p>We show you a free preview first. You tell us what to change, and we change it. <b>Nothing goes live until you say OK in writing (a text is fine).</b> Before it goes live, you confirm that the details on it are correct: hours, phone, address, services and prices.</p>
+
+<h2>4. What the ${pr["monthly"]} a month covers</h2>
+<p>Hosting, keeping your site online and secure, and small updates: changing hours, prices, phone, address or wording, and swapping photos. We aim to make requested updates within {esc(t["turnaround"])}. Bigger changes (new pages, a redesign, an online store) are priced separately, and we tell you the price before we start.</p>
+
+<h2>5. Who owns what</h2>
+<ul>
+<li>Your business name, logo, words and photos are yours.</li>
+<li>You promise you have the right to use everything you give us (photos, logos, text).</li>
+<li>We own the design and code of the website <b>until you have paid in full</b> (${pr["setup"]} plus any add-ons).</li>
+<li><b>Once paid in full</b>, the finished site is yours to use for your business. While you are on the monthly plan, we host it. If you leave the plan, we will give you a copy of your site's files on request within {t["files_days"]} days, as long as everything you owe has been paid.</li>
+</ul>
+
+<h2>6. Your domain name</h2>
+<p>If you buy a domain name (like yourshop.com), it is registered <b>in your name</b> and you own it. We never take control of your domain. Connecting it to your site is an add-on at the price in Section 2.</p>
+
+<h2>7. If a payment is late</h2>
+<p>If the balance or a monthly payment is more than {t["balance_days"]} days late, we will remind you. If it is still unpaid after we send you {t["notice_days"]} days' written notice (text or email), we may take your site offline until you pay. Taking the site offline is not a refund, and you still owe what is due.</p>
+
+<h2>8. Cancelling</h2>
+<ul>
+<li>You can cancel the monthly plan at any time by texting or emailing us. It ends at the end of that month, and we take your site offline then. If you have paid in full, we send you a copy of your files on request.</li>
+<li>If you cancel before your site goes live, the deposit is not refundable, because we have already done the work.</li>
+<li>If we are unable to finish your site, we refund the deposit.</li>
+</ul>
+
+<h2>9. No guarantees</h2>
+<p>We cannot promise a number of customers, calls or any Google ranking. Your site is a tool to help people find and contact you.</p>
+
+<h2>10. Limits</h2>
+<p>To the extent the law allows, our total responsibility to you is limited to the amount you have paid us in the last 12 months, and we are not responsible for lost business or other indirect losses.</p>
+
+<h2>11. Privacy</h2>
+<p>We use the information you give us only to build and run your site. Anything you ask us to publish (phone, address, hours) will be public.</p>
+
+<h2>12. The whole agreement</h2>
+<p>This is our whole agreement. Changes must be in writing (a text is fine). Wisconsin law applies. If there is a problem, we agree to talk first and try to fix it.</p>
+
+<div class="agree"><h2 style="margin-top:0">How you agree</h2>
+<p>Reply to our text or email with <b>"I agree"</b> and your <b>business name</b>. The date of your reply is the date of the agreement. This page, version {esc(t["version"])}, is the agreement. Questions first? {contact}</p></div>
+</main><footer class="foot"><p>&copy; 2026 {esc(c["brand"])} · Milwaukee, WI</p></footer></body></html>"""
+    return head(c, title, desc, extra, live=False, path="agreement/") + "\n" + body
+
+
 def page_404(c):
     return head(c, "Page not found | %s" % c["brand"], "That page isn't here. Go back to the %s home page." % c["brand"], "", live=False) + \
         '<body><main id="main" class="wrap" style="padding-top:60px"><h1>Page not found</h1><p>That page isn\'t here.</p><a class="btn" href="./">Back to %s</a></main></body></html>' % esc(c["brand"])
@@ -265,6 +340,8 @@ def main():
     os.makedirs(os.path.join(out, "price-sheet"), exist_ok=True)
     open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page)
     open(os.path.join(out, "price-sheet", "index.html"), "w", encoding="utf-8").write(price_sheet(c))
+    os.makedirs(os.path.join(out, "agreement"), exist_ok=True)
+    open(os.path.join(out, "agreement", "index.html"), "w", encoding="utf-8").write(agreement_page(c))
     open(os.path.join(out, "404.html"), "w", encoding="utf-8").write(page_404(c))
     open(os.path.join(out, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>%s/</loc></url></urlset>\n' % c["base"])
     open(os.path.join(out, "robots.txt"), "w").write("User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n" % c["base"])

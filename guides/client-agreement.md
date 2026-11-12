@@ -79,3 +79,11 @@ This is our whole agreement. Changes must be in writing (a text is fine). Wiscon
 - How many days of notice before taking a site offline (I suggest **7**).
 - Update turnaround (**3 business days** is realistic if you send changes to Claude the same day).
 - Whether to give clients a copy of their files when they cancel (I recommend yes, once paid in full).
+
+---
+
+# The ready-to-send version (a link)
+The same terms, with the default numbers filled in, are a page on your site: `/agreement/` (hidden from Google, not linked from the home page). Text it to every client, with your own message. Change the numbers in `config.json` under `terms` and pricing, then run `python3 sitemaker/build_home.py` to update the page and its version date.
+
+Text to send:
+> Hi [Name], here are the terms for your website with Cream City Web Co.: [your site address]/agreement/ . In short: $500 total ($250 to start, $250 within 7 days after it goes live), then $25 a month. Nothing goes live until you OK it, and you can cancel the monthly plan any time. Reply "I agree" and your business name, and we'll send the deposit link.

@@ -83,5 +83,12 @@
     "label": "approximate starting point in ZIP 53218, rounded on purpose so the public lead list can't pinpoint a home address"
   },
   "custom_domain": "",
-  "contact_name": ""
+  "contact_name": "",
+  "terms": {
+    "balance_days": 7,
+    "notice_days": 7,
+    "turnaround": "3 business days",
+    "files_days": 14,
+    "version": "November 2026"
+  }
 }
