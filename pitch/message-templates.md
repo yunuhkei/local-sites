@@ -6,13 +6,13 @@ Send these **yourself, one at a time, to a business's public number or DM**, ide
 > Hi [Owner], it's Cream City Web Co., I stopped by [Business] today. Here's the preview I mentioned: [DEMO LINK]. Tell us what you'd change and we'll update it. No pressure. Reply STOP and we won't message again.
 
 ## First message if you couldn't visit (send once, no repeats)
-> Hi, this is Cream City Web Co., a local Milwaukee web designer. We couldn't find a website for [Business], so we made a free preview: [DEMO LINK]. If you like it, it's $250 to set up and $25 a month, and nothing goes live until you say so. If it's not for you, just tell us and we won't message again.
+> Hi, this is Cream City Web Co., a local Milwaukee web designer. We couldn't find a website for [Business], so we made a free preview: [DEMO LINK]. If you like it, it's $500 ($250 to get started and $250 when it's live) plus $25 a month, and nothing goes live until you say so. If it's not for you, just tell us and we won't message again.
 
 ## Follow-up (once, 3-4 days later; then stop)
 > Hi [Owner], Cream City Web Co. again. Just checking you saw the preview for [Business]: [DEMO LINK]. Happy to change anything. If it's not for you, just say so and we'll close it out.
 
 ## They say yes
-> Awesome! Send us your hours, services (and prices if you want them shown), and a few photos, or we can take them. We'll have it ready in a few days. When you've approved it, we'll send a secure payment link. Nothing goes live until you OK it.
+> Awesome! Send us your hours, services (and prices if you want them shown), and a few photos, or we can take them. We'll have it ready in a few days. When you're ready to start, we'll send a secure link for the $250 deposit. The other $250 is due when your site goes live, and the $25 monthly starts then. Nothing goes live until you OK it.
 
 ## Rules of thumb
 - Say who you are: Cream City Web Co. Give an easy opt-out and honor it immediately.
