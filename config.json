@@ -78,9 +78,9 @@
   ],
   "_help": "pages_base is where GitHub Pages publishes today. When you buy creamcitywebco.com, set custom_domain (see guides/custom-domain.md). phone/email/formspree_id/stripe_link are PUBLIC business contact details, never secrets. contact_name is blank on purpose: the site speaks as the company. home is where distances are measured from.",
   "home": {
-    "lat": 43.14,
+    "lat": 43.11,
     "lon": -88.0,
-    "label": "approximate center of ZIP 53218 (give Claude your street to make this exact)"
+    "label": "approximate starting point in ZIP 53218, rounded on purpose so the public lead list can't pinpoint a home address"
   },
   "custom_domain": "",
   "contact_name": ""
