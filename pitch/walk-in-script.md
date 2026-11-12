@@ -19,7 +19,7 @@ If the owner isn't there: leave a card and a price sheet, ask "When's a good tim
 **3b. Quick intake if they're interested:** use `pitch/owner-intake.md`. Take a photo of the sign (for their colors), the shop, and write down their hours exactly as they say them.
 
 **4. Price, plainly**
-> "It's $500 for the site, split in two: $250 to get started once you've said yes, and the other $250 when it goes live. Then it's $25 a month for hosting and any small changes. You pay nothing until you've seen your preview and said yes, and nothing goes live until you say OK."
+> "It's $500 for the site, split in two: $250 to get started once you've said yes, and the other $250 when it goes live. Then it's $25 a month for hosting and any small changes. The site is one page, and each extra page is $100. You pay nothing until you've seen your preview and said yes, and nothing goes live until you say OK."
 
 **5. Ask**
 > "Want us to fix up the details and send you the final version this week?"

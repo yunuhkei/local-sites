@@ -23,8 +23,10 @@ Your home page has a **Pay to get started** button. You create the link; it's pu
 ## Protect yourself: a short written OK
 Because the second $250 comes after the site is live, get a text or email from the client that says something like: "I agree to a $500 website from Cream City Web Co.: $250 now and $250 when it goes live, then $25 a month. I can cancel the monthly plan any time. Cream City Web Co. can take the site down if the balance isn't paid within 14 days of launch." Save a screenshot. This isn't legal advice, but it makes the terms clear for everyone. Pick the number of days you're comfortable with.
 
+The full one-page agreement is in **`guides/client-agreement.md`**: fill in the brackets, send it before you build anything, get an "I agree" reply, then send the deposit link.
+
 ## Add-ons
-Make extra Payment Links for add-ons (Google Business Profile $75, booking or menu page $100, logo $75, domain connection $25) and text them when a client says yes. Prices come from `config.json`.
+Make extra Payment Links for add-ons (extra page $100 each, Google Business Profile $75, logo $75, domain connection $25) and text them when a client says yes. Prices come from `config.json`.
 
 ## Track who paid
 - Stripe's **Payments** and **Subscriptions** pages are the source of truth (failed monthly payments show up there).
