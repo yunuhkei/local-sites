@@ -1,0 +1,99 @@
+{
+  "slug": "kids-land-learning-center-1180f",
+  "name": "Kids Land Learning Center",
+  "type": "Daycare",
+  "phone": "(414) 763-3194",
+  "address": "7918 West Capitol Drive, Milwaukee, WI 53222",
+  "kicker": "Child care · Milwaukee, WI",
+  "headline": "Licensed child care on West Capitol Drive.",
+  "hours": [
+    [
+      "Monday",
+      "06:00-21:00"
+    ],
+    [
+      "Tuesday",
+      "06:00-21:00"
+    ],
+    [
+      "Wednesday",
+      "06:00-21:00"
+    ],
+    [
+      "Thursday",
+      "06:00-21:00"
+    ],
+    [
+      "Friday",
+      "06:00-21:00"
+    ],
+    [
+      "Saturday",
+      "Closed"
+    ],
+    [
+      "Sunday",
+      "Closed"
+    ]
+  ],
+  "unconfirmed": [
+    "hours",
+    "facts",
+    "Facebook link"
+  ],
+  "to_get": [
+    "Which phone number is right: (414) 763-3194 (shown on this preview) or (414) 331-9403?",
+    "How the center describes itself (a directory says faith-based)"
+  ],
+  "social": [
+    "https://www.facebook.com/kidsland01/"
+  ],
+  "design": {
+    "layout": "blocks",
+    "hero_variant": "tabs",
+    "fonts": {
+      "head": "Baloo 2",
+      "body": "Nunito",
+      "head_weight": 800,
+      "url_params": "family=Baloo+2:wght@500;700;800&family=Nunito:wght@400;600;700",
+      "head_fallback": "'Trebuchet MS', sans-serif",
+      "body_fallback": "system-ui, sans-serif"
+    },
+    "palette": {
+      "bg": "#FFF7DB",
+      "ink": "#1B2A49",
+      "muted": "#4B5878",
+      "accent": "#F5B700",
+      "on_accent": "#1B2A49",
+      "panel": "#1B2A49",
+      "on_panel": "#FFF7DB"
+    },
+    "accent_is_decorative": true,
+    "palette_reason": "First guess, we have not seen the sign: sunshine yellow and ink navy, the colors of a school crayon box and a chalkboard, so parents see a cheerful, organized place. Confirm against the real sign.",
+    "hero": "sunny yellow hero block with one big rounded corner",
+    "section_order": [
+      "about",
+      "facts",
+      "hours",
+      "services",
+      "photos",
+      "contact"
+    ],
+    "signature": "sun-yellow rounded-corner hero tab",
+    "hero_lines": [
+      "Kids Land",
+      "Learning",
+      "Center"
+    ]
+  },
+  "facts": [
+    [
+      "Type",
+      "Licensed child care center"
+    ],
+    [
+      "Program",
+      "Preschool, arts and crafts, field trips"
+    ]
+  ]
+}

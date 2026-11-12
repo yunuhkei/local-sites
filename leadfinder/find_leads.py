@@ -23,6 +23,9 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import leadqa  # noqa: E402
+
 # Default search center: roughly ZIP 53218 (north-west Milwaukee). Radius in meters.
 DEFAULT_LAT = 43.1700
 DEFAULT_LON = -87.9900
@@ -38,7 +41,8 @@ USER_AGENT = "local-sites-lead-finder/1.0 (personal side project, Milwaukee WI)"
 
 STATUSES = ["new", "contacted", "interested", "paid", "not interested"]
 FIELDS = ["id", "name", "type", "address", "phone", "social", "status",
-          "found_date", "lat", "lon", "notes"]
+          "found_date", "lat", "lon", "notes", "email", "cuisine", "hours", "updated", "miles", "score"]
+ENRICH = ["lat", "lon", "phone", "address", "social", "email", "cuisine", "hours", "updated"]  # filled in if blank
 
 # OSM tag keys that mean "this business already has a website".
 WEBSITE_KEYS = ("website", "contact:website", "url", "contact:url")
@@ -95,7 +99,7 @@ def build_query(lat, lon, radius):
         + "\n  ".join([clause("shop", SHOP_LABELS),
                        clause("amenity", AMENITY_LABELS),
                        clause("craft", CRAFT_LABELS)])
-        + "\n);\nout center tags;\n"
+        + "\n);\nout center tags meta;\n"
     )
 
 
@@ -212,6 +216,10 @@ def parse_elements(data):
             "lat": lat,
             "lon": lon,
             "notes": "",
+            "email": tags.get("email") or tags.get("contact:email") or "",
+            "cuisine": (tags.get("cuisine") or "").replace(";", ", ").replace("_", " "),
+            "hours": tags.get("opening_hours") or "",
+            "updated": (el.get("timestamp") or "")[:10],
         })
     return leads
 
@@ -232,15 +240,42 @@ def save_csv(path, rows):
 
 
 def merge(existing, found, today):
-    """Add only brand-new leads. Existing rows (and your statuses/notes) are never touched."""
-    known = {r["id"] for r in existing}
+    """Add brand-new leads; fill blank details on old ones. Your status/notes are never touched."""
+    by_id = {r["id"]: r for r in existing}
     added = []
     for lead in found:
-        if lead["id"] not in known:
+        old = by_id.get(lead["id"])
+        if old is None:
             lead = dict(lead, found_date=today)
             added.append(lead)
-            known.add(lead["id"])
+            by_id[lead["id"]] = lead
+        else:
+            for k in ENRICH:
+                if not old.get(k) and lead.get(k):
+                    old[k] = lead[k]
     return existing + added, added
+
+
+def load_blocked(path, review_path="data/review.csv"):
+    """id -> reason for leads we never want back (cleaner exclusions + checked-and-closed/chain)."""
+    blocked = {r["id"]: r.get("reason") or "previously excluded" for r in load_csv(path)}
+    for r in load_csv(review_path):
+        if r.get("verdict") == "exclude":
+            blocked[r["id"]] = "checked: " + r.get("note", "")
+    return blocked
+
+
+def save_excluded(path, removed, today):
+    rows = load_csv(path)
+    have = {r["id"] for r in rows}
+    for r, reason in removed:
+        if r["id"] not in have:
+            rows.append({"id": r["id"], "name": r["name"], "type": r["type"], "reason": reason, "date": today})
+    os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["id", "name", "type", "reason", "date"])
+        w.writeheader()
+        w.writerows(rows)
 
 
 def main(argv=None):
@@ -250,6 +285,8 @@ def main(argv=None):
     ap.add_argument("--lon", type=float, default=float(os.environ.get("SEARCH_LON", DEFAULT_LON)))
     ap.add_argument("--radius", type=int, default=int(os.environ.get("SEARCH_RADIUS", DEFAULT_RADIUS)),
                     help="search radius in meters (default 12000, about 7.5 miles)")
+    ap.add_argument("--excluded", default="data/excluded.csv", help="leads removed by the cleaner (never re-added)")
+    ap.add_argument("--clean-only", action="store_true", help="don't search; just clean + score the existing spreadsheet")
     ap.add_argument("--from-file", help="use a saved Overpass JSON file instead of the internet (for testing)")
     ap.add_argument("--print-query", action="store_true", help="show the Overpass query and exit")
     args = ap.parse_args(argv)
@@ -259,19 +296,29 @@ def main(argv=None):
         print(query)
         return 0
 
-    if args.from_file:
-        with open(args.from_file, encoding="utf-8") as f:
-            data = json.load(f)
-    else:
-        print("Searching OpenStreetMap near %s, %s (radius %d m)..." % (args.lat, args.lon, args.radius))
-        data = fetch_overpass(query)
+    today = datetime.date.today().isoformat()
+    found = []
+    if not args.clean_only:
+        if args.from_file:
+            with open(args.from_file, encoding="utf-8") as f:
+                data = json.load(f)
+        else:
+            print("Searching OpenStreetMap near %s, %s (radius %d m)..." % (args.lat, args.lon, args.radius))
+            data = fetch_overpass(query)
+        found = parse_elements(data)
 
-    found = parse_elements(data)
     existing = load_csv(args.csv)
-    rows, added = merge(existing, found, datetime.date.today().isoformat())
+    rows, added = merge(existing, found, today)
+    rows, removed = leadqa.clean(rows, load_blocked(args.excluded))
+    gone = {r["id"] for r, _ in removed}
+    added = [a for a in added if a["id"] not in gone]
+    leadqa.apply_scores(rows)
     save_csv(args.csv, rows)
+    if removed:
+        save_excluded(args.excluded, removed, today)
 
     print("Matching businesses without a website: %d" % len(found))
+    print("Removed by the cleaner this run: %d" % len(removed))
     print("New this run: %d   (total in spreadsheet: %d)" % (len(added), len(rows)))
     for lead in added[:15]:
         print("  + %s  [%s]  %s" % (lead["name"], lead["type"], lead["phone"] or lead["address"]))

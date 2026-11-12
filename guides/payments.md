@@ -1,19 +1,25 @@
-# Getting paid (simplest way)
+# Getting paid: Stripe Payment Link (simplest)
 
-## Option A - Stripe Payment Link (recommended)
-1. Make a free account at stripe.com and finish verification (do this yourself; never share keys with anyone or paste them in code or chat).
-2. Dashboard -> **Payment Links** -> **Create**.
-3. Add two products: **Website setup** $250 (one-time) and **Hosting & updates** $25 (recurring monthly). One link can bill both: setup today, then $25 each month.
-4. Copy the link (it looks like `buy.stripe.com/...`) and text it to the client **after they approve the site**.
-5. Stripe emails receipts and shows who paid under **Payments** and **Subscriptions** (failed payments are flagged there).
+Your home page has a **Pay to get started** button. You create the link; it's public, not secret.
 
-## Option B - Square Invoices
-Square app -> Invoices -> create an invoice with a **recurring** schedule. Good if the client already uses Square.
+## Create the link (once)
+1. Make a free account at **stripe.com** and finish verification yourself. Never share keys or passwords with anyone, in chat or in code.
+2. In the Stripe Dashboard go to **Payment Links** > **Create**.
+3. Add two products: **Website setup**, $250, one time. **Hosting & updates**, $25, recurring monthly. One link can bill both (setup today, then $25 each month).
+4. Create the link. It looks like `https://buy.stripe.com/xxxxxxxx`. Copy it.
+5. Put it in `config.json` as `stripe_link` (or send it to Claude), then run `python3 sitemaker/build_home.py`. Test it with Stripe's test mode first if you like.
 
-## Option C - Cash/Zelle/check
-OK for the $250 setup; give a receipt. For the monthly part, a recurring invoice or payment link is easier than chasing.
+## Add-ons
+Make extra Payment Links for add-ons (Google Business Profile $75, booking or menu page $100, logo $75, domain connection $25) and text them when a client says yes. Prices come from `config.json`.
 
-## Tracking who paid
-- When money arrives, set the lead's status to **paid** (GitHub app -> Actions -> "Update a lead's status" -> Run workflow, or edit `data/leads.csv`).
-- Add the client to `data/clients.csv` (domain, start month, last month paid). Stripe's Subscriptions page is the source of truth.
-- Once a month: check Stripe for failed/late payments and follow up politely. Pause or take down the site only after a clear notice.
+## When to send it
+Only after the client has seen the preview and said yes. Never before. The button says "Already said yes?" on purpose.
+
+## Track who paid
+- Stripe's **Payments** and **Subscriptions** pages are the source of truth (failed monthly payments show up there).
+- Set the lead's status to **paid** (GitHub Actions > "Update a lead's status" > Run workflow).
+- Add the client to `data/clients.csv`: domain, start month, last month paid.
+- Once a month: check Stripe for failed or late payments and follow up politely.
+
+## Alternatives
+Square Invoices with a recurring schedule works too. Cash or Zelle is fine for the $250 setup; give a receipt.

@@ -1,0 +1,49 @@
+{
+  "slug": "nuno-s-auto-body-5875c",
+  "name": "Nuno's Auto Body",
+  "type": "Auto repair",
+  "phone": "(414) 353-1333",
+  "address": "9209 West Fond du Lac Avenue, Milwaukee, WI 53225",
+  "kicker": "Auto body · Milwaukee, WI",
+  "headline": "Auto body repair on West Fond du Lac Avenue.",
+  "hours": null,
+  "unconfirmed": [],
+  "to_get": [],
+  "social": [],
+  "design": {
+    "layout": "blocks",
+    "hero_variant": "chips",
+    "fonts": {
+      "head": "Archivo Black",
+      "body": "DM Sans",
+      "head_weight": 400,
+      "url_params": "family=Archivo+Black&family=DM+Sans:wght@400;600;700",
+      "head_fallback": "Impact, sans-serif",
+      "body_fallback": "system-ui, sans-serif"
+    },
+    "palette": {
+      "bg": "#F3F3F0",
+      "ink": "#101214",
+      "muted": "#4A4F55",
+      "accent": "#1F5FD6",
+      "on_accent": "#FFFFFF",
+      "panel": "#101214",
+      "on_panel": "#F3F3F0"
+    },
+    "palette_reason": "First guess, we have not seen the sign: a body shop sells color, so the page uses one strong paint blue against primer grey and black. Confirm against the real sign.",
+    "hero": "dark hero with a row of four paint-chip swatches",
+    "section_order": [
+      "services",
+      "about",
+      "hours",
+      "photos",
+      "facts",
+      "contact"
+    ],
+    "signature": "paint-chip swatch row",
+    "hero_lines": [
+      "Nuno's",
+      "Auto Body"
+    ]
+  }
+}

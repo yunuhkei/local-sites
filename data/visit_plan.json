@@ -1,0 +1,100 @@
+{
+  "routes": [
+    {
+      "title": "Route 1: West loop (Fond du Lac, then Appleton and Capitol near 80th)",
+      "when": "Tuesday to Thursday, 9:30am to 12:00pm (auto shops, child care and nails are best after the morning rush)",
+      "stops": [
+        {
+          "name": "Mussomelli's Auto Care",
+          "best_time": "Tue-Thu 9:30-11am. Hours not found anywhere, so call first or just stop by (rule of thumb for auto shops).",
+          "points": [
+            "\"I looked you up and the only place I could find you was a BBB listing, with no hours or website. I made a preview so neighbors can find your phone number and address in one tap. Give me your hours and I'll add them.\"",
+            "\"A family name on the sign means word of mouth, and a website is how the next person finds the phone number when a friend says 'go to Mussomelli's'.\""
+          ]
+        },
+        {
+          "name": "Nuno's Auto Body",
+          "best_time": "Tue-Thu 9:30-11am (it is next door-ish to Mussomelli's; same trip). Hours not found.",
+          "points": [
+            "\"Directories list you with just a phone number. A body shop sells how the finish looks, so I built a page with room for before and after photos.\"",
+            "\"When someone has a dent they search 'body shop near me' and call the first one that looks real; the preview shows how that would look for Nuno's.\""
+          ]
+        },
+        {
+          "name": "Cre8tive Kidz Learning Center",
+          "best_time": "Tue-Thu 9:30-11am, after morning drop-off. Open Mon-Fri 6:30am-7pm per OpenStreetMap, but a directory says Mon-Wed 6am-10pm.",
+          "phone_note": "matches directory",
+          "points": [
+            "\"You're in my own ZIP, 53218. Directories list you as licensed for ages 6 weeks to 13 years, but two sources disagree on your hours. A website shows the real ones.\"",
+            "\"Parents look for hours and ages first. I put those at the top so they don't have to call during the day.\""
+          ]
+        },
+        {
+          "name": "Kids Land Learning Center",
+          "best_time": "Tue-Thu 9:30-11am, after morning drop-off. Open Mon-Fri 6am-9pm per OpenStreetMap and a directory.",
+          "phone_note": "directories also show (414) 331-9403, ask which is right",
+          "points": [
+            "\"I found two different phone numbers for you in directories, (414) 763-3194 and (414) 331-9403. One website would fix that.\"",
+            "\"You have a Facebook page, which is great for news. A website puts your hours, licensing and phone in one place parents find on Google.\""
+          ]
+        },
+        {
+          "name": "Queen Nails",
+          "best_time": "Tue-Thu 10:00-11:30am before the lunch rush. A directory lists Mon-Sat 8:30am-8pm.",
+          "points": [
+            "\"You're on a booking directory with your hours and services, but not under your own name. A site gives you a link of your own to put on Facebook and your card.\"",
+            "\"I listed acrylic, gel, dip powder and Russian manicures from what I found. Tell me what's wrong and I'll fix it right now.\""
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Route 2: East strip (Appleton and Capitol from 75th Street to 62nd Street)",
+      "when": "Tuesday to Thursday, 1:30pm to 4:30pm (restaurants are slow between lunch and dinner; Trans-X-Press closes at 5pm)",
+      "stops": [
+        {
+          "name": "Fiyahside Jamaican Cuisine",
+          "best_time": "2:00-4:00pm. Hours not found. This is the second location; the first is on West Villard Avenue.",
+          "points": [
+            "\"People find you on Uber Eats and in the news, but when someone wants to call, find the Capitol Drive address and see a menu, there isn't a page of your own.\"",
+            "\"I left the menu blank on purpose. A photo of your printed menu is all I need to put it on there.\""
+          ]
+        },
+        {
+          "name": "No. 1 Chinese Restaurant",
+          "best_time": "2:00-4:00pm. OpenStreetMap lists 11am-9pm (11:30 Sunday), and Tuesday closed. Ask.",
+          "points": [
+            "\"For takeout the phone number is everything, so the preview has a big Call button on the first screen and your hours right under it.\"",
+            "\"I saw Tuesday listed as closed. If that's wrong, a website is how it stays right in one place.\""
+          ]
+        },
+        {
+          "name": "Shawn Da' Barbershop & Beauty Salon",
+          "best_time": "Tue-Sat 10am-2pm. OpenStreetMap lists Tue-Sat 8am-10pm and Mon/Sun 11am-5pm.",
+          "points": [
+            "\"Your Facebook page (Da Real Shawn Da Barber) is the only place I could find you. A website puts your long hours and phone on Google for people who don't look on Facebook.\"",
+            "\"You do barber and beauty under one name. The preview lists both so people know they can book either.\""
+          ]
+        },
+        {
+          "name": "Trans-X-Press Transmissions",
+          "best_time": "Tue-Thu 1:30-4pm (open Mon-Fri 8am-5pm, Sat 8am-2pm).",
+          "phone_note": "directories also show (414) 527-4040, ask which is right",
+          "points": [
+            "\"Directories show two phone numbers for you. A website shows the one you want people to call.\"",
+            "\"Someone whose transmission is slipping searches in a hurry. They call the shop that shows hours and a phone number in two seconds.\""
+          ]
+        },
+        {
+          "name": "Epiphany Beauty Collections",
+          "best_time": "Tue-Thu 1:30-4pm. Hours not found anywhere, so ask.",
+          "phone_note": "directories also show (414) 600-1395, ask which is right",
+          "points": [
+            "\"You're on Facebook and a booking directory, but I couldn't find hours or a site. People looking for wig installs want to see what you do and where Suite 14 is.\"",
+            "\"The preview lists wig installs, keratin treatments, weaves and extensions, the services I found. Tell me what to add or fix.\""
+          ]
+        }
+      ]
+    }
+  ]
+}

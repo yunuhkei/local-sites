@@ -1,0 +1,28 @@
+id,name,verdict,note,checked
+osm-node-12035883996,Cre8tive Kidz Learning Center,confirmed,"Licensed group child care (DCF license 2004265), ages 6 weeks to 13 years, capacity 39. Winnie lists Mon-Wed 6am-10pm. In ZIP 53218. No own website found. Sources: winnie.com, childcarecenter.us",2026-11-04
+osm-node-12642868861,Kids Land Learning Center,confirmed,"Licensed child care center, faith-based, preschool, arts and crafts, field trips. Capacity 75-90 depending on source. Directories show TWO phone numbers: (414) 763-3194 and (414) 331-9403. Winnie lists 6am-9pm. No own website found. Sources: winnie.com, daycarescan.com, childcarecenter.us",2026-11-04
+osm-node-12642736242,Queen Nails,confirmed,"Fresha lists 7600 W Capitol Dr Suite C, Mon-Sat 8:30am-8pm, acrylic, gel, dip powder, manicure, pedicure, Russian manicure. Phone matches. No own website found. Source: fresha.com",2026-11-04
+osm-node-12028890790,Shawn Da' Barbershop & Beauty Salon,confirmed,"Fresha lists men's haircuts, beard trim, shave, head shave at 7516 W Appleton Ave; phone matches. Listed as 'Shawn Da-Barber Shop & beauty'. Another business (Sphinx) shares the address on Fresha, so confirm in person. Sources: fresha.com, atly.com",2026-11-04
+osm-node-12656257866,Trans-X-Press Transmissions,confirmed,"Directories list transmissions and clutches at 6826 W Capitol Dr; BestPros hours Mon-Fri 8am-5pm, Sat 8am-2pm. PHONE CONFLICT: OSM (414) 246-4156 vs Yellow Pages (414) 527-4040. No own website found. Sources: bestprosintown.com, yellowpages.com",2026-11-04
+osm-node-12573927470,Mussomelli's Auto Care,confirmed,"BBB directory lists 9105 W Fond du Lac Ave, phone (414) 353-3293 (matches), not BBB accredited. Thin listing, no other details. No own website found. Source: bbb.org",2026-11-04
+osm-node-12573927471,Nuno's Auto Body,confirmed,"Superpages and Claims Pages list 9209 W Fond du Lac Ave, phone (414) 353-1333 (matches). No own website found.",2026-11-04
+osm-node-12649743815,Fiyahside Jamaican Cuisine,confirmed,"Second location of a Jamaican restaurant (original on W Villard Ave), opened at 7434 W Capitol Dr in 2023. On Uber Eats and DoorDash; MapQuest review July 2025. Parking limited/narrow lot; popular dishes can sell out early. Phone/hours not verified. No own website found. Sources: urbanmilwaukee.com, ubereats.com",2026-11-04
+osm-node-12027960008,No. 1 Chinese Restaurant,confirmed,"Directory lists 7512 W Appleton Ave, take-out only. Phone and hours not independently verified. No own website found. Source: atly.com",2026-11-04
+osm-node-12650302966,Epiphany Beauty Collections,confirmed,"Fresha lists 6222 W Capitol Dr Ste 14: wig installs, keratin treatments, hair weaves, extensions. PHONE CONFLICT: Fresha +1 414-600-1395 vs OSM (414) 544-4606. No own website found. Source: fresha.com",2026-11-04
+osm-node-12025502030,Options Salon & Spa,unverified,One directory confirms the address (7212 W Appleton Ave) but its phone number belongs to a different business. Check in person.,2026-11-04
+osm-node-12573951798,Zaza's Steak & Lemonade,exclude,Directories show this address (9618 W Fond du Lac) as closed; the active Zaza's is at 4919 W Capitol Dr and is listed on delivery apps.,2026-11-04
+osm-node-12271107326,Clean Laundry,exclude,Appears to be a multi-location laundromat brand (Clean Laundry) with its own web presence.,2026-11-04
+osm-node-12028890796,Fanciful Braidz,unverified,No trace online; may be closed or very small.,2026-11-04
+osm-node-12655893929,NuNu Fresh Kut'z,unverified,No listing found for this name or address.,2026-11-04
+osm-node-12031764484,Headz Up Barber & Beauty,unverified,No listing found at this address (a barber 'Armoney Kutz Studio' is at 7915 W Appleton).,2026-11-04
+osm-node-12031480689,Lucky Nails Spa,unverified,No listing found at this address.,2026-11-04
+osm-node-12031480691,Black Essence Braiding Salon,unverified,No listing found at this address.,2026-11-04
+osm-node-12771770297,De Ja Vu,unverified,No barbershop found at 4124 W Capitol Dr.,2026-11-04
+osm-way-658849196,Prime Time Sports Bar & Eatery,unverified,"Not found online; address (Brown Deer, 53209) is outside the target area.",2026-11-04
+osm-node-12642916052,The Lunchroom,unverified,"Planned in 2022; a 2025 article mentions a sandwich place of this name, not tied to this address. Confirm it is open.",2026-11-04
+osm-node-12036095393,Nelson’s Tire And Auto Repair Shop,unverified,"Only a weak directory listing found (atly.com). OSM lists hours Mon-Sat 8-6, Sun 9-5.",2026-11-04
+osm-node-12031767980,Gerlach Electric,unverified,"A Gerlach Electric exists (Angi, BBB) but this address wasn't confirmed.",2026-11-04
+osm-node-12281531178,A Taste of Soul MKE,unverified,Opened around 2021 at 4706 W Fond du Lac; couldn't confirm it is still open.,2026-11-04
+osm-node-12634219363,King Gyros,unverified,Listings disagree on whether it is open.,2026-11-04
+osm-way-661565873,Big Daddy's BBQ and Soul Food,unverified,Has several locations and press coverage; probably has its own web presence.,2026-11-04
+osm-node-12655893934,Dry Clean Discounters,unverified,BBB lists a different business (Best Cleaners and Laundry LLC) at this address.,2026-11-04

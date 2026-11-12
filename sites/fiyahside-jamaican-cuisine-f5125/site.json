@@ -1,0 +1,55 @@
+{
+  "slug": "fiyahside-jamaican-cuisine-f5125",
+  "name": "Fiyahside Jamaican Cuisine",
+  "type": "Restaurant",
+  "phone": "(414) 204-8740",
+  "address": "7434 West Capitol Drive, Milwaukee, WI 53216",
+  "kicker": "Jamaican food · Milwaukee, WI",
+  "headline": "Jamaican food on West Capitol Drive.",
+  "hours": null,
+  "unconfirmed": [],
+  "to_get": [
+    "Phone number: the OpenStreetMap number (414) 204-8740 was not confirmed anywhere else",
+    "The original Fiyahside location is on West Villard Avenue. Does the owner want both on the site?"
+  ],
+  "social": [],
+  "design": {
+    "layout": "menu-board",
+    "hero_variant": "paper",
+    "fonts": {
+      "head": "Lilita One",
+      "body": "Cabin",
+      "head_weight": 400,
+      "url_params": "family=Lilita+One&family=Cabin:wght@400;500;600;700",
+      "head_fallback": "'Arial Rounded MT Bold', sans-serif",
+      "body_fallback": "system-ui, sans-serif"
+    },
+    "palette": {
+      "bg": "#FFF4D6",
+      "ink": "#15130E",
+      "muted": "#5A5033",
+      "accent": "#0C6B3C",
+      "on_accent": "#FFFFFF",
+      "panel": "#15130E",
+      "on_panel": "#FFF4D6",
+      "accent2": "#F2B705"
+    },
+    "palette_reason": "First guess, we have not seen the sign: green, gold and black, the colors Jamaican restaurants commonly use, set on warm paper like a takeout menu. Confirm against the real sign.",
+    "hero": "paper menu under a green-gold-black stripe band",
+    "section_order": [
+      "services",
+      "about",
+      "facts",
+      "hours",
+      "photos",
+      "contact"
+    ],
+    "signature": "green, gold and black stripe band",
+    "hero_lines": [
+      "Fiyahside",
+      "Jamaican",
+      "Cuisine"
+    ]
+  },
+  "services_todo": "menu (a phone photo of the printed menu works)"
+}

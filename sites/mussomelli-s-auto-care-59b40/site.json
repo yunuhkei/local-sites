@@ -1,0 +1,49 @@
+{
+  "slug": "mussomelli-s-auto-care-59b40",
+  "name": "Mussomelli's Auto Care",
+  "type": "Auto repair",
+  "phone": "(414) 353-3293",
+  "address": "9105 West Fond du Lac Avenue, Milwaukee, WI 53225",
+  "kicker": "Auto care · Milwaukee, WI",
+  "headline": "Auto care on West Fond du Lac Avenue.",
+  "hours": null,
+  "unconfirmed": [],
+  "to_get": [],
+  "social": [],
+  "design": {
+    "layout": "storefront",
+    "hero_variant": "signboard",
+    "fonts": {
+      "head": "Patua One",
+      "body": "Libre Franklin",
+      "head_weight": 400,
+      "url_params": "family=Patua+One&family=Libre+Franklin:wght@400;600;700",
+      "head_fallback": "Georgia, serif",
+      "body_fallback": "system-ui, sans-serif"
+    },
+    "palette": {
+      "bg": "#F2EBD8",
+      "ink": "#1D2B21",
+      "muted": "#4F5B52",
+      "accent": "#2F6B3F",
+      "on_accent": "#F7F1E1",
+      "panel": "#1F3A2A",
+      "on_panel": "#F2EBD8"
+    },
+    "palette_reason": "First guess, we have not seen the sign: forest green and parchment, the colors of an old-fashioned family garage sign. A family-name shop usually has a painted wooden sign rather than a logo. Confirm against the real sign.",
+    "hero": "dark shop-sign board with a painted-window hours pane",
+    "section_order": [
+      "hours",
+      "about",
+      "services",
+      "facts",
+      "photos",
+      "contact"
+    ],
+    "signature": "hand-painted window pane for the hours",
+    "hero_lines": [
+      "Mussomelli's",
+      "Auto Care"
+    ]
+  }
+}

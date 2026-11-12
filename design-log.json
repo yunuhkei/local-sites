@@ -2,6 +2,30 @@
   "rule": "A new site may share at most ONE of: layout, fonts, palette, hero, section_order with any earlier site.",
   "sites": [
     {
+      "slug": "60th-street-auto-repair",
+      "business": "60th Street Auto Repair",
+      "layout": "split",
+      "fonts": [
+        "Barlow Condensed",
+        "IBM Plex Sans"
+      ],
+      "palette": [
+        "#f2f1ec",
+        "#1c1e21",
+        "#f2c200"
+      ],
+      "hero": "split screen: dark fixed panel + work-order list",
+      "section_order": [
+        "services",
+        "hours",
+        "facts",
+        "photos",
+        "about",
+        "contact"
+      ],
+      "signature": "windshield-sticker hours box"
+    },
+    {
       "slug": "corner-chair-barbershop",
       "business": "Corner Chair",
       "layout": "poster",
@@ -25,28 +49,270 @@
       "signature": "ticket-stub hours box"
     },
     {
-      "slug": "60th-street-auto-repair",
-      "business": "60th Street Auto Repair",
-      "layout": "split",
+      "slug": "cre8tive-kidz-learning-center-52550",
+      "business": "Cre8tive Kidz Learning Center",
+      "layout": "storefront",
       "fonts": [
-        "Barlow Condensed",
-        "IBM Plex Sans"
+        "Fredoka",
+        "Mulish"
       ],
       "palette": [
-        "#f2f1ec",
-        "#1c1e21",
-        "#f2c200"
+        "#fffaf0",
+        "#1d2b36",
+        "#c8431b"
       ],
-      "hero": "split screen: dark fixed panel + work-order list",
+      "hero": "striped scalloped awning over a rounded shop sign",
+      "section_order": [
+        "facts",
+        "hours",
+        "services",
+        "about",
+        "photos",
+        "contact"
+      ],
+      "signature": "scalloped striped awning"
+    },
+    {
+      "slug": "epiphany-beauty-collections-cb820",
+      "business": "Epiphany Beauty Collections",
+      "layout": "editorial",
+      "fonts": [
+        "DM Serif Display",
+        "Manrope"
+      ],
+      "palette": [
+        "#161011",
+        "#f4e8e0",
+        "#e3a585"
+      ],
+      "hero": "dark magazine cover: roman serif name beside a rose-gold rule, numbered index",
       "section_order": [
         "services",
+        "about",
         "hours",
         "facts",
         "photos",
+        "contact"
+      ],
+      "signature": "oversized rose-gold section numerals"
+    },
+    {
+      "slug": "fiyahside-jamaican-cuisine-f5125",
+      "business": "Fiyahside Jamaican Cuisine",
+      "layout": "menu-board",
+      "fonts": [
+        "Lilita One",
+        "Cabin"
+      ],
+      "palette": [
+        "#fff4d6",
+        "#15130e",
+        "#0c6b3c"
+      ],
+      "hero": "paper menu under a green-gold-black stripe band",
+      "section_order": [
+        "services",
         "about",
+        "facts",
+        "hours",
+        "photos",
+        "contact"
+      ],
+      "signature": "green, gold and black stripe band"
+    },
+    {
+      "slug": "kids-land-learning-center-1180f",
+      "business": "Kids Land Learning Center",
+      "layout": "blocks",
+      "fonts": [
+        "Baloo 2",
+        "Nunito"
+      ],
+      "palette": [
+        "#fff7db",
+        "#1b2a49",
+        "#f5b700"
+      ],
+      "hero": "sunny yellow hero block with one big rounded corner",
+      "section_order": [
+        "about",
+        "facts",
+        "hours",
+        "services",
+        "photos",
+        "contact"
+      ],
+      "signature": "sun-yellow rounded-corner hero tab"
+    },
+    {
+      "slug": "mussomelli-s-auto-care-59b40",
+      "business": "Mussomelli's Auto Care",
+      "layout": "storefront",
+      "fonts": [
+        "Patua One",
+        "Libre Franklin"
+      ],
+      "palette": [
+        "#f2ebd8",
+        "#1d2b21",
+        "#2f6b3f"
+      ],
+      "hero": "dark shop-sign board with a painted-window hours pane",
+      "section_order": [
+        "hours",
+        "about",
+        "services",
+        "facts",
+        "photos",
+        "contact"
+      ],
+      "signature": "hand-painted window pane for the hours"
+    },
+    {
+      "slug": "no-1-chinese-restaurant-bc340",
+      "business": "No. 1 Chinese Restaurant",
+      "layout": "menu-board",
+      "fonts": [
+        "Teko",
+        "Hind"
+      ],
+      "palette": [
+        "#1b0d0a",
+        "#fbefd5",
+        "#f2b705"
+      ],
+      "hero": "dark red menu board with a gold neon-style OPEN hours sign",
+      "section_order": [
+        "services",
+        "facts",
+        "hours",
+        "about",
+        "photos",
+        "contact"
+      ],
+      "signature": "neon-style OPEN hours sign"
+    },
+    {
+      "slug": "nuno-s-auto-body-5875c",
+      "business": "Nuno's Auto Body",
+      "layout": "blocks",
+      "fonts": [
+        "Archivo Black",
+        "DM Sans"
+      ],
+      "palette": [
+        "#f3f3f0",
+        "#101214",
+        "#1f5fd6"
+      ],
+      "hero": "dark hero with a row of four paint-chip swatches",
+      "section_order": [
+        "services",
+        "about",
+        "hours",
+        "photos",
+        "facts",
+        "contact"
+      ],
+      "signature": "paint-chip swatch row"
+    },
+    {
+      "slug": "queen-nails-ac079",
+      "business": "Queen Nails",
+      "layout": "editorial",
+      "fonts": [
+        "Cormorant Garamond",
+        "Jost"
+      ],
+      "palette": [
+        "#fdf3f1",
+        "#2e1b20",
+        "#b8325a"
+      ],
+      "hero": "magazine masthead: big italic serif name under a double rule",
+      "section_order": [
+        "services",
+        "hours",
+        "about",
+        "facts",
+        "photos",
+        "contact"
+      ],
+      "signature": "double-rule masthead with a folio line"
+    },
+    {
+      "slug": "shawn-da-barbershop-beauty-salon-57996",
+      "business": "Shawn Da' Barbershop & Beauty Salon",
+      "layout": "poster",
+      "fonts": [
+        "Bebas Neue",
+        "Karla"
+      ],
+      "palette": [
+        "#15130f",
+        "#f3ede0",
+        "#d9a83c"
+      ],
+      "hero": "name on a full-width gold band",
+      "section_order": [
+        "services",
+        "hours",
+        "about",
+        "photos",
+        "facts",
+        "contact"
+      ],
+      "signature": "gold double-ruled hours card"
+    },
+    {
+      "slug": "trans-x-press-transmissions-91bc6",
+      "business": "Trans-X-Press Transmissions",
+      "layout": "split",
+      "fonts": [
+        "Anton",
+        "Source Sans 3"
+      ],
+      "palette": [
+        "#eef1f2",
+        "#14202a",
+        "#ff7a2f"
+      ],
+      "hero": "split screen: steel-blue panel on the right, work list on the left",
+      "section_order": [
+        "hours",
+        "services",
+        "facts",
+        "about",
+        "photos",
         "contact"
       ],
       "signature": "windshield-sticker hours box"
+    },
+    {
+      "slug": "cream-city-web-co",
+      "business": "Cream City Web Co.",
+      "layout": "studio-onepager",
+      "fonts": [
+        "Young Serif",
+        "Public Sans"
+      ],
+      "palette": [
+        "#eadfc4",
+        "#2b2118",
+        "#1b5560"
+      ],
+      "hero": "left-aligned headline over a Cream City brick course",
+      "section_order": [
+        "hero",
+        "how",
+        "samples",
+        "pricing",
+        "preview",
+        "faq",
+        "about",
+        "area"
+      ],
+      "signature": "running-bond Cream City brick course"
     }
   ]
 }

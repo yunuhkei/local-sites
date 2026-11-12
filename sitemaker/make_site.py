@@ -114,7 +114,9 @@ def sec_hours(c, title):
 
 def sec_services(c, title):
     if not c.get("services"):
-        return ""
+        what = c.get("services_todo") or title.lower()
+        return ('<section class="sec sec-services" aria-labelledby="h-services"><h2 id="h-services">%s</h2>'
+                '<p class="todo"><strong>TO GET FROM OWNER:</strong> %s</p></section>' % (esc(title), esc(what)))
     lis = []
     for s in c["services"]:
         if isinstance(s, str):
@@ -272,7 +274,7 @@ def process_photos(c, site_dir, out_dir):
     return done
 
 
-def render(cfg, live=False, base_url="https://example.com/site", owner_credit="", photos_done=None):
+def render(cfg, live=False, base_url="https://example.com/site", owner_credit="", photos_done=None, owner_credit_url=""):
     c = prepare(cfg, None, base_url)
     c["photos_done"] = photos_done or []
     d = c["design"]
@@ -286,8 +288,8 @@ def render(cfg, live=False, base_url="https://example.com/site", owner_credit=""
     shell = open(os.path.join(HERE, "shell.html"), encoding="utf-8").read()
 
     p, f = d["palette"], d["fonts"]
-    palette_css = ":root{%s--head-font:'%s',%s;--body-font:'%s',%s}" % (
-        "".join("--%s:%s;" % (k, v) for k, v in p.items()), f["head"], f["head_fallback"], f["body"], f["body_fallback"])
+    palette_css = ":root{%s--head-weight:%s;--head-font:'%s',%s;--body-font:'%s',%s}" % (
+        "".join("--%s:%s;" % (k, v) for k, v in p.items()), f.get("head_weight", 400), f["head"], f["head_fallback"], f["body"], f["body_fallback"])
 
     lines = d.get("hero_lines") or c["name"].split()
     hero_lines_html = "".join('<span class="l">%s</span>' % esc(l) for l in lines)
@@ -325,7 +327,7 @@ def render(cfg, live=False, base_url="https://example.com/site", owner_credit=""
         "title": esc(title), "description": esc(description), "robots": robots, "theme_color": esc(p["panel"]),
         "canonical": canonical, "social_meta": social, "font_url": esc(font_css_url(c)),
         "css": common_css + palette_css + layout_css, "jsonld": json_ld(c, base_url, live),
-        "layout": esc(d["layout"]), "banner": banner, "body": body,
+        "layout": esc(d["layout"]), "variant": esc("hv-" + d["hero_variant"]) if d.get("hero_variant") else "", "banner": banner, "body": body,
         "tel_href": esc(c["tel_href"]), "map_href": esc(c["map_href"]),
     }
     return re.sub(r"\{\{(\w+)\}\}", lambda m: values2[m.group(1)], shell)
@@ -357,7 +359,7 @@ def collect_to_get(c, live_blockers=None):
     if not c.get("facts"):
         items.append("Walk-ins or appointments? Parking? Payment types accepted? Languages spoken? Any specials/prices they want shown?")
     for u in c.get("unconfirmed") or []:
-        blocking.append("Confirm with the owner that the %s shown are right" % u)
+        blocking.append("Confirm with the owner: %s shown on the preview" % u)
     blocking += c.get("to_get") or []
     if not c.get("email"):
         items.append("Email address (optional) and Facebook/Instagram links if they have them")
@@ -453,11 +455,14 @@ def main(argv=None):
     errs = validate_config(cfg)
     errs += checks.check_brief(os.path.join(site_dir, "brief.md"))
     pages_base = "https://yunuhkei.github.io/local-sites"
-    owner_credit = ""
+    owner_credit, owner_credit_url = "", ""
     cpath = os.path.join(ROOT, "config.json")
     if os.path.exists(cpath):
         conf = json.load(open(cpath, encoding="utf-8"))
         pages_base, owner_credit = conf.get("pages_base", pages_base), conf.get("credit", "")
+        if conf.get("custom_domain"):
+            pages_base = "https://" + conf["custom_domain"].strip()
+        owner_credit_url = conf.get("credit_url") or pages_base.rstrip("/") + "/"
     if errs:
         print("Cannot build - fix these first:\n  - " + "\n  - ".join(errs), file=sys.stderr)
         return 1
@@ -485,7 +490,7 @@ def main(argv=None):
     base_url = ("https://" + args.cname.strip()) if args.cname else "%s/%s" % (pages_base, slug)
 
     photos_done = process_photos(cfg, site_dir, out_dir)
-    page = render(cfg, live=args.live, base_url=base_url, owner_credit=owner_credit, photos_done=photos_done)
+    page = render(cfg, live=args.live, base_url=base_url, owner_credit=owner_credit, photos_done=photos_done, owner_credit_url=owner_credit_url)
     page_errs = checks.scan_page(page, live=args.live)
     if page_errs:
         print("Page failed the design rules:\n  - " + "\n  - ".join(page_errs), file=sys.stderr)

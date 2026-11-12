@@ -29,16 +29,18 @@ def static_checks(d, titles, descs):
     og = os.path.join(d, "og.png")
     if os.path.exists(og) and os.path.getsize(og) > 150_000:
         probs.append("og.png is heavy (%d KB)" % (os.path.getsize(og) // 1024))
-    for pat, label in ((r"<title>([^<]{10,70})</title>", "title"),
-                       (r'<meta name="description" content="([^"]{30,200})"', "description")):
+    import html as _html
+    for pat, label, lo, hi in ((r"<title>([^<]+)</title>", "title", 10, 70),
+                               (r'<meta name="description" content="([^"]+)"', "description", 30, 170)):
         m = re.search(pat, page)
-        if not m:
-            probs.append("missing or badly sized %s" % label)
+        text = _html.unescape(m.group(1)) if m else ""
+        if not m or not lo <= len(text) <= hi:
+            probs.append("missing or badly sized %s (%d chars, want %d-%d)" % (label, len(text), lo, hi))
         else:
             bucket = titles if label == "title" else descs
-            if m.group(1) in bucket:
+            if text in bucket:
                 probs.append("%s duplicates another site" % label)
-            bucket.add(m.group(1))
+            bucket.add(text)
     for tag in ('property="og:image"', 'property="og:title"', 'name="twitter:card"', 'rel="icon"', 'rel="apple-touch-icon"'):
         if tag not in page:
             probs.append("missing " + tag)
@@ -53,6 +55,10 @@ def static_checks(d, titles, descs):
                     probs.append("JSON-LD missing %s" % k)
         except ValueError:
             probs.append("JSON-LD is not valid JSON")
+    for href in re.findall(r'href="([a-z0-9][a-z0-9._/-]*)"', page):     # relative links must exist
+        t = os.path.join(d, href)
+        if not (os.path.exists(t) and (not os.path.isdir(t) or os.path.exists(os.path.join(t, "index.html")))):
+            probs.append("relative link goes nowhere: " + href)
     for img in re.findall(r'src="(photos/[^"]+)"', page):
         p = os.path.join(d, img)
         if not os.path.exists(p) or os.path.getsize(p) > 400_000:
