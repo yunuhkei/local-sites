@@ -6,7 +6,7 @@
   "phone": "",
   "email": "",
   "formspree_id": "",
-  "stripe_link": "",
+  "stripe_link": "https://buy.stripe.com/3cI14mgFGcpqdaWdoM9Ve01",
   "pricing": {
     "setup": 500,
     "monthly": 25,
